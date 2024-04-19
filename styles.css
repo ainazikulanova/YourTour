@@ -117,8 +117,11 @@ body{
     margin-bottom: 30px;
 }
 
-.service__img{
+.service{
     position: relative;
+}
+
+.service__img{
     width: 370px;
     height: 531px;
     border-radius: 50px;
@@ -138,10 +141,11 @@ body{
     z-index: 2;
     font-weight: 500;
     font-size: 35px;
-    color: red;
+    color: #fff;
     width: 270px;
     line-height: 122%;
-    margin:  50px 50px 395px 50px;
+    top: 50px;
+    left: 50px;
 }
 
 .service__price{
@@ -149,9 +153,10 @@ body{
     z-index: 2;
     font-size: 17px;
     line-height: 142%;
-    color: red;
+    color: #fff;
     width: 270px;
-    margin: 152px 50px 355px 50px;
+    top: 152px;
+    left: 50px;
 }
 
 .form-wrapper{
@@ -286,4 +291,94 @@ body{
     width: 100%;
     height: 300px;
     object-fit: cover;
+}
+
+.main__storys{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    list-style: none;
+    column-gap: 50px;
+}
+
+.story{
+    position: relative;
+}
+
+.story-photo{
+    border-radius: 50px;
+    height: 567px;
+    width: 1100px;
+    object-fit: cover;
+    margin: auto;
+}
+
+.story-title{
+    position: absolute;
+    color: #fff;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 122%;
+    z-index: 3;
+    top: 60px;
+    left: 60px;
+}
+
+.story-subtitle{
+    position: absolute;
+    color: #fff;
+    font-size: 20px;
+    line-height: 142%;
+    z-index: 3;
+    left: 60px;
+    top: 140px;
+}
+
+.btn-more-details{
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 122%;
+    color: #fff;
+}
+
+.gradient-story{
+    position: absolute;
+    height: 567px;
+    width: 1100px;
+    border-radius: 50px;
+    background: linear-gradient(360deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.02) 20.44%, rgba(0, 0, 0, 0.2) 100%);
+    z-index: 1;
+}
+
+.main__footer{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-img{
+    border-radius: 50px;
+    width: 370px;
+    height: 370px;
+    object-fit: cover;
+    margin: auto;
+}
+
+.footer-title{
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 122%;
+    padding-bottom: 20px;
+    padding-left: 30px;
+}
+
+.footer-subtitle{
+    font-size: 20px;
+    line-height: 142%;
+    color: #A6A6A6;
+    padding-left: 30px;
+}
+
+.footer-email{
+    color: black;
+    text-decoration: none;
 }
