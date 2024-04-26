@@ -34,6 +34,10 @@ body{
     color: #fff;
     margin: 25px;
     cursor: pointer;
+
+&:hover{
+    border-bottom: 2px solid #fff;
+}
 }
 
 .header__number{
@@ -67,6 +71,16 @@ body{
     padding: 5px 20px;
     letter-spacing: -.17px;
     cursor: pointer;
+
+&:hover{
+    background-color: #EFA501;
+    color: #fff;
+}
+
+&:active{
+    background-color: #F8E6BE;
+    color: black;
+}
 }
 
 .wrapper{
@@ -119,12 +133,23 @@ body{
 
 .service{
     position: relative;
+    width: 370px;
+    height: 100%;
+    border-radius: 50px;
+    overflow: hidden;
 }
 
 .service__img{
     width: 370px;
-    height: 531px;
+    height: 100%;
     border-radius: 50px;
+    transition: transform 0.3s;
+}
+
+.service:hover img{
+    transform: scale(1.2);
+    object-fit: cover;
+    background-color: red;
 }
 
 .gradient{
@@ -298,11 +323,16 @@ body{
     flex-direction: column;
     justify-content: center;
     list-style: none;
-    column-gap: 50px;
+    padding-bottom: 85px;
+}
+
+.storys{
+    margin: auto;
 }
 
 .story{
     position: relative;
+    padding-bottom: 50px;
 }
 
 .story-photo{
@@ -334,11 +364,36 @@ body{
     top: 140px;
 }
 
+.btn-more{
+    display: flex;
+    background-color: transparent;
+}
+
+.btn-arrow{
+    z-index: 3;
+    position: absolute;
+    left: 186px;
+    bottom: 56px;
+    cursor: pointer;
+}
+
 .btn-more-details{
+    position: absolute;
     font-weight: 700;
     font-size: 23px;
     line-height: 122%;
     color: #fff;
+    z-index: 3;
+    left: 50px;
+    bottom: 50px;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
+
+.btn-storys,
+.btn-arrow-story{
+    padding-bottom: 60px;
 }
 
 .gradient-story{
@@ -346,16 +401,31 @@ body{
     height: 567px;
     width: 1100px;
     border-radius: 50px;
-    background: linear-gradient(360deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.02) 20.44%, rgba(0, 0, 0, 0.2) 100%);
+    background: linear-gradient(270deg, rgba(0, 0, 0, 0) 0.01%, rgba(0, 0, 0, 0.2) 100%);
     z-index: 1;
 }
 
-.main__footer{
+.history-nav{
     display: flex;
-    justify-content: center;
+    gap: 35px;
 }
 
-.footer-img{
+.history-nav-link{
+    text-decoration: none;
+    color: red;
+    font-size: 20px;
+    position: absolute;
+    z-index: 3;
+    cursor: pointer;
+}
+
+.main__feedback{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 135px;
+}
+
+.feedback-img{
     border-radius: 50px;
     width: 370px;
     height: 370px;
@@ -363,7 +433,7 @@ body{
     margin: auto;
 }
 
-.footer-title{
+.feedback-title{
     font-weight: 500;
     font-size: 35px;
     line-height: 122%;
@@ -371,14 +441,61 @@ body{
     padding-left: 30px;
 }
 
-.footer-subtitle{
+.feedback-subtitle{
     font-size: 20px;
     line-height: 142%;
     color: #A6A6A6;
     padding-left: 30px;
 }
 
-.footer-email{
+.feedback-email{
     color: black;
     text-decoration: none;
+
+&:active{
+    color: #286562;
+}
+}
+
+.feedback-email:hover{
+    border-bottom: 2px solid;
+    cursor: pointer;
+}
+
+.feedback-text{
+    padding-top: 104px;
+}
+
+.footer__wrapper{
+    background-color: #F4F0E9;
+}
+
+.footer-social{
+    display: flex;
+    gap: 25px;
+    color: #A6A6A6;
+    padding: 30px 376px;
+}
+
+.btn-social{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    text-decoration: none;
+    color: #A6A6A6;
+
+&:hover{
+    border-bottom: 2px solid #A6A6A6;
+}
+}
+
+.footer-title{
+    color: #A6A6A6;
+    font-size: 20px;
+    line-height: 142%;
+}
+
+.name-social{
+    font-size: 20px;
+    line-height: 142%;
 }
