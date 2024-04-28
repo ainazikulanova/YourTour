@@ -110,46 +110,53 @@
                     <div class="main__title">Собери свой тур</div>
                     <p class="main__subtitle">Идейные соображения высшего порядка,<br>а также рамки и место обучения кадров</p>
 
-                    <div class="form-wrapper">
-                        <div class="input-box">
-                            <span class="details">Имя</span>
-                            <input type="text" class="input" placeholder="Введите ваше имя">
-                        </div>
+                    <div class="form">
+                        <div class="form-wrapper">
+                            <div class="input-box">
+                                <span class="details">Имя</span>
+                                <input type="text" class="input" placeholder="Введите ваше имя">
+                            </div>
 
-                        <div class="input-box">
-                            <span class="details">Направление</span><br>
-                            <select class="details-direction">
-                                <option value="" disabled="disabled" selected="selected" class="text-direction" hidden>Куда хотите поехать</option>
-                                <option value="Горы">Горы</option>
-                                <option value="Море">Пляж</option>
-                                <option value="Приключения">Путешествия</option>
-                            </select>
-                        </div>
+                            <div class="input-box">
+                                <span class="details">Направление</span><br>
+                                <select class="details-direction">
+                                    <option value="" disabled="disabled" selected="selected" class="text-direction" hidden>Куда хотите поехать</option>
+                                    <option value="Горы">Горы</option>
+                                    <option value="Море">Пляж</option>
+                                    <option value="Приключения">Путешествия</option>
+                                </select>
+                            </div>
 
-                        <div class="input-box">
-                            <span class="details">Email</span>
-                            <input type="text" class="input" placeholder="example@mail.com">
-                        </div>
+                            <div class="input-box">
+                                <span class="details">Email</span>
+                                <input type="text" class="input" placeholder="example@mail.com">
+                            </div>
 
-                        <div class="input-box">
-                            <span class="details">Телефон</span>
-                            <input type="text" class="input" placeholder="+ 7 ( _ _ _ ) _ _ _ - _ _ - _ _">
-                        </div>
+                            <div class="input-box">
+                                <span class="details">Телефон</span>
+                                <input type="text" class="input" placeholder="+ 7 ( _ _ _ ) _ _ _ - _ _ - _ _">
+                            </div>
 
-                        <div class="input-box">
-                            <span class="details">Дата от</span>
-                            <input type="text" class="input" placeholder="ДД.ММ.ГГГГ">
-                        </div>
+                            <div class="input-box">
+                                <span class="details">Дата от</span>
+                                <input type="text" class="input" placeholder="ДД.ММ.ГГГГ">
+                            </div>
 
-                        <div class="input-box">
-                            <span class="details">Дата до</span>
-                            <input type="text" class="input" placeholder="ДД.ММ.ГГГГ">
-                        </div>
+                            <div class="input-box">
+                                <span class="details">Дата до</span>
+                                <input type="text" class="input" placeholder="ДД.ММ.ГГГГ">
+                            </div>
 
-                        <div class="input-box">
-                            <span class="details">Комментарий</span>
-                            <input type="text" class="input-comments">
+                            <div class="input-box">
+                                <span class="details">Комментарий</span>
+                                <input type="text" class="input-comments">
+                            </div>
                         </div>
+                        
+                        <p class="form-age">Вам есть 18?</p>
+                        <div class="form-agree">
+                            <button class="btn-form-find">Найти тур</button>
+                            <button class="btn-form-reset">Сбросить</button></div>
                     </div>
                 </div>
             
@@ -259,7 +266,12 @@
                                 (специалистов) участие в формировании новых предложений.</p>
                                 <div class="btn-more">
                                     <a class="btn-more-details btn-storys">Подробнее</a> 
-                                    <img class="btn-arrow btn-arrow-story" src="./images/Vector.png" alt=""></div>
+                                    <img class="btn-arrow btn-arrow-story" src="./images/Vector.png" alt="">
+                                    <div class="history-nav">
+                                        <a href="#" class="history-nav-link">instagram</a>
+                                        <a href="#" class="history-nav-link">Вконтакте</a>
+                                    </div>
+                                </div>
                         </li>
 
                         <li class="story">
@@ -271,7 +283,13 @@
                                 (специалистов) участие в формировании новых предложений.</p>
                                 <div class="btn-more">
                                     <a class="btn-more-details btn-storys">Подробнее</a> 
-                                    <img class="btn-arrow btn-arrow-story" src="./images/Vector.png" alt=""></div>
+                                    <img class="btn-arrow btn-arrow-story" src="./images/Vector.png" alt="">
+                                    <div class="history-nav">
+                                        <a href="#" class="history-nav-link">instagram</a>
+                                        <a href="#" class="history-nav-link">facebook</a>
+                                        <a href="#" class="history-nav-link">Вконтакте</a>
+                                    </div>
+                                </div>
                         </li>
                     </ul>
                 </div>
@@ -289,24 +307,26 @@
     </main>
     <footer>
         <div class="footer__wrapper">
-            <ul class="footer-social">
+            <div class="footer-social-media">
                 <p class="footer-title">Наши социальные сети</p>
-                <li>
-                    <a class="btn-social" href="#">
-                        <img src="./images/inst.png" alt="instagram">
-                        <p class="name-social">instagram</p></a>
-                </li>
-                <li>
-                    <a class="btn-social" href="#">
-                        <img src="./images/fb.png" alt="facebook">
-                        <p class="name-social">facebook</p></a>
-                </li>
-                <li>
-                    <a class="btn-social" href="#">
-                        <img src="./images/vk.png" alt="vkontakte">
-                        <p class="name-social">vkontakte</p></a>
-                </li>
-            </ul>
+                <ul class="footer-social">
+                    <li>
+                        <a class="btn-social" href="#">
+                            <img src="./images/inst.png" alt="instagram">
+                            <p class="name-social">instagram</p></a>
+                    </li>
+                    <li>
+                        <a class="btn-social" href="#">
+                            <img src="./images/fb.png" alt="facebook">
+                            <p class="name-social">facebook</p></a>
+                    </li>
+                    <li>
+                        <a class="btn-social" href="#">
+                            <img src="./images/vk.png" alt="vkontakte">
+                            <p class="name-social">vkontakte</p></a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </footer>
     
