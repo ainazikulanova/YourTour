@@ -184,15 +184,19 @@ body{
     left: 50px;
 }
 
+.form{
+    background-color: #fff;
+    border-radius: 50px;
+    width: 1040px;
+    height: 100%;
+    margin: auto;
+    padding: 70px;
+}
+
 .form-wrapper{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    border-radius: 50px;
-    width: 1040px;
-    background-color: #fff;
-    margin: auto;
-    padding: 70px;
 }
 
 .input-comments{
@@ -204,7 +208,7 @@ body{
 }
 
 .input-box{
-    padding-bottom: 33px;
+    margin-bottom: 33px;
     width: 500px;
     height: 104px;
 }
@@ -235,6 +239,29 @@ body{
     font-size: 20px;
     line-height: 142%;
     padding-bottom: 8px;
+}
+
+.form-agree{
+    display: block;
+    margin-bottom: 33px;
+}
+
+.btn-form-find,
+.btn-form-reset{
+    background-color: #286562;
+    color: #fff;
+    border: none;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 15px 30px;
+    width: 235px;
+    height: 58px;
+    margin-left: 30px;
+}
+
+.btn-form-reset{
+    background-color: #E0F0E5;
+    color: #286562;
 }
 
 .main__subtitle{
@@ -405,18 +432,24 @@ body{
     z-index: 1;
 }
 
-.history-nav{
-    display: flex;
-    gap: 35px;
+.history-nav-link{
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+
+&:hover{
+    border-bottom: 2px solid;
+}
 }
 
-.history-nav-link{
-    text-decoration: none;
-    color: red;
-    font-size: 20px;
+.history-nav{
     position: absolute;
+    display: flex;
+    gap: 35px;
     z-index: 3;
     cursor: pointer;
+    right: 50px;
+    bottom: 110px;
 }
 
 .main__feedback{
@@ -470,6 +503,12 @@ body{
     background-color: #F4F0E9;
 }
 
+.footer-social-media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .footer-social{
     display: flex;
     gap: 25px;
@@ -479,7 +518,6 @@ body{
 
 .btn-social{
     display: flex;
-    justify-content: center;
     gap: 10px;
     text-decoration: none;
     color: #A6A6A6;
@@ -493,6 +531,7 @@ body{
     color: #A6A6A6;
     font-size: 20px;
     line-height: 142%;
+    white-space: nowrap;
 }
 
 .name-social{
