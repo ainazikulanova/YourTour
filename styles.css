@@ -146,10 +146,48 @@ body{
     transition: transform 0.3s;
 }
 
+.btn-more{
+    display: flex;
+    background-color: transparent;
+}
+
+.btn-arrow{
+    z-index: 3;
+    position: absolute;
+    left: 186px;
+    bottom: 56px;
+    cursor: pointer;
+}
+
+.btn-more-details{
+    position: absolute;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 122%;
+    color: #fff;
+    z-index: 3;
+    left: 50px;
+    bottom: 50px;
+    cursor: pointer;
+    border: none;
+    background: transparent;
+    display: inline-block;
+}
+
+.btn-arrow-story{
+    padding-bottom: 60px;
+}
+
 .service:hover img{
     transform: scale(1.2);
     object-fit: cover;
-    background-color: red;
+}
+
+.service:hover .btn-more-details{
+    transform: scale(1);
+    padding: 7px 25px;
+    background-color: #286562;
+    border-radius: 50px;
 }
 
 .gradient{
@@ -224,7 +262,7 @@ body{
     padding-left: 20px;
 }
 
-.input:hover,
+.input:hover:hover,
 .input-comments:hover{
     border: 1px solid #A6A6A6;
     background-color: #f4f0e9;
@@ -359,15 +397,32 @@ body{
 
 .story{
     position: relative;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
+    overflow: hidden;
+    border-radius: 50px;
+    height: 567px;
+    width: auto;
 }
 
 .story-photo{
     border-radius: 50px;
     height: 567px;
-    width: 1100px;
-    object-fit: cover;
+    width: auto;
     margin: auto;
+    transition: transform 0.3s;
+}
+
+.story:hover img{
+    transform: scale(1.2);
+    background-color: #286562;
+    border-radius: 50px;
+}
+
+.story:hover .btn-storys{
+    transform: scale(1);
+    padding: 7px 25px;
+    background-color: #286562;
+    border-radius: 50px;
 }
 
 .story-title{
@@ -389,38 +444,6 @@ body{
     z-index: 3;
     left: 60px;
     top: 140px;
-}
-
-.btn-more{
-    display: flex;
-    background-color: transparent;
-}
-
-.btn-arrow{
-    z-index: 3;
-    position: absolute;
-    left: 186px;
-    bottom: 56px;
-    cursor: pointer;
-}
-
-.btn-more-details{
-    position: absolute;
-    font-weight: 700;
-    font-size: 23px;
-    line-height: 122%;
-    color: #fff;
-    z-index: 3;
-    left: 50px;
-    bottom: 50px;
-    cursor: pointer;
-    border: none;
-    background-color: transparent;
-}
-
-.btn-storys,
-.btn-arrow-story{
-    padding-bottom: 60px;
 }
 
 .gradient-story{
@@ -448,8 +471,8 @@ body{
     gap: 35px;
     z-index: 3;
     cursor: pointer;
-    right: 50px;
-    bottom: 110px;
+    right: 60px;
+    bottom: 60px;
 }
 
 .main__feedback{
@@ -505,7 +528,7 @@ body{
 
 .footer-social-media{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -513,7 +536,9 @@ body{
     display: flex;
     gap: 25px;
     color: #A6A6A6;
-    padding: 30px 376px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-right: 200px;
 }
 
 .btn-social{
@@ -532,6 +557,7 @@ body{
     font-size: 20px;
     line-height: 142%;
     white-space: nowrap;
+    margin-left: 200px;
 }
 
 .name-social{
