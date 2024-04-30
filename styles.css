@@ -174,10 +174,6 @@ body{
     display: inline-block;
 }
 
-.btn-arrow-story{
-    padding-bottom: 60px;
-}
-
 .service:hover img{
     transform: scale(1.2);
     object-fit: cover;
@@ -189,6 +185,11 @@ body{
     background-color: #286562;
     border-radius: 50px;
 }
+
+.service:active .btn-more-details{
+    background-color: #EFA501;
+}
+
 
 .gradient{
     position: absolute;
@@ -226,7 +227,7 @@ body{
     background-color: #fff;
     border-radius: 50px;
     width: 1040px;
-    height: 100%;
+    height: auto;
     margin: auto;
     padding: 70px;
 }
@@ -243,12 +244,19 @@ body{
     height: 152px;
     border: 1px solid #f4f0e9;
     background-color: #f9f7f4;
+    margin-bottom: 33px;
 }
 
 .input-box{
-    margin-bottom: 33px;
+    padding-bottom: 33px;
     width: 500px;
     height: 104px;
+}
+
+.input-box select{
+    outline: none;
+    border: none;
+    color: #A6A6A6;
 }
 
 .input,
@@ -279,9 +287,59 @@ body{
     padding-bottom: 8px;
 }
 
+.age-option{
+    display: flex;
+    gap: 30px;
+    cursor: pointer;
+}
+
+
+.form-age,
+label{
+    font-size: 20px;
+}
+
+.change-age{
+    accent-color: black;
+}
+
+.change-age input{
+    width: 24px;
+    height: 24px;
+    border: black;
+}
+
 .form-agree{
-    display: block;
+    display: flex;
+    gap: 30px;
     margin-bottom: 33px;
+}
+
+.checkbox-text input{
+    width: 24px;
+    height: 24px;
+    border: 2px solid black;
+    accent-color: #fff;
+    padding: 1px;
+}
+
+.check{
+    color: #A6A6A6;
+    font-size: 17px;
+}
+
+.check-agreement{
+    color: black;
+    font-size: 17px;
+    text-decoration: none;
+
+&:hover{
+    border-bottom: 2px solid black;
+}
+
+&:active{
+    color: #286562;
+}
 }
 
 .btn-form-find,
@@ -294,12 +352,27 @@ body{
     padding: 15px 30px;
     width: 235px;
     height: 58px;
-    margin-left: 30px;
+    cursor: pointer;
+
+&:hover{
+    background-color: #3B7E7B;
+}
+
+&:active{
+    background-color: #627F7E;
+}
 }
 
 .btn-form-reset{
     background-color: #E0F0E5;
     color: #286562;
+&:hover{
+    background-color: #F1F3F2;
+    }
+    
+&:active{
+    background-color: #D9DFDB;
+    }
 }
 
 .main__subtitle{
@@ -425,6 +498,11 @@ body{
     border-radius: 50px;
 }
 
+.story:active .btn-storys{
+    background-color: #EFA501;
+}
+
+
 .story-title{
     position: absolute;
     color: #fff;
@@ -461,7 +539,12 @@ body{
     text-decoration: none;
 
 &:hover{
-    border-bottom: 2px solid;
+    border-bottom: 2px solid #fff;
+}
+
+&:active{
+    border-bottom: 2px solid #EFA501;
+    color: #EFA501;
 }
 }
 
@@ -535,7 +618,6 @@ body{
 .footer-social{
     display: flex;
     gap: 25px;
-    color: #A6A6A6;
     padding-top: 30px;
     padding-bottom: 30px;
     margin-right: 200px;
@@ -545,11 +627,7 @@ body{
     display: flex;
     gap: 10px;
     text-decoration: none;
-    color: #A6A6A6;
-
-&:hover{
-    border-bottom: 2px solid #A6A6A6;
-}
+    color: black;
 }
 
 .footer-title{
@@ -563,4 +641,7 @@ body{
 .name-social{
     font-size: 20px;
     line-height: 142%;
+&:hover{
+    border-bottom: 2px solid black;
+    }
 }
