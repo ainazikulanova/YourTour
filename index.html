@@ -119,7 +119,7 @@
                             <div class="input-box">
                                 <span class="details">Направление</span><br>
                                 <select class="details-direction">
-                                    <option value="" disabled="disabled" selected="selected" class="text-direction" hidden>Куда хотите поехать</option>
+                                    <option value="" disabled="disabled" selected="selected" hidden>Куда хотите поехать</option>
                                     <option value="Горы">Горы</option>
                                     <option value="Море">Пляж</option>
                                     <option value="Приключения">Путешествия</option>
@@ -152,7 +152,24 @@
                             </div>
                         </div>
                         
-                        <p class="form-age">Вам есть 18?</p>
+                            <p class="form-age">Вам есть 18?</p>
+                            <div class="age-option">
+                            <div class="change-age">
+                                <input type="radio" id="check-yes" name="age">
+                                <label for="check-yes">Да</label>
+                            </div>
+
+                            <div class="change-age">
+                                <input type="radio" id="check-not" name="age">
+                                <label for="check-not">Нет</label>
+                            </div>
+                        </div>
+
+                        <div class="checkbox-text">
+                            <input type="checkbox" id="logCheck">
+                            <label for="logCheck" class="check">Нажимая кнопку, я принимаю условия<a href="#" class="check-agreement">  Лицензионного договора</a></label>
+                        </div>
+
                         <div class="form-agree">
                             <button class="btn-form-find">Найти тур</button>
                             <button class="btn-form-reset">Сбросить</button></div>
