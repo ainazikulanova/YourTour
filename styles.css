@@ -18,6 +18,10 @@ body{
     background-position: 50%;
 }
 
+.header__img{
+    background-size: cover;
+}
+
 .header__nav{
     display: flex;
     justify-content: center;
@@ -104,6 +108,7 @@ body{
     justify-content: center;
     gap: 30px;
     font-size: 23px;
+    flex-wrap: wrap;
 }
 
 .main__link{
@@ -113,7 +118,7 @@ body{
     color: #1b1f2b;
     cursor: pointer;
     text-decoration: none;
-    margin-bottom: 100px;
+
 }
 
 .main__link:hover{
@@ -130,6 +135,7 @@ body{
     justify-content: center;
     flex-wrap: wrap;
     gap: 30px;
+    margin-top: 100px;
 }
 
 .service{
@@ -236,6 +242,7 @@ body{
 
 .form-wrapper{
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 30px;
 }
@@ -248,6 +255,8 @@ body{
     background-color: #f9f7f4;
     margin-bottom: 33px;
 }
+
+
 
 .input-box{
     display: block;
@@ -264,6 +273,7 @@ body{
 
 .input-box ::placeholder{
     padding-left: 20px;
+    color: #A6A6A6;
 }
 
 .input,
