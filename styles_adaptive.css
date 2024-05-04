@@ -19,12 +19,17 @@ height: 531px;
 
 .form{
     width: 918px;
-    padding: 60px;
+    padding: 60px 0px 60px 0px;
 }
 
 .form-wrapper {
     width: 918px;
     gap: 20px;
+}
+
+.comments-block{
+    padding-top: 33px;
+    padding-left: 65px;
 }
 
 .input-box,
@@ -64,11 +69,17 @@ height: 531px;
 }
     
 @media (max-width: 550px) {
+
+.header{
+    height: 488px;
+}
+
 .nav-link{
     display: none;
 }
 
-.header__logo{
+.header__logo,
+.logo{
     width:133px;
     height: 22px;
 }
@@ -81,4 +92,150 @@ height: 531px;
     gap: 63px;
     align-items: center;
 }
+
+.header__title{
+    font-size: 34px;
+    line-height: 112%;
+    letter-spacing: 0.02em;
+    margin-bottom: 40px;
+    margin-top: 50px;
+}
+
+.header__subtitle{
+    font-size: 16px;
+    width: 310px;
+    margin: auto;
+    margin-bottom: 40px;
+    line-height: 142%;
+}
+
+.main__title {
+    font-size: 34px;
+    line-height: 112%;
+    letter-spacing: 0.02em;
+    margin-bottom: 30px;
+    padding-top: 75px;
+}
+
+
+.main__link {
+    font-size: 16px;
+}
+
+.main__nav {
+    font-size: 16px;
+    row-gap: 10px;
+    width: 360px;
+    height: 56px;
+}
+
+.services {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.service, .service__img, .gradient {
+    width: 318px;
+    height: 360px;
+    border-radius: 20px;
+    background-size: cover;
+}
+
+.service__price{
+    font-size: 16px;
+    top: 66px;
+    left: 25px;
+}
+
+.service__name {
+    font-size: 23px;
+    line-height: 120%;
+    top: 25px;
+    left: 25px;
+}
+
+.btn-more-details{
+    bottom: 26.5px;
+    left: 25px;
+    font-size: 16px;
+}
+
+.main__subtitle {
+    font-size: 16px;
+    padding-bottom: 50px;
+    line-height: 142%;
+}
+
+
+.form {
+    width: 318px;
+    padding: 40px 0px 40px 0px;
+    border-radius: 30px;
+}
+
+.form-wrapper {
+    width: 318px;
+    flex-wrap: wrap;
+}
+
+.input-box, .input,
+.details-direction {
+    margin-bottom: 30px;
+    border-radius: 10px;
+    width: 278px;
+    height: 43px;
+    font-size: 16px;
+}
+
+.details {
+    font-size: 16px;
+}
+
+.input-box ::placeholder{
+    padding-left: 10px;
+}
+
+.input-comments {
+    width: 278px;
+    height: 132px;
+}
+
+.comments-block {
+    padding-top: 15px;
+    padding-left: 20px;
+}
+
+.form-age,
+.age-option {
+    font-size: 16px;
+}
+
+.checkbox-text {
+    font-size: 16px;
+    width: 278px;
+    height: 69px;
+    line-height: 142%;
+}
+
+.btn-form-find, .btn-form-reset {
+    font-size: 16px;   
+    width: 135px;
+    height: 47px;
+    padding: 12px 30px;
+    align-items: center;
+}
+
+.change-age {
+    padding-bottom: 30px;
+}
+
+.form-agree {
+    gap: 10px;
+}
+
+
+
 }
