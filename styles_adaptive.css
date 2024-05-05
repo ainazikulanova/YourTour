@@ -109,6 +109,14 @@ height: 531px;
     line-height: 142%;
 }
 
+.header__search {
+    width: 114px;
+    height: 34px;
+    font-size: 16px;
+    color: black;
+    cursor: pointer;
+}
+
 .main__title {
     font-size: 34px;
     line-height: 112%;
@@ -172,7 +180,7 @@ height: 531px;
 
 .form {
     width: 318px;
-    padding: 40px 0px 40px 0px;
+    padding: 40px 10px 40px 0px;
     border-radius: 30px;
 }
 
@@ -230,12 +238,143 @@ height: 531px;
 
 .change-age {
     padding-bottom: 30px;
+    align-items: center;
 }
 
 .form-agree {
     gap: 10px;
 }
 
+.main__reviews {
+    flex-wrap: wrap;
+}
 
+.wrapper-review {
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.review-text{
+    font-size: 16px;
+}
+
+.review-one{
+    width: 318px;
+    height: 408px;
+}
+
+.review-two{
+    width: 318px;
+    height: 592px;
+}
+
+.review-name {
+    font-size: 23px;
+}
+
+.review-typ {
+    font-size: 16px;
+}
+
+.gallery-photos {
+    gap: 18px;
+    padding-left: 21px;
+    padding-right: 21px;
+    padding-bottom: 18px;
+}
+
+.none{
+    display: none;
+}
+
+.gallery-photo{
+    border-radius: 20px;
+    width: 150px;
+    height: 110px;
+}
+
+.gallery-photo-small{
+    border-radius: 20px;
+    width: 99px;
+    height: 110px;
+}
+
+.story,
+.gradient-story {
+    margin-bottom: 20px;
+    border-radius: 20px;
+    width: 318px;
+    height: 455px;
+}
+
+.story-title {
+    font-size: 23px;
+    top: 30px;
+    left: 30px;
+    width: 236px;
+    line-height: 120%;
+}
+
+.story-subtitle {
+    font-size: 16px;
+    left: 30px;
+    top: 106px;
+    width: 263px;
+}
+
+.history-nav-link {
+    display: none;
+}
+
+.main__storys {
+    padding-bottom: 70px;
+}
+
+.feedback-img {
+    border-radius: 20px;
+    width: 130px;
+    height: 133px;
+    align-items: center;
+}
+
+.feedback-text {
+    padding-top: 30px;
+    margin: auto;
+    justify-content: center;
+}
+
+.feedback-title {
+    font-size: 23px;
+    line-height: 120%;
+    text-align: center;
+}
+
+.feedback-subtitle {
+    font-size: 16px;
+    text-align: center;
+}
+
+.footer-title {
+    font-size: 16px;
+    text-align: center;
+    margin-left: 92px;
+    margin-top: 21px;
+}
+
+.footer-social {
+    justify-content: center;
+    gap: 15px;
+    padding-top: 7px;
+    padding-bottom: 21px;
+    margin-right: 21px;
+}
+
+.name-social {
+    font-size: 16px;
+}
+
+.btn-social {
+    gap: 5px;
+}
 
 }
