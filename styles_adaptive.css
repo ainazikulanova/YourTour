@@ -112,7 +112,7 @@ height: 531px;
 .header__search {
     width: 114px;
     height: 34px;
-    font-size: 16px;
+    font-size: 14px;
     color: black;
     cursor: pointer;
 }
@@ -229,7 +229,7 @@ height: 531px;
 }
 
 .btn-form-find, .btn-form-reset {
-    font-size: 16px;   
+    font-size: 14px;   
     width: 135px;
     height: 47px;
     padding: 12px 30px;
