@@ -135,6 +135,7 @@ height: 531px;
     row-gap: 10px;
     width: 360px;
     height: 56px;
+    text-align: center;
 }
 
 .services {
@@ -297,6 +298,12 @@ height: 531px;
     border-radius: 20px;
     width: 99px;
     height: 110px;
+}
+
+.story-photo{
+    margin-bottom: 20px;
+    border-radius: 20px;
+    background-size: cover;
 }
 
 .story,
