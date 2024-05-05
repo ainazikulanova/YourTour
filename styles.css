@@ -510,6 +510,7 @@ body{
     width: auto;
     margin: auto;
     transition: transform 0.3s;
+    background-size: cover;
 }
 
 .story:hover img{
@@ -589,6 +590,7 @@ body{
     display: flex;
     justify-content: center;
     padding-bottom: 135px;
+    flex-wrap: wrap;
 }
 
 .feedback-img{
@@ -640,6 +642,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .footer-social{
@@ -647,7 +650,7 @@ body{
     gap: 25px;
     padding-top: 30px;
     padding-bottom: 30px;
-    margin-right: 200px;
+    margin-left: 21px;
 }
 
 .btn-social{
@@ -662,7 +665,6 @@ body{
     font-size: 20px;
     line-height: 142%;
     white-space: nowrap;
-    margin-left: 200px;
 }
 
 .name-social{
