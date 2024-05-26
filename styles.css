@@ -411,8 +411,6 @@ transition: 0.3s;
 
 .stroke::after{
     content: url(./images/stroke.svg);
-    width: 25px;
-    height: 25px;
 }
 
 .checkbox-text{
