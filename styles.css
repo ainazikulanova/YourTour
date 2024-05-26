@@ -27,7 +27,21 @@ body{
     justify-content: center;
     align-items: center;
     gap: 150px;
-    padding-top: 29px;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.fixed{
+    position: fixed;
+    width: 100%;
+    backdrop-filter: blur(54px);
+    background: rgba(243, 239, 232, 0.6);
+    z-index: 10;
+    box-shadow: 0px 0px 29px -11px rgb(0, 0, 0, 0.3);
+    top: 0px;
+    left: 0px;
+    color: black;
 }
 
 .nav-link{
@@ -50,6 +64,27 @@ body{
     border-bottom: 1px solid #fff;
 }
 }
+
+.fixed-link,
+.fixed-number{
+    color: black;
+    transition: 0.3s;
+
+&:hover{
+    border-bottom: 1px solid black;
+}
+}
+
+.fixed-number{
+color: black;
+transition: 0.3s;
+
+&:hover{
+    border-bottom: 1px solid black;
+}
+}
+
+
 
 .header__title{
     color: #fff;
@@ -271,6 +306,8 @@ body{
     margin-bottom: 33px;
     text-align: start;
     overflow: auto;
+    resize: none;
+    font-size: 20px;
 
 &:focus{
     outline: 1px solid #A6A6A6;
@@ -362,7 +399,23 @@ body{
     gap: 30px;
 }
 
+.checkbox{
+    background-image: url(./images/radiobutton.svg);
+    width: 26px;
+    height: 26px;
+    border: none;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.stroke::after{
+    content: url(./images/stroke.svg);
+    width: 25px;
+    height: 25px;
+}
+
 .checkbox-text{
+    display: block;
     padding-bottom: 33px;
 }
 
