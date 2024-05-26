@@ -401,6 +401,7 @@ transition: 0.3s;
 
 .checkbox{
     background-image: url(./images/radiobutton.svg);
+    background-color: #fff;
     width: 26px;
     height: 26px;
     border: none;
