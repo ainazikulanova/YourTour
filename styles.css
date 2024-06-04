@@ -70,19 +70,11 @@ body {
 .fixed-number {
   color: black;
   transition: 0.3s;
-
-  &:hover {
-    border-bottom: 1px solid black;
-  }
 }
 
-.fixed-number {
-  color: black;
-  transition: 0.3s;
-
-  &:hover {
-    border-bottom: 1px solid black;
-  }
+.fixed-link:hover,
+.fixed-number:hover {
+  box-shadow: 0 1px 0 black;
 }
 
 .header__title {
@@ -157,12 +149,12 @@ body {
 }
 
 .main__link:hover {
-  border-bottom: 1px solid;
+  box-shadow: 0 1px 0 black;
 }
 
 .main__link:focus {
   color: #efa501;
-  border-bottom: 2px solid #efa501;
+  box-shadow: 0 1px 0 #efa501;
 }
 
 .services {
