@@ -576,6 +576,7 @@ body {
 .gallery-photos {
   list-style: none;
   display: flex;
+  justify-content: center;
   gap: 30px;
   padding-left: 30px;
   padding-right: 30px;
@@ -719,6 +720,7 @@ body {
 
 .main__feedback {
   display: flex;
+  gap: 30px;
   justify-content: center;
   padding-bottom: 135px;
   flex-wrap: wrap;
@@ -737,14 +739,12 @@ body {
   font-size: 35px;
   line-height: 122%;
   padding-bottom: 20px;
-  padding-left: 30px;
 }
 
 .feedback-subtitle {
   font-size: 20px;
   line-height: 142%;
   color: #a6a6a6;
-  padding-left: 30px;
 }
 
 .feedback-email {
