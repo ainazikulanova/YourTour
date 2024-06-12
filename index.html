@@ -1,352 +1,542 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
 
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="styles_adaptive.css">
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles_adaptive.css" />
 
-    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon" />
     <title>YourTour</title>
-</head>
-<body>
-    <header class="header">
-        <div class="header__img"></div>
-        <div id="header" class="header__nav">
-            <a href="#" class="header__logo"><img id="scrollImage" class="logo" src="./images/YourTour.svg" alt="Логотип"></a>
-                <div class="nav-link">
-                    <a href="#tours" class="header__link">Туры</a>
-                    <a href="#create-tour" class="header__link">Создать тур</a>
-                    <a href="#reviews" class="header__link">Отзывы</a>
-                    <a href="#history" class="header__link">Истории</a>
-                </div>
-                <a id="header-number" class="header__number" href="tel:+79999999999">+7 999 999 99 99</a>
-            
-        </div>
-        <h1 class="header__title">Идеальные <br> путешествия <br> существуют</h1>
-        <h2 class="header__subtitle">Идейные соображения высшего порядка, а также рамки и <br> место обучения кадров</h2>
-        <button class="header__search"> Найти тур</button>
-    </header>
-    
+  </head>
+
+  <header class="header">
+    <div class="header__img"></div>
+    <div id="header" class="header__nav">
+      <a href="#" class="header__logo"
+        ><img
+          id="scrollImage"
+          class="logo"
+          src="./images/YourTour.svg"
+          alt="Логотип"
+      /></a>
+      <div class="nav-link">
+        <a href="#tours" class="header__link">Туры</a>
+        <a href="#create-tour" class="header__link">Создать тур</a>
+        <a href="#reviews" class="header__link">Отзывы</a>
+        <a href="#history" class="header__link">Истории</a>
+      </div>
+      <a id="header-number" class="header__number" href="tel:+79999999999"
+        >+7 999 999 99 99</a
+      >
+    </div>
+    <h1 class="header__title">
+      Идеальные <br />
+      путешествия <br />
+      существуют
+    </h1>
+    <h2 class="header__subtitle">
+      Идейные соображения высшего порядка, а также рамки и <br />
+      место обучения кадров
+    </h2>
+    <button class="header__search">Найти тур</button>
+  </header>
+  <body>
     <main>
-        <div class="wrapper">
-            <div id="tours" class="main__title">Выбери свой тур</div>
-                <div class="main__nav">
-                    <a href="#" class="main__link">Популярные</a>
-                    <a href="#" class="main__link">Авторские</a>
-                    <a href="#" class="main__link">Походы</a>
-                    <a href="#" class="main__link">Сплавы</a>
-                    <a href="#" class="main__link">Велопрогулки</a>
-                </div>
-
-                <div class="services">
-                    <div class="service">
-                        <div class="gradient"></div>
-                        <img class="service__img" src="./images/card tour photo-2.jpg" alt="Машина с видом  на горы">
-                        <p class="service__name">Путешествие в горы</p>
-                        <p class="service__price">от 80 000 руб</p>
-                        <div class="btn-more">
-                            <a class="btn-more-details">Подробнее →</a> 
-                        </div>
-                    </div>
-
-                    <div class="service">
-                        <div class="gradient"></div>
-                        <img class="service__img" src="./images/card tour photo-1.jpg" alt="Девушка сидит в пустыне">
-                        <p class="service__name">Путешествие в горы</p>
-                        <p class="service__price">от 80 000 руб</p>
-                        <div class="btn-more">
-                            <a class="btn-more-details">Подробнее →</a> 
-                        </div>
-                    </div>
-
-                    <div class="service">
-                        <div class="gradient"></div>
-                        <img class="service__img" src="./images/card tour photo-3.jpg" alt="Скала с видом на океан">
-                        <p class="service__name">Путешествие в горы</p>
-                        <p class="service__price">от 80 000 руб</p>
-                        <div class="btn-more">
-                            <a class="btn-more-details">Подробнее →</a> 
-                        </div>
-                    </div>
-                
-                    <div class="service">
-                        <div class="gradient"></div>
-                        <img class="service__img" src="./images/card tour photo-4.jpg" alt="Дорога между домами">
-                        <p class="service__name">Путешествие в горы</p>
-                        <p class="service__price">от 80 000 руб</p>
-                        <div class="btn-more">
-                            <a class="btn-more-details">Подробнее →</a> 
-                        </div>
-                    </div>
-
-                    <div class="service">
-                        <div class="gradient"></div>
-                        <img class="service__img" src="./images/card tour photo-5.jpg" alt="Пляж">
-                        <p class="service__name">Путешествие в горы</p>
-                        <p class="service__price">от 80 000 руб</p>
-                        <div class="btn-more">
-                            <a class="btn-more-details">Подробнее →</a> 
-                        </div>
-                    </div>
-                        
-                    <div class="service">
-                        <div class="gradient"></div>
-                        <img class="service__img" src="./images/card tour photo-6.jpg" alt="Вид с видом горы и озеро">
-                        <p class="service__name">Путешествие в горы</p>
-                        <p class="service__price">от 80 000 руб</p>
-                        <div class="btn-more">
-                            <a class="btn-more-details">Подробнее →</a> 
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="main__form">
-                    <div id="create-tour" class="main__title">Собери свой тур</div>
-                    <p class="main__subtitle">Идейные соображения высшего порядка,<br>а также рамки и место обучения кадров</p>
-
-                    <div class="form">
-                        <div class="form-wrapper">
-                            <div class="input-box">
-                                <span class="details">Имя</span>
-                                <input type="text" class="input" placeholder="Введите ваше имя">
-                            </div>
-
-                            <div class="input-box">
-                                <span class="details">Направление</span><br>
-                                <select class="details-direction">
-                                    <option value="" disabled="disabled" selected="selected" class="holder" hidden>Куда хотите поехать</option>
-                                    <option value="Горы">Горы</option>
-                                    <option value="Море">Пляж</option>
-                                    <option value="Приключения">Путешествия</option>
-                                </select>
-                            </div>
-
-                            <div class="input-box">
-                                <span class="details">Email</span>
-                                <input type="text" class="input" placeholder="example@mail.com">
-                            </div>
-
-                            <div class="input-box">
-                                <span class="details">Телефон</span>
-                                <input type="text" class="input" placeholder="+ 7 ( _ _ _ ) _ _ _ - _ _ - _ _">
-                            </div>
-
-                            <div class="input-box">
-                                <span class="details">Дата от</span>
-                                <input type="text" class="input" placeholder="ДД.ММ.ГГГГ">
-                            </div>
-
-                            <div class="input-box">
-                                <span class="details">Дата до</span>
-                                <input type="text" class="input" placeholder="ДД.ММ.ГГГГ">
-                            </div>
-                        </div>
-
-                        <div class="comments-block">
-                            <div class="input-box comments">
-                                <span class="details">Комментарий</span>
-                                <textarea type="text" class="input-comments"></textarea>
-                            </div>
-                        
-                            <p class="form-age">Вам есть 18?</p>
-                            <div class="age-option">
-                            <div class="change-age">
-                                <input type="radio" id="check-yes" name="age">
-                                <label for="check-yes">Да</label>
-                            </div>
-
-                            <div class="change-age">
-                                <input type="radio" id="check-not" name="age">
-                                <label for="check-not">Нет</label>
-                            </div>
-                        </div>
-
-                        <div class="checkbox-text">
-                            <button class="checkbox"></button>
-                            <label for="logCheck" class="check">Нажимая кнопку, я принимаю условия<a href="#" class="check-agreement">  Лицензионного договора</a></label>
-                        </div>
-
-                        <div class="form-agree">
-                            <button class="btn-form-find">Найти тур</button>
-                            <button id="resetButton" class="btn-form-reset">Сбросить</button></div>
-                        </div>
-                    </div>
-                    
-                </div>
-            
-
-                <div id="reviews" class="main__title">Отзывы наших <br> путешественников</div>
-                <p class="main__subtitle">Идейные соображения высшего порядка, а <br> также рамки и место обучения кадров</p>
-                <ul class="main__reviews">
-                    <li class="wrapper-review review-one">
-                        <p class="review-text">Идейные соображения высшего порядка, а также рамки и место обучения кадров обеспечивает широкому кругу (специалистов) участие в формировании новых предложений. Идейные соображения высшего порядка, а также начало повседневной работы по формированию позиции позволяет оценить значение модели развития.</p>
-                        <p class="review-name">Мария</p>
-                        <img class="review-photo" src="./images/review photo-1.jpg" alt="">
-                        <p class="review-typ">Тур: Вдали от дома</p>
-                    </li>
-
-                    <li class="wrapper-review review-two">
-                        <p class="review-text">Равным образом постоянный количественный рост и сфера нашей активности играет важную роль в формировании системы обучения кадров, соответствует насущным потребностям.
-                        <br> <br> Значимость этих проблем настолько очевидна, что дальнейшее развитие различных форм деятельности обеспечивает широкому кругу (специалистов) участие в формировании новых предложений. Повседневная практика показывает, что реализация намеченных плановых заданий в значительной степени обуславливает создание модели развития.</p>
-                        <p class="review-name">Павел</p>
-                        <img class="review-photo" src="./images/review photo-2.jpg" alt="">
-                        <p class="review-typ">Тур: Путешествие в горы </p>
-                    </li>
-                </ul>
-
-                <div class="main__title">Фотографии путешествий</div>
-                <p class="main__subtitle">Идейные соображения высшего порядка, а <br> также рамки и место обучения кадров</p>
-                <div class="main__gallery">
-                    <ul class="gallery-photos">
-                        <li>
-                            <img class="gallery-photo" src="./images/travel photo-1.jpg" alt="">
-                        </li>
-                        <li class="none-one">
-                            <img class="gallery-photo" src="./images/travel photo-2.jpg" alt="">
-                        </li>
-                        <li class="none">
-                            <img class="gallery-photo" src="./images/travel photo-3.jpg" alt="">
-                        </li>
-                        <li>
-                            <img class="gallery-photo" src="./images/travel photo-4.jpg  " alt="">
-                        </li>
-                    </ul>
-
-                    <ul class="gallery-photos gallery-small">
-                        <li>
-                            <img class="gallery-photo-small" src="./images/travel photo-5.jpg" alt="">
-                        </li>
-                        <li class="none">
-                            <img class="gallery-photo-small" src="./images/travel photo-6.jpg" alt="">
-                        </li>
-                        <li class="none-one">
-                            <img class="gallery-photo-small" src="./images/travel photo-7.jpg" alt="">
-                        </li>
-                        <li>
-                            <img class="gallery-photo-small" src="./images/travel photo-8.png" alt="">
-                        </li>
-                        <li>
-                            <img class="gallery-photo-small" src="./images/travel photo-13.jpg" alt="">
-                        </li>
-                    </ul>
-
-                    <ul class="gallery-photos">
-                        <li>
-                            <img class="gallery-photo" src="./images/travel photo-9.jpg" alt="">
-                        </li>
-                        <li>
-                            <img class="gallery-photo" src="./images/travel photo-10.jpg" alt="">
-                        </li>
-                        <li class="none">
-                            <img class="gallery-photo" src="./images/travel photo-11.jpg" alt="">
-                        </li>
-                        <li class="none-one">
-                            <img class="gallery-photo" src="./images/travel photo-12.jpg  " alt="">
-                        </li>
-                    </ul>
-                </div>
-
-                <div id="history" class="main__title">Истории путешествий</div>
-                <p class="main__subtitle">Идейные соображения высшего порядка, а <br> также рамки и место обучения кадров</p>
-                <div class="main__storys">
-                    <ul class="storys">
-                       <li class="story">
-                            <div class="gradient-story"></div>
-                            <img class="story-photo" src="./images/story photo-1.jpg" alt="">
-                            <p class="story-title">Автостопом в Стамбул</p>
-                            <p class="story-subtitle">Идейные соображения высшего порядка, а также рамки и <br> 
-                                место обучения кадров обеспечивает широкому кругу <br> 
-                                (специалистов) участие в формировании новых предложений: <br><br>
-                                вкусная еда <br>
-                                дешевый транспорт <br>
-                                красивый город. <br></p>
-                                <div class="btn-more">
-                                    <a class="btn-more-details btn-storys">Подробнее →</a> 
-                                    <div class="history-nav">
-                                        <a href="#" class="history-nav-link">instagram</a>
-                                        <a href="#" class="history-nav-link">facebook</a>
-                                        <a href="#" class="history-nav-link">YouTube</a>
-                                    </div>
-                                </div>
-                        </li>
-
-                        <li class="story">
-                            <div class="gradient-story"></div>
-                            <img class="story-photo" src="./images/story photo-2.jpg" alt="">
-                            <p class="story-title">Автостопом в Стамбул</p>
-                            <p class="story-subtitle">Идейные соображения высшего порядка, а также рамки и <br> 
-                                место обучения кадров обеспечивает широкому кругу <br> 
-                                (специалистов) участие в формировании новых предложений.</p>
-                                <div class="btn-more">
-                                    <a class="btn-more-details btn-storys">Подробнее →</a> 
-                                    <div class="history-nav">
-                                        <a href="#" class="history-nav-link">instagram</a>
-                                        <a href="#" class="history-nav-link">Вконтакте</a>
-                                    </div>
-                                </div>
-                        </li>
-
-                        <li class="story">
-                            <div class="gradient-story"></div>
-                            <img class="story-photo" src="./images/story photo-3.jpg" alt="">
-                            <p class="story-title">Автостопом в Стамбул</p>
-                            <p class="story-subtitle">Идейные соображения высшего порядка, а также рамки и <br> 
-                                место обучения кадров обеспечивает широкому кругу <br> 
-                                (специалистов) участие в формировании новых предложений.</p>
-                                <div class="btn-more">
-                                    <a class="btn-more-details btn-storys">Подробнее →</a> 
-                                    <div class="history-nav">
-                                        <a href="#" class="history-nav-link">instagram</a>
-                                        <a href="#" class="history-nav-link">facebook</a>
-                                        <a href="#" class="history-nav-link">Вконтакте</a>
-                                    </div>
-                                </div>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="main__feedback">
-                    <div>
-                        <img class="feedback-img" src="./images/footer photo.jpg" alt="">
-                    </div>
-                    <div class="feedback-text">
-                        <p class="feedback-title">Пора в путешествие <br> вместе с нами!</p>
-                        <p class="feedback-subtitle">Напиши на почту и узнай подробности <br> на <a class="feedback-email" href="mailto:yourtour@gmail.com ">yourtour@gmail.com</a></p>
-                    </div>
-                </div>
+      <div class="wrapper">
+        <div id="tours" class="main__title">Выбери свой тур</div>
+        <div class="main__nav">
+          <a href="#" class="main__link">Популярные</a>
+          <a href="#" class="main__link">Авторские</a>
+          <a href="#" class="main__link">Походы</a>
+          <a href="#" class="main__link">Сплавы</a>
+          <a href="#" class="main__link">Велопрогулки</a>
         </div>
+
+        <div class="services">
+          <div class="service">
+            <div class="gradient"></div>
+            <img
+              class="service__img"
+              src="./images/card tour photo-2.jpg"
+              alt="Машина с видом  на горы"
+            />
+            <p class="service__name">Путешествие в горы</p>
+            <p class="service__price">от 80 000 руб</p>
+            <div class="btn-more">
+              <a class="btn-more-details">Подробнее →</a>
+            </div>
+          </div>
+
+          <div class="service">
+            <div class="gradient"></div>
+            <img
+              class="service__img"
+              src="./images/card tour photo-1.jpg"
+              alt="Девушка сидит в пустыне"
+            />
+            <p class="service__name">Путешествие в горы</p>
+            <p class="service__price">от 80 000 руб</p>
+            <div class="btn-more">
+              <a class="btn-more-details">Подробнее →</a>
+            </div>
+          </div>
+
+          <div class="service">
+            <div class="gradient"></div>
+            <img
+              class="service__img"
+              src="./images/card tour photo-3.jpg"
+              alt="Скала с видом на океан"
+            />
+            <p class="service__name">Путешествие в горы</p>
+            <p class="service__price">от 80 000 руб</p>
+            <div class="btn-more">
+              <a class="btn-more-details">Подробнее →</a>
+            </div>
+          </div>
+
+          <div class="service">
+            <div class="gradient"></div>
+            <img
+              class="service__img"
+              src="./images/card tour photo-4.jpg"
+              alt="Дорога между домами"
+            />
+            <p class="service__name">Путешествие в горы</p>
+            <p class="service__price">от 80 000 руб</p>
+            <div class="btn-more">
+              <a class="btn-more-details">Подробнее →</a>
+            </div>
+          </div>
+
+          <div class="service">
+            <div class="gradient"></div>
+            <img
+              class="service__img"
+              src="./images/card tour photo-5.jpg"
+              alt="Пляж"
+            />
+            <p class="service__name">Путешествие в горы</p>
+            <p class="service__price">от 80 000 руб</p>
+            <div class="btn-more">
+              <a class="btn-more-details">Подробнее →</a>
+            </div>
+          </div>
+
+          <div class="service">
+            <div class="gradient"></div>
+            <img
+              class="service__img"
+              src="./images/card tour photo-6.jpg"
+              alt="Вид с видом горы и озеро"
+            />
+            <p class="service__name">Путешествие в горы</p>
+            <p class="service__price">от 80 000 руб</p>
+            <div class="btn-more">
+              <a class="btn-more-details">Подробнее →</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="main__form">
+          <div id="create-tour" class="main__title">Собери свой тур</div>
+          <p class="main__subtitle">
+            Идейные соображения высшего порядка,<br />а также рамки и место
+            обучения кадров
+          </p>
+
+          <div class="form">
+            <div class="form-wrapper">
+              <div class="input-box">
+                <span class="details">Имя</span>
+                <input
+                  type="text"
+                  class="input"
+                  placeholder="Введите ваше имя"
+                />
+              </div>
+
+              <div class="input-box">
+                <span class="details">Направление</span><br />
+                <select class="details-direction">
+                  <option
+                    value=""
+                    disabled="disabled"
+                    selected="selected"
+                    class="holder"
+                    hidden
+                  >
+                    Куда хотите поехать
+                  </option>
+                  <option value="Горы">Горы</option>
+                  <option value="Море">Пляж</option>
+                  <option value="Приключения">Путешествия</option>
+                </select>
+              </div>
+
+              <div class="input-box">
+                <span class="details">Email</span>
+                <input
+                  type="text"
+                  class="input"
+                  placeholder="example@mail.com"
+                />
+              </div>
+
+              <div class="input-box">
+                <span class="details">Телефон</span>
+                <input
+                  type="text"
+                  class="input"
+                  placeholder="+ 7 ( _ _ _ ) _ _ _ - _ _ - _ _"
+                />
+              </div>
+
+              <div class="input-box">
+                <span class="details">Дата от</span>
+                <input type="text" class="input" placeholder="ДД.ММ.ГГГГ" />
+              </div>
+
+              <div class="input-box">
+                <span class="details">Дата до</span>
+                <input type="text" class="input" placeholder="ДД.ММ.ГГГГ" />
+              </div>
+            </div>
+
+            <div class="comments-block">
+              <div class="input-box comments">
+                <span class="details">Комментарий</span>
+                <textarea type="text" class="input-comments"></textarea>
+              </div>
+
+              <p class="form-age">Вам есть 18?</p>
+              <div class="age-option">
+                <div class="change-age">
+                  <input type="radio" id="check-yes" name="age" />
+                  <label for="check-yes">Да</label>
+                </div>
+
+                <div class="change-age">
+                  <input type="radio" id="check-not" name="age" />
+                  <label for="check-not">Нет</label>
+                </div>
+              </div>
+
+              <div class="checkbox-text">
+                <button class="checkbox"></button>
+                <label for="logCheck" class="check"
+                  >Нажимая кнопку, я принимаю условия<a
+                    href="#"
+                    class="check-agreement"
+                  >
+                    Лицензионного договора</a
+                  ></label
+                >
+              </div>
+
+              <div class="form-agree">
+                <button class="btn-form-find">Найти тур</button>
+                <button id="resetButton" class="btn-form-reset">
+                  Сбросить
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="reviews" class="main__title">
+          Отзывы наших <br />
+          путешественников
+        </div>
+        <p class="main__subtitle">
+          Идейные соображения высшего порядка, а <br />
+          также рамки и место обучения кадров
+        </p>
+        <ul class="main__reviews">
+          <li class="wrapper-review review-one">
+            <p class="review-text">
+              Идейные соображения высшего порядка, а также рамки и место
+              обучения кадров обеспечивает широкому кругу (специалистов) участие
+              в формировании новых предложений. Идейные соображения высшего
+              порядка, а также начало повседневной работы по формированию
+              позиции позволяет оценить значение модели развития.
+            </p>
+            <p class="review-name">Мария</p>
+            <img
+              class="review-photo"
+              src="./images/review photo-1.jpg"
+              alt=""
+            />
+            <p class="review-typ">Тур: Вдали от дома</p>
+          </li>
+
+          <li class="wrapper-review review-two">
+            <p class="review-text">
+              Равным образом постоянный количественный рост и сфера нашей
+              активности играет важную роль в формировании системы обучения
+              кадров, соответствует насущным потребностям. <br />
+              <br />
+              Значимость этих проблем настолько очевидна, что дальнейшее
+              развитие различных форм деятельности обеспечивает широкому кругу
+              (специалистов) участие в формировании новых предложений.
+              Повседневная практика показывает, что реализация намеченных
+              плановых заданий в значительной степени обуславливает создание
+              модели развития.
+            </p>
+            <p class="review-name">Павел</p>
+            <img
+              class="review-photo"
+              src="./images/review photo-2.jpg"
+              alt=""
+            />
+            <p class="review-typ">Тур: Путешествие в горы</p>
+          </li>
+        </ul>
+
+        <div class="main__title">Фотографии путешествий</div>
+        <p class="main__subtitle">
+          Идейные соображения высшего порядка, а <br />
+          также рамки и место обучения кадров
+        </p>
+        <div class="main__gallery">
+          <ul class="gallery-photos">
+            <li>
+              <img
+                class="gallery-photo"
+                src="./images/travel photo-1.jpg"
+                alt=""
+              />
+            </li>
+            <li class="none-one">
+              <img
+                class="gallery-photo"
+                src="./images/travel photo-2.jpg"
+                alt=""
+              />
+            </li>
+            <li class="none">
+              <img
+                class="gallery-photo"
+                src="./images/travel photo-3.jpg"
+                alt=""
+              />
+            </li>
+            <li>
+              <img
+                class="gallery-photo"
+                src="./images/travel photo-4.jpg  "
+                alt=""
+              />
+            </li>
+          </ul>
+
+          <ul class="gallery-photos gallery-small">
+            <li>
+              <img
+                class="gallery-photo-small"
+                src="./images/travel photo-5.jpg"
+                alt=""
+              />
+            </li>
+            <li class="none">
+              <img
+                class="gallery-photo-small"
+                src="./images/travel photo-6.jpg"
+                alt=""
+              />
+            </li>
+            <li class="none-one">
+              <img
+                class="gallery-photo-small"
+                src="./images/travel photo-7.jpg"
+                alt=""
+              />
+            </li>
+            <li>
+              <img
+                class="gallery-photo-small"
+                src="./images/travel photo-8.png"
+                alt=""
+              />
+            </li>
+            <li>
+              <img
+                class="gallery-photo-small"
+                src="./images/travel photo-13.jpg"
+                alt=""
+              />
+            </li>
+          </ul>
+
+          <ul class="gallery-photos">
+            <li>
+              <img
+                class="gallery-photo"
+                src="./images/travel photo-9.jpg"
+                alt=""
+              />
+            </li>
+            <li>
+              <img
+                class="gallery-photo"
+                src="./images/travel photo-10.jpg"
+                alt=""
+              />
+            </li>
+            <li class="none">
+              <img
+                class="gallery-photo"
+                src="./images/travel photo-11.jpg"
+                alt=""
+              />
+            </li>
+            <li class="none-one">
+              <img
+                class="gallery-photo"
+                src="./images/travel photo-12.jpg  "
+                alt=""
+              />
+            </li>
+          </ul>
+        </div>
+
+        <div id="history" class="main__title">Истории путешествий</div>
+        <p class="main__subtitle">
+          Идейные соображения высшего порядка, а <br />
+          также рамки и место обучения кадров
+        </p>
+        <div class="main__storys">
+          <ul class="storys">
+            <li class="story">
+              <div class="gradient-story"></div>
+              <img
+                class="story-photo"
+                src="./images/story photo-1.jpg"
+                alt=""
+              />
+              <p class="story-title">Автостопом в Стамбул</p>
+              <p class="story-subtitle">
+                Идейные соображения высшего порядка, а также рамки и <br />
+                место обучения кадров обеспечивает широкому кругу <br />
+                (специалистов) участие в формировании новых предложений:
+                <br /><br />
+                вкусная еда <br />
+                дешевый транспорт <br />
+                красивый город. <br />
+              </p>
+              <div class="btn-more">
+                <a class="btn-more-details btn-storys">Подробнее →</a>
+                <div class="history-nav">
+                  <a href="#" class="history-nav-link">instagram</a>
+                  <a href="#" class="history-nav-link">facebook</a>
+                  <a href="#" class="history-nav-link">YouTube</a>
+                </div>
+              </div>
+            </li>
+
+            <li class="story">
+              <div class="gradient-story"></div>
+              <img
+                class="story-photo"
+                src="./images/story photo-2.jpg"
+                alt=""
+              />
+              <p class="story-title">Автостопом в Стамбул</p>
+              <p class="story-subtitle">
+                Идейные соображения высшего порядка, а также рамки и <br />
+                место обучения кадров обеспечивает широкому кругу <br />
+                (специалистов) участие в формировании новых предложений.
+              </p>
+              <div class="btn-more">
+                <a class="btn-more-details btn-storys">Подробнее →</a>
+                <div class="history-nav">
+                  <a href="#" class="history-nav-link">instagram</a>
+                  <a href="#" class="history-nav-link">Вконтакте</a>
+                </div>
+              </div>
+            </li>
+
+            <li class="story">
+              <div class="gradient-story"></div>
+              <img
+                class="story-photo"
+                src="./images/story photo-3.jpg"
+                alt=""
+              />
+              <p class="story-title">Автостопом в Стамбул</p>
+              <p class="story-subtitle">
+                Идейные соображения высшего порядка, а также рамки и <br />
+                место обучения кадров обеспечивает широкому кругу <br />
+                (специалистов) участие в формировании новых предложений.
+              </p>
+              <div class="btn-more">
+                <a class="btn-more-details btn-storys">Подробнее →</a>
+                <div class="history-nav">
+                  <a href="#" class="history-nav-link">instagram</a>
+                  <a href="#" class="history-nav-link">facebook</a>
+                  <a href="#" class="history-nav-link">Вконтакте</a>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="main__feedback">
+          <div>
+            <img class="feedback-img" src="./images/footer photo.jpg" alt="" />
+          </div>
+          <div class="feedback-text">
+            <p class="feedback-title">
+              Пора в путешествие <br />
+              вместе с нами!
+            </p>
+            <p class="feedback-subtitle">
+              Напиши на почту и узнай подробности <br />
+              на
+              <a class="feedback-email" href="mailto:yourtour@gmail.com "
+                >yourtour@gmail.com</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
     </main>
     <footer>
-        <div class="footer__wrapper">
-            <div class="footer-social-media">
-                <p class="footer-title">Наши социальные сети</p>
-                <ul class="footer-social">
-                    <li>
-                        <a class="btn-social" href="#">
-                            <img src="./images/inst.png" alt="instagram">
-                            <p class="name-social">instagram</p></a>
-                    </li>
-                    <li>
-                        <a class="btn-social" href="#">
-                            <img src="./images/fb.png" alt="facebook">
-                            <p class="name-social">facebook</p></a>
-                    </li>
-                    <li>
-                        <a class="btn-social" href="#">
-                            <img src="./images/vk.png" alt="vkontakte">
-                            <p class="name-social">vkontakte</p></a>
-                    </li>
-                </ul>
-            </div>
+      <div class="footer__wrapper">
+        <div class="footer-social-media">
+          <p class="footer-title">Наши социальные сети</p>
+          <ul class="footer-social">
+            <li>
+              <a class="btn-social" href="#">
+                <img src="./images/inst.png" alt="instagram" />
+                <p class="name-social">instagram</p></a
+              >
+            </li>
+            <li>
+              <a class="btn-social" href="#">
+                <img src="./images/fb.png" alt="facebook" />
+                <p class="name-social">facebook</p></a
+              >
+            </li>
+            <li>
+              <a class="btn-social" href="#">
+                <img src="./images/vk.png" alt="vkontakte" />
+                <p class="name-social">vkontakte</p></a
+              >
+            </li>
+          </ul>
         </div>
+      </div>
     </footer>
     <script src="./main.js"></script>
-</body>
+  </body>
 </html>
