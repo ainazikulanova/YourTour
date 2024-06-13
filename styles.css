@@ -379,9 +379,6 @@ body {
   padding: 0;
 }
 
-.input:focus {
-  outline: 1px solid #a6a6a6;
-}
 .details-direction {
   border: 1px solid #f4f0e9;
   border-radius: 10px;
@@ -398,6 +395,11 @@ body {
 .input-comments:hover {
   background-color: #f4f0e9;
   cursor: pointer;
+}
+
+.input:focus,
+.details-direction:focus {
+  outline: 1px solid #a6a6a6;
 }
 
 .details {
