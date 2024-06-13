@@ -380,6 +380,8 @@ body {
 }
 
 .select::after {
+  width: 13px;
+  height: 13px;
   position: absolute;
   margin-top: 30px;
   content: url(./images/стрелка.svg);
