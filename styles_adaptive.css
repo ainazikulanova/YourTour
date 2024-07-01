@@ -220,6 +220,10 @@
     font-size: 16px;
   }
 
+  .label {
+    font-size: 16px;
+  }
+
   .checkbox-text {
     font-size: 16px;
     width: 278px;
@@ -239,6 +243,18 @@
   .change-age {
     padding-bottom: 30px;
     align-items: center;
+  }
+
+  .radio-style {
+    width: 20px;
+    height: 20px;
+  }
+
+  .radio-box:checked + .radio-style::before {
+    width: 12px;
+    height: 12px;
+    margin-left: 4px;
+    margin-top: 4px;
   }
 
   .form-agree {
