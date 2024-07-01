@@ -54,11 +54,11 @@
       <div class="wrapper">
         <div id="tours" class="main__title">Выбери свой тур</div>
         <div class="main__nav">
-          <a href="#" class="main__link">Популярные</a>
-          <a href="#" class="main__link">Авторские</a>
-          <a href="#" class="main__link">Походы</a>
-          <a href="#" class="main__link">Сплавы</a>
-          <a href="#" class="main__link">Велопрогулки</a>
+          <button class="main__link">Популярные</button>
+          <button class="main__link">Авторские</button>
+          <button class="main__link">Походы</button>
+          <button class="main__link">Сплавы</button>
+          <button class="main__link">Велопрогулки</button>
         </div>
 
         <div class="services">
@@ -72,7 +72,10 @@
             <p class="service__name">Путешествие в горы</p>
             <p class="service__price">от 80 000 руб</p>
             <div class="btn-more">
-              <a class="btn-more-details">Подробнее →</a>
+              <a class="btn-more-details"
+                >Подробнее
+                <img class="vector" src="./images/Vector.svg" alt="arrow"
+              /></a>
             </div>
           </div>
 
@@ -86,7 +89,10 @@
             <p class="service__name">Путешествие в горы</p>
             <p class="service__price">от 80 000 руб</p>
             <div class="btn-more">
-              <a class="btn-more-details">Подробнее →</a>
+              <a class="btn-more-details"
+                >Подробнее
+                <img class="vector" src="./images/Vector.svg" alt="arrow"
+              /></a>
             </div>
           </div>
 
@@ -100,7 +106,10 @@
             <p class="service__name">Путешествие в горы</p>
             <p class="service__price">от 80 000 руб</p>
             <div class="btn-more">
-              <a class="btn-more-details">Подробнее →</a>
+              <a class="btn-more-details"
+                >Подробнее
+                <img class="vector" src="./images/Vector.svg" alt="arrow"
+              /></a>
             </div>
           </div>
 
@@ -114,7 +123,10 @@
             <p class="service__name">Путешествие в горы</p>
             <p class="service__price">от 80 000 руб</p>
             <div class="btn-more">
-              <a class="btn-more-details">Подробнее →</a>
+              <a class="btn-more-details"
+                >Подробнее
+                <img class="vector" src="./images/Vector.svg" alt="arrow"
+              /></a>
             </div>
           </div>
 
@@ -128,7 +140,10 @@
             <p class="service__name">Путешествие в горы</p>
             <p class="service__price">от 80 000 руб</p>
             <div class="btn-more">
-              <a class="btn-more-details">Подробнее →</a>
+              <a class="btn-more-details"
+                >Подробнее
+                <img class="vector" src="./images/Vector.svg" alt="arrow"
+              /></a>
             </div>
           </div>
 
@@ -142,7 +157,10 @@
             <p class="service__name">Путешествие в горы</p>
             <p class="service__price">от 80 000 руб</p>
             <div class="btn-more">
-              <a class="btn-more-details">Подробнее →</a>
+              <a class="btn-more-details"
+                >Подробнее
+                <img class="vector" src="./images/Vector.svg" alt="arrow"
+              /></a>
             </div>
           </div>
         </div>
@@ -180,9 +198,10 @@
               <div class="input-box">
                 <span class="details">Email</span>
                 <input
-                  type="text"
+                  type="email"
                   class="input"
                   placeholder="example@mail.com"
+                  required
                 />
               </div>
 
@@ -212,17 +231,28 @@
                 <textarea type="text" class="input-comments"></textarea>
               </div>
 
-              <p class="form-age">Вам есть 18?</p>
+              <p class="form-age">Вам есть 18 лет?</p>
               <div class="age-option">
-                <div class="change-age">
-                  <input type="radio" id="check-yes" name="age" />
-                  <label for="check-yes">Да</label>
-                </div>
+                <label class="change-age">
+                  <input
+                    class="radio-box"
+                    type="radio"
+                    id="check-yes"
+                    name="age"
+                  />
+                  <span class="radio-style"></span>
+                  <label class="label" for="check-yes">Да</label>
+                </label>
 
-                <div class="change-age">
-                  <input type="radio" id="check-not" name="age" />
-                  <label for="check-not">Нет</label>
-                </div>
+                <label class="change-age">
+                  <input
+                    class="radio-box"
+                    type="radio"
+                    id="check-not"
+                    name="age"
+                  /><span class="radio-style"></span>
+                  <label class="label" for="check-not">Нет</label>
+                </label>
               </div>
 
               <div class="checkbox-text">
@@ -428,7 +458,10 @@
                 красивый город. <br />
               </p>
               <div class="btn-more">
-                <a class="btn-more-details btn-storys">Подробнее →</a>
+                <a class="btn-more-details btn-storys"
+                  >Подробнее
+                  <img class="vector" src="./images/Vector.svg" alt="arrow" />
+                </a>
                 <div class="history-nav">
                   <a href="#" class="history-nav-link">instagram</a>
                   <a href="#" class="history-nav-link">facebook</a>
@@ -451,7 +484,10 @@
                 (специалистов) участие в формировании новых предложений.
               </p>
               <div class="btn-more">
-                <a class="btn-more-details btn-storys">Подробнее →</a>
+                <a class="btn-more-details btn-storys"
+                  >Подробнее
+                  <img class="vector" src="./images/Vector.svg" alt="arrow" />
+                </a>
                 <div class="history-nav">
                   <a href="#" class="history-nav-link">instagram</a>
                   <a href="#" class="history-nav-link">Вконтакте</a>
@@ -473,7 +509,10 @@
                 (специалистов) участие в формировании новых предложений.
               </p>
               <div class="btn-more">
-                <a class="btn-more-details btn-storys">Подробнее →</a>
+                <a class="btn-more-details btn-storys"
+                  >Подробнее
+                  <img class="vector" src="./images/Vector.svg" alt="arrow" />
+                </a>
                 <div class="history-nav">
                   <a href="#" class="history-nav-link">instagram</a>
                   <a href="#" class="history-nav-link">facebook</a>
