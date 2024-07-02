@@ -1,913 +1,575 @@
-html {
-  scroll-behavior: smooth;
-}
-
-body {
-  font-family: "Roboto", sans-serif;
-  letter-spacing: 0.02em;
-}
-
-.header {
-  background-image: url(./images/header-img.png);
-  width: 100%;
-  height: 830px;
-  margin: 0 auto;
-  text-align: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 50%;
-}
-
-.header__img {
-  background-size: cover;
-}
-
-.header__nav {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 150px;
-  padding-top: 28px;
-  padding-bottom: 28px;
-  background-color: rgba(0, 0, 0, 0);
-}
-
-.fixed {
-  position: fixed;
-  width: 100%;
-  backdrop-filter: blur(54px);
-  background: rgba(243, 239, 232, 0.6);
-  z-index: 10;
-  box-shadow: 0px 0px 29px -11px rgb(0, 0, 0, 0.3);
-  top: 0px;
-  left: 0px;
-  color: black;
-  transition: 0.3s;
-  transition-duration: 0.3s;
-}
-
-.nav-link {
-  display: flex;
-  justify-content: center;
-  gap: 50px;
-  box-sizing: border-box;
-}
-
-.header__link,
-.header__number {
-  font-size: 20px;
-  font-weight: 400;
-  color: #fff;
-  cursor: pointer;
-  text-decoration: none;
-  position: relative;
-  display: inline-block;
-  padding-bottom: 1px;
-  transition: border-color 0.3s;
-}
-
-.header__link::after,
-.header__number::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  border-bottom: 1px solid rgba(0, 0, 0, 0);
-  transition-duration: 0.3s;
-}
-
-.header__link:hover::after,
-.header__number:hover::after {
-  border-bottom-color: #fff;
-}
-
-.fixed-link,
-.fixed-number {
-  color: black;
-  position: relative;
-  display: inline-block;
-  padding-bottom: 1px;
-  transition: border-color 0.3s;
-}
-
-.fixed-link::after,
-.fixed-number::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  border-bottom: 1px solid rgba(0, 0, 0, 0);
-  transition-duration: 0.3s;
-}
-
-.fixed-link:hover::after,
-.fixed-number:hover::after {
-  border-bottom-color: black;
-}
-
-.header__title {
-  color: #fff;
-  font-weight: 700;
-  font-size: 96px;
-  line-height: 105px;
-  margin-bottom: 50px;
-  margin-top: 119px;
-}
-
-.header__subtitle {
-  color: #fff;
-  font-size: 20px;
-  line-height: 28px;
-  font-weight: 400;
-  top: 572px;
-  margin-bottom: 50px;
-}
-
-.header__search {
-  width: 118px;
-  height: 34px;
-  border-radius: 10px;
-  border: 0;
-  font-size: 17px;
-  padding: 5px 20px;
-  letter-spacing: -0.17px;
-  cursor: pointer;
-  transition: 0.2s;
-
-  &:hover {
-    background-color: #efa501;
-    color: #fff;
-  }
-
-  &:active {
-    background-color: #f8e6be;
-    color: black;
-  }
-}
-
-.wrapper {
-  background-color: #f9f7f4;
-}
-
-.main__title {
-  font-weight: 700;
-  font-size: 59px;
-  line-height: 73px;
-  text-align: center;
-  color: #1b1f2b;
-  margin-bottom: 35px;
-  padding-top: 135px;
-}
-
-.main,
-.main__nav {
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-  font-size: 23px;
-  flex-wrap: wrap;
-}
-
-.main__link {
-  font-weight: 700;
-  font-size: 23px;
-  color: #1b1f2b;
-  cursor: pointer;
-  text-decoration: none;
-  position: relative;
-  display: inline-block;
-  border: none;
-  padding: 0;
-  background-color: #f9f7f4;
-}
-
-.main__link::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  border-bottom: 1px solid #f9f7f4;
-}
-
-.main__link:hover {
-  box-shadow: 0 1px 0 black;
-}
-
-.main__link:focus {
-  color: #efa501;
-  box-shadow: 0 1px 0 #efa501;
-}
-
-.services {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 30px;
-  margin-top: 100px;
-}
-
-.service {
-  position: relative;
-  width: 370px;
-  height: 531px;
-  border-radius: 50px;
-  overflow: hidden;
-  object-fit: cover;
-}
-
-.service__img {
-  object-fit: cover;
-  width: 370px;
-  height: 531px;
-  border-radius: 50px;
-  transition: transform 0.3s;
-}
-
-.btn-more {
-  display: flex;
-  gap: 15px;
-  background-color: transparent;
-  position: relative;
-}
-
-.vector {
-  padding-left: 15px;
-  width: 24px;
-  background: transparent;
-}
-
-.service:hover .vector {
-  transform: none;
-}
-
-.btn-more-details {
-  position: absolute;
-  font-weight: 700;
-  font-size: 23px;
-  line-height: 122%;
-  color: #fff;
-  z-index: 3;
-  left: 25px;
-  bottom: 50px;
-  cursor: pointer;
-  border: none;
-  background: transparent;
-  display: block;
-  transition: 0.3s;
-  padding: 7px 25px;
-}
-
-.btn-more-details::before {
-  position: absolute;
-  z-index: -1;
-  background-color: rgba(0, 0, 0, 0);
-  padding: 7px 25px;
-  transition: background-color 0.2s ease;
-}
-
-.service:hover .btn-more-details {
-  transform: scale(1);
-  background-color: #286562;
-  border-radius: 50px;
-}
-
-.service:hover img {
-  transform: scale(1.2);
-  object-fit: cover;
-}
-
-.service:active .btn-more-details {
-  background-color: #efa501;
-}
-
-.gradient {
-  position: absolute;
-  width: 370px;
-  height: 531px;
-  border-radius: 50px;
-  background: linear-gradient(
-    360deg,
-    rgba(0, 0, 0, 0.4) 0%,
-    rgba(0, 0, 0, 0.06) 48.44%,
-    rgba(0, 0, 0, 0.5) 100%
-  );
-  z-index: 1;
-}
-
-.service__name {
-  position: absolute;
-  z-index: 2;
-  font-weight: 500;
-  font-size: 35px;
-  color: #fff;
-  width: 270px;
-  line-height: 122%;
-  top: 50px;
-  left: 50px;
-}
-
-.service__price {
-  position: absolute;
-  z-index: 2;
-  font-size: 17px;
-  line-height: 142%;
-  color: #fff;
-  width: 270px;
-  top: 152px;
-  left: 50px;
-}
-
-.form {
-  display: block;
-  background-color: #fff;
-  border-radius: 50px;
-  width: 1040px;
-  height: auto;
-  margin: auto;
-  padding: 70px;
-}
-
-.form-wrapper {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 30px;
-}
-
-.input-comments {
-  border-radius: 10px;
-  width: 1025px;
-  height: 152px;
-  border: 1px solid #f4f0e9;
-  background-color: #f9f7f4;
-  margin-bottom: 33px;
-  text-align: start;
-  overflow: auto;
-  resize: none;
-  font-size: 20px;
-  padding: 0;
-  text-indent: 10px;
-
-  &:focus {
-    outline: 1px solid #a6a6a6;
-  }
-}
-
-.input-box {
-  display: block;
-  margin-bottom: 33px;
-  width: 500px;
-  height: 104px;
-  cursor: pointer;
-}
-
-.input-box input {
-  text-indent: 20px;
-}
-
-.input-box select {
-  outline: none;
-  border: none;
-}
-
-.input-box option {
-  color: black;
-}
-
-.details-direction option {
-  color: black;
-  cursor: pointer;
-}
-
-.details-direction:focus,
-.details-direction:invalid {
-  color: black;
-}
-
-.input-box ::placeholder {
-  color: #a6a6a6;
-}
-
-.input {
-  border: 1px solid #f4f0e9;
-  border-radius: 10px;
-  width: 100%;
-  height: 68px;
-  background-color: #f9f7f4;
-  font-size: 20px;
-  transition: 0.3s;
-  padding: 0;
-}
-
-.select::after {
-  width: 13px;
-  height: 13px;
-  position: absolute;
-  margin-top: 30px;
-  content: url(./images/стрелка.svg);
-  margin-left: -40px;
-}
-
-.select-option {
-  cursor: pointer;
-}
-
-.details-direction {
-  -webkit-appearance: none;
-  appearance: none;
-  -moz-appearance: none;
-  width: 100%;
-  border: 1px solid #f4f0e9;
-  border-radius: 10px;
-  height: 68px;
-  background-color: #f9f7f4;
-  font-size: 20px;
-  transition: 0.3s;
-  padding-left: 20px;
-  color: #a6a6a6;
-}
-
-.input:hover,
-.details-direction:hover,
-.input-comments:hover {
-  background-color: #f4f0e9;
-  cursor: pointer;
-}
-
-.input:focus,
-.details-direction:focus {
-  outline: 1px solid #a6a6a6;
-}
-
-.details {
-  font-size: 20px;
-  line-height: 142%;
-  padding-bottom: 8px;
-}
-
-.option .holder {
-  padding-left: 20px;
-}
-
-.age-option {
-  display: flex;
-  gap: 30px;
-  cursor: pointer;
-}
-
-.form-age {
-  padding-top: 100px;
-  font-size: 20px;
-  padding-bottom: 8px;
-}
-
-.label {
-  font-size: 20px;
-  cursor: pointer;
-}
-
-.change-age {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  accent-color: black;
-  padding-bottom: 33px;
-  margin-left: -10px;
-}
-
-.radio-box {
-  width: 1px;
-  height: 1px;
-  margin: 0;
-  overflow: hidden;
-  clip: rect(0, 0, 0);
-  border-radius: 50%;
-  cursor: pointer;
-}
-
-.radio-box:checked + .radio-style::before {
-  content: "";
-  width: 14px;
-  height: 14px;
-  background-color: black;
-  border-radius: 50%;
-  position: absolute;
-  margin-left: 5px;
-  margin-top: 5px;
-}
-
-.radio-style {
-  width: 24px;
-  height: 24px;
-  border: 2px solid black;
-  border-radius: 50%;
-  cursor: pointer;
-}
-
-.form-agree {
-  display: flex;
-  gap: 30px;
-}
-
-.checkbox {
-  background-image: url(./images/radiobutton.svg);
-  background-color: #fff;
-  width: 26px;
-  height: 26px;
-  border: none;
-  cursor: pointer;
-  padding: 0px;
-  padding-top: 6.9px;
-  padding-bottom: 6.9px;
-}
-
-.stroke::after {
-  content: url(./images/stroke.svg);
-  margin: 0;
-  padding: 0;
-  width: 13px;
-  height: 10px;
-}
-
-.checkbox-text {
-  display: block;
-  padding-bottom: 33px;
-}
-
-.checkbox-text input {
-  width: 24px;
-  height: 24px;
-  border: 2px solid black;
-  accent-color: #fff;
-  padding: 1px;
-}
-
-.check {
-  color: #a6a6a6;
-  font-size: 17px;
-}
-
-.check-agreement {
-  color: black;
-  font-size: 17px;
-  text-decoration: none;
-  transition: 0.7s;
-
-  &:hover {
-    border-bottom: 1px solid black;
-  }
-
-  &:active {
-    color: #286562;
-  }
-}
-
-.btn-form-find,
-.btn-form-reset {
-  background-color: #286562;
-  color: #fff;
-  border: none;
-  font-size: 20px;
-  border-radius: 10px;
-  padding: 15px 30px;
-  width: 235px;
-  height: 58px;
-  cursor: pointer;
-  transition: 0.3s;
-
-  &:hover {
-    background-color: #3b7e7b;
-  }
-
-  &:active {
-    background-color: #627f7e;
-  }
-}
-
-.btn-form-reset {
-  background-color: #e0f0e5;
-  color: #286562;
-  transition: 0.3s;
-  &:hover {
-    background-color: #f1f3f2;
-  }
-
-  &:active {
-    background-color: #d9dfdb;
-  }
-}
-
-.main__subtitle {
-  text-align: center;
-  color: #a6a6a6;
-  font-size: 20px;
-  padding-top: -5px;
-  padding-bottom: 100px;
-}
-
-.main__reviews {
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-}
-
-.wrapper-review {
-  border-radius: 50px;
-  padding-left: 40px;
-  padding-top: 40px;
-  padding-right: 40px;
-  width: 550px;
-  height: 650px;
-  background-color: #f4f0e9;
-  list-style: none;
-  position: relative;
-}
-
-.review-text {
-  font-weight: 700;
-  font-size: 23px;
-  line-height: 142%;
-}
-
-.review-name {
-  font-weight: 500;
-  font-size: 35px;
-  line-height: 122%;
-  position: absolute;
-  bottom: 72px;
-}
-
-.review-typ {
-  font-size: 17px;
-  line-height: 142%;
-  color: #a6a6a6;
-  position: absolute;
-  bottom: 40px;
-}
-
-.review-photo {
-  border-radius: 100px;
-  width: 75px;
-  height: 75px;
-  position: absolute;
-  bottom: 40px;
-  right: 40px;
-}
-
-.gallery-photos {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-bottom: 30px;
-}
-
-.gallery-photo,
-.gallery-photo-none {
-  border-radius: 50px;
-  height: 300px;
-  width: 100%;
-  object-fit: cover;
-}
-
-.gallery-photo-small,
-.gallery-photo-small-none {
-  border-radius: 50px;
-  width: 100%;
-  height: 300px;
-  object-fit: cover;
-}
-
-.main__storys {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  list-style: none;
-  padding-bottom: 85px;
-}
-
-.storys {
-  margin: auto;
-}
-
-.story {
-  position: relative;
-  margin-bottom: 50px;
-  overflow: hidden;
-  border-radius: 50px;
-  height: 567px;
-  width: auto;
-}
-
-.story-photo {
-  border-radius: 50px;
-  height: 567px;
-  width: auto;
-  margin: auto;
-  transition: transform 0.3s;
-  background-size: cover;
-}
-
-.story:hover img {
-  transform: scale(1.2);
-  border-radius: 50px;
-}
-
-.story:hover .btn-storys {
-  transform: scale(1);
-  padding: 7px 25px;
-  background-color: #286562;
-  border-radius: 50px;
-}
-
-.story:active .btn-storys {
-  background-color: #efa501;
-}
-
-.story:hover .vector {
-  transform: none;
-}
-
-.story-title {
-  position: absolute;
-  color: #fff;
-  font-weight: 500;
-  font-size: 35px;
-  line-height: 122%;
-  z-index: 3;
-  top: 60px;
-  left: 60px;
-}
-
-.story-subtitle {
-  position: absolute;
-  color: #fff;
-  font-size: 20px;
-  line-height: 142%;
-  z-index: 3;
-  left: 60px;
-  top: 140px;
-  width: 570px;
-}
-
-.gradient-story {
-  position: absolute;
-  height: 567px;
-  width: 1100px;
-  border-radius: 50px;
-  background: linear-gradient(
-    270deg,
-    rgba(0, 0, 0, 0) 0.01%,
-    rgba(0, 0, 0, 0.2) 100%
-  );
-  z-index: 1;
-}
-
-.history-nav-link {
-  color: #fff;
-  font-size: 20px;
-  text-decoration: none;
-  position: relative;
-  display: inline-block;
-  padding-bottom: 1px;
-  transition: border-color 0.3s;
-}
-
-.history-nav-link::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  border-bottom: 1px solid rgba(0, 0, 0, 0);
-  transition-duration: 0.3s;
-}
-
-.history-nav-link:hover::after {
-  border-bottom-color: #fff;
-}
-
-.history-nav-link:active::after {
-  border-bottom-color: #efa501;
-}
-
-.history-nav {
-  position: absolute;
-  display: flex;
-  gap: 35px;
-  z-index: 3;
-  cursor: pointer;
-  right: 60px;
-  bottom: 60px;
-}
-
-.main__feedback {
-  display: flex;
-  gap: 30px;
-  justify-content: center;
-  padding-bottom: 135px;
-  flex-wrap: wrap;
-}
-
-.feedback-img {
-  border-radius: 50px;
-  width: 370px;
-  height: 370px;
-  object-fit: cover;
-  margin: auto;
-}
-
-.feedback-title {
-  font-weight: 500;
-  font-size: 35px;
-  line-height: 122%;
-  padding-bottom: 20px;
-}
-
-.feedback-subtitle {
-  font-size: 20px;
-  line-height: 142%;
-  color: #a6a6a6;
-}
-
-.feedback-email {
-  color: black;
-  text-decoration: none;
-  transition-duration: 0.3s;
-}
-
-.feedback-email:hover {
-  border-bottom: 1px solid;
-  cursor: pointer;
-}
-
-.feedback-email:active {
-  color: #286562;
-}
-
-.feedback-text {
-  padding-top: 104px;
-}
-
-.footer__wrapper {
-  background-color: #f4f0e9;
-}
-
-.footer-social-media {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-.footer-social {
-  display: flex;
-  gap: 25px;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  margin-left: 21px;
-  margin-right: 200px;
-}
-
-.btn-social {
-  display: flex;
-  gap: 10px;
-  text-decoration: none;
-  color: black;
-  transition: 0.3s;
-}
-
-.footer-title {
-  color: #a6a6a6;
-  font-size: 20px;
-  line-height: 142%;
-  white-space: nowrap;
-  margin-left: 200px;
-}
-
-.name-social {
-  font-size: 20px;
-  line-height: 142%;
-  position: relative;
-  display: inline-block;
-  transition: border-color 0.3s;
-}
-
-.name-social::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  border-bottom: 1px solid rgba(0, 0, 0, 0);
-  transition-duration: 0.3s;
-}
-
-.name-social:hover::after {
-  border-bottom-color: black;
-}
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles_adaptive.css" />
+
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon" />
+    <title>YourTour</title>
+  </head>
+
+  <header class="header">
+    <div class="header__img"></div>
+    <div id="header" class="header__nav">
+      <a href="#" class="header__logo"
+        ><img
+          id="scrollImage"
+          class="logo"
+          src="./images/YourTour.svg"
+          alt="Логотип"
+      /></a>
+      <div class="nav-link">
+        <a href="#tours" class="header__link">Туры</a>
+        <a href="#create-tour" class="header__link">Создать тур</a>
+        <a href="#reviews" class="header__link">Отзывы</a>
+        <a href="#history" class="header__link">Истории</a>
+      </div>
+      <a id="header-number" class="header__number" href="tel:+79999999999"
+        >+7 999 999 99 99</a
+      >
+    </div>
+    <h1 class="header__title">
+      Идеальные <br />
+      путешествия <br />
+      существуют
+    </h1>
+    <h2 class="header__subtitle">
+      Идейные соображения высшего порядка, а также рамки и <br />
+      место обучения кадров
+    </h2>
+    <button class="header__search">Найти тур</button>
+  </header>
+  <body>
+    <main>
+      <div class="wrapper">
+        <div id="tours" class="main__title">Выбери свой тур</div>
+        <div class="main__nav">
+          <button class="main__link">Популярные</button>
+          <button class="main__link">Авторские</button>
+          <button class="main__link">Походы</button>
+          <button class="main__link">Сплавы</button>
+          <button class="main__link">Велопрогулки</button>
+        </div>
+
+        <div class="services">
+          <div class="service">
+            <div class="gradient"></div>
+            <img
+              class="service__img"
+              src="./images/card tour photo-2.jpg"
+              alt="Машина с видом  на горы"
+            />
+            <p class="service__name">Путешествие в горы</p>
+            <p class="service__price">от 80 000 руб</p>
+            <div class="btn-more">
+              <a class="btn-more-details"
+                >Подробнее
+                <img class="vector" src="./images/Vector.svg" alt="arrow"
+              /></a>
+            </div>
+          </div>
+
+          <div class="service">
+            <div class="gradient"></div>
+            <img
+              class="service__img"
+              src="./images/card tour photo-1.jpg"
+              alt="Девушка сидит в пустыне"
+            />
+            <p class="service__name">Путешествие в горы</p>
+            <p class="service__price">от 80 000 руб</p>
+            <div class="btn-more">
+              <a class="btn-more-details"
+                >Подробнее
+                <img class="vector" src="./images/Vector.svg" alt="arrow"
+              /></a>
+            </div>
+          </div>
+
+          <div class="service">
+            <div class="gradient"></div>
+            <img
+              class="service__img"
+              src="./images/card tour photo-3.jpg"
+              alt="Скала с видом на океан"
+            />
+            <p class="service__name">Путешествие в горы</p>
+            <p class="service__price">от 80 000 руб</p>
+            <div class="btn-more">
+              <a class="btn-more-details"
+                >Подробнее
+                <img class="vector" src="./images/Vector.svg" alt="arrow"
+              /></a>
+            </div>
+          </div>
+
+          <div class="service">
+            <div class="gradient"></div>
+            <img
+              class="service__img"
+              src="./images/card tour photo-4.jpg"
+              alt="Дорога между домами"
+            />
+            <p class="service__name">Путешествие в горы</p>
+            <p class="service__price">от 80 000 руб</p>
+            <div class="btn-more">
+              <a class="btn-more-details"
+                >Подробнее
+                <img class="vector" src="./images/Vector.svg" alt="arrow"
+              /></a>
+            </div>
+          </div>
+
+          <div class="service">
+            <div class="gradient"></div>
+            <img
+              class="service__img"
+              src="./images/card tour photo-5.jpg"
+              alt="Пляж"
+            />
+            <p class="service__name">Путешествие в горы</p>
+            <p class="service__price">от 80 000 руб</p>
+            <div class="btn-more">
+              <a class="btn-more-details"
+                >Подробнее
+                <img class="vector" src="./images/Vector.svg" alt="arrow"
+              /></a>
+            </div>
+          </div>
+
+          <div class="service">
+            <div class="gradient"></div>
+            <img
+              class="service__img"
+              src="./images/card tour photo-6.jpg"
+              alt="Вид с видом горы и озеро"
+            />
+            <p class="service__name">Путешествие в горы</p>
+            <p class="service__price">от 80 000 руб</p>
+            <div class="btn-more">
+              <a class="btn-more-details"
+                >Подробнее
+                <img class="vector" src="./images/Vector.svg" alt="arrow"
+              /></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="main__form">
+          <div id="create-tour" class="main__title">Собери свой тур</div>
+          <p class="main__subtitle">
+            Идейные соображения высшего порядка,<br />а также рамки и место
+            обучения кадров
+          </p>
+
+          <div class="form">
+            <div class="form-wrapper">
+              <div class="input-box">
+                <span class="details">Имя</span>
+                <input
+                  type="text"
+                  class="input"
+                  placeholder="Введите ваше имя"
+                />
+              </div>
+
+              <div class="input-box">
+                <span class="details">Направление</span><br />
+                <div class="select">
+                  <select class="details-direction">
+                    <option hidden>Куда хотите поехать</option>
+                    <option value="Горы">Горы</option>
+                    <option value="Море">Пляж</option>
+                    <option value="Приключения">Путешествия</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="input-box">
+                <span class="details">Email</span>
+                <input
+                  type="email"
+                  class="input"
+                  placeholder="example@mail.com"
+                  required
+                />
+              </div>
+
+              <div class="input-box">
+                <span class="details">Телефон</span>
+                <input
+                  type="text"
+                  class="input"
+                  placeholder="+ 7 ( _ _ _ ) _ _ _ - _ _ - _ _"
+                />
+              </div>
+
+              <div class="input-box">
+                <span class="details">Дата от</span>
+                <input type="text" class="input" placeholder="ДД.ММ.ГГГГ" />
+              </div>
+
+              <div class="input-box">
+                <span class="details">Дата до</span>
+                <input type="text" class="input" placeholder="ДД.ММ.ГГГГ" />
+              </div>
+            </div>
+
+            <div class="comments-block">
+              <div class="input-box comments">
+                <span class="details">Комментарий</span>
+                <textarea type="text" class="input-comments"></textarea>
+              </div>
+
+              <p class="form-age">Вам есть 18 лет?</p>
+              <div class="age-option">
+                <label class="change-age">
+                  <input
+                    class="radio-box"
+                    type="radio"
+                    id="check-yes"
+                    name="age"
+                  />
+                  <span class="radio-style"></span>
+                  <label class="label" for="check-yes">Да</label>
+                </label>
+
+                <label class="change-age">
+                  <input
+                    class="radio-box"
+                    type="radio"
+                    id="check-not"
+                    name="age"
+                  /><span class="radio-style"></span>
+                  <label class="label" for="check-not">Нет</label>
+                </label>
+              </div>
+
+              <div class="checkbox-text">
+                <button class="checkbox"></button>
+                <label for="logCheck" class="check"
+                  >Нажимая кнопку, я принимаю условия<a
+                    href="#"
+                    class="check-agreement"
+                  >
+                    Лицензионного договора</a
+                  ></label
+                >
+              </div>
+
+              <div class="form-agree">
+                <button class="btn-form-find">Найти тур</button>
+                <button id="resetButton" class="btn-form-reset">
+                  Сбросить
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="reviews" class="main__title">
+          Отзывы наших <br />
+          путешественников
+        </div>
+        <p class="main__subtitle">
+          Идейные соображения высшего порядка, а <br />
+          также рамки и место обучения кадров
+        </p>
+        <ul class="main__reviews">
+          <li class="wrapper-review review-one">
+            <p class="review-text">
+              Идейные соображения высшего порядка, а также рамки и место
+              обучения кадров обеспечивает широкому кругу (специалистов) участие
+              в формировании новых предложений. Идейные соображения высшего
+              порядка, а также начало повседневной работы по формированию
+              позиции позволяет оценить значение модели развития.
+            </p>
+            <p class="review-name">Мария</p>
+            <img
+              class="review-photo"
+              src="./images/review photo-1.jpg"
+              alt=""
+            />
+            <p class="review-typ">Тур: Вдали от дома</p>
+          </li>
+
+          <li class="wrapper-review review-two">
+            <p class="review-text">
+              Равным образом постоянный количественный рост и сфера нашей
+              активности играет важную роль в формировании системы обучения
+              кадров, соответствует насущным потребностям. <br />
+              <br />
+              Значимость этих проблем настолько очевидна, что дальнейшее
+              развитие различных форм деятельности обеспечивает широкому кругу
+              (специалистов) участие в формировании новых предложений.
+              Повседневная практика показывает, что реализация намеченных
+              плановых заданий в значительной степени обуславливает создание
+              модели развития.
+            </p>
+            <p class="review-name">Павел</p>
+            <img
+              class="review-photo"
+              src="./images/review photo-2.jpg"
+              alt=""
+            />
+            <p class="review-typ">Тур: Путешествие в горы</p>
+          </li>
+        </ul>
+
+        <div class="main__title">Фотографии путешествий</div>
+        <p class="main__subtitle">
+          Идейные соображения высшего порядка, а <br />
+          также рамки и место обучения кадров
+        </p>
+        <div class="main__gallery">
+          <ul class="gallery-photos">
+            <li>
+              <img
+                class="gallery-photo"
+                src="./images/travel photo-1.jpg"
+                alt=""
+              />
+            </li>
+            <li class="none-one">
+              <img
+                class="gallery-photo"
+                src="./images/travel photo-2.jpg"
+                alt=""
+              />
+            </li>
+            <li class="none">
+              <img
+                class="gallery-photo"
+                src="./images/travel photo-3.jpg"
+                alt=""
+              />
+            </li>
+            <li>
+              <img
+                class="gallery-photo"
+                src="./images/travel photo-4.jpg  "
+                alt=""
+              />
+            </li>
+          </ul>
+
+          <ul class="gallery-photos gallery-small">
+            <li>
+              <img
+                class="gallery-photo-small"
+                src="./images/travel photo-5.jpg"
+                alt=""
+              />
+            </li>
+            <li class="none">
+              <img
+                class="gallery-photo-small"
+                src="./images/travel photo-6.jpg"
+                alt=""
+              />
+            </li>
+            <li class="none-one">
+              <img
+                class="gallery-photo-small"
+                src="./images/travel photo-7.jpg"
+                alt=""
+              />
+            </li>
+            <li>
+              <img
+                class="gallery-photo-small"
+                src="./images/travel photo-8.png"
+                alt=""
+              />
+            </li>
+            <li>
+              <img
+                class="gallery-photo-small"
+                src="./images/travel photo-13.jpg"
+                alt=""
+              />
+            </li>
+          </ul>
+
+          <ul class="gallery-photos">
+            <li>
+              <img
+                class="gallery-photo"
+                src="./images/travel photo-9.jpg"
+                alt=""
+              />
+            </li>
+            <li>
+              <img
+                class="gallery-photo"
+                src="./images/travel photo-10.jpg"
+                alt=""
+              />
+            </li>
+            <li class="none">
+              <img
+                class="gallery-photo"
+                src="./images/travel photo-11.jpg"
+                alt=""
+              />
+            </li>
+            <li class="none-one">
+              <img
+                class="gallery-photo"
+                src="./images/travel photo-12.jpg  "
+                alt=""
+              />
+            </li>
+          </ul>
+        </div>
+
+        <div id="history" class="main__title">Истории путешествий</div>
+        <p class="main__subtitle">
+          Идейные соображения высшего порядка, а <br />
+          также рамки и место обучения кадров
+        </p>
+        <div class="main__storys">
+          <ul class="storys">
+            <li class="story">
+              <div class="gradient-story"></div>
+              <img
+                class="story-photo"
+                src="./images/story photo-1.jpg"
+                alt=""
+              />
+              <p class="story-title">Автостопом в Стамбул</p>
+              <p class="story-subtitle">
+                Идейные соображения высшего порядка, а также рамки и <br />
+                место обучения кадров обеспечивает широкому кругу <br />
+                (специалистов) участие в формировании новых предложений:
+                <br /><br />
+                вкусная еда <br />
+                дешевый транспорт <br />
+                красивый город. <br />
+              </p>
+              <div class="btn-more">
+                <a class="btn-more-details btn-storys"
+                  >Подробнее
+                  <img class="vector" src="./images/Vector.svg" alt="arrow" />
+                </a>
+                <div class="history-nav">
+                  <a href="#" class="history-nav-link">instagram</a>
+                  <a href="#" class="history-nav-link">facebook</a>
+                  <a href="#" class="history-nav-link">YouTube</a>
+                </div>
+              </div>
+            </li>
+
+            <li class="story">
+              <div class="gradient-story"></div>
+              <img
+                class="story-photo"
+                src="./images/story photo-2.jpg"
+                alt=""
+              />
+              <p class="story-title">Автостопом в Стамбул</p>
+              <p class="story-subtitle">
+                Идейные соображения высшего порядка, а также рамки и <br />
+                место обучения кадров обеспечивает широкому кругу <br />
+                (специалистов) участие в формировании новых предложений.
+              </p>
+              <div class="btn-more">
+                <a class="btn-more-details btn-storys"
+                  >Подробнее
+                  <img class="vector" src="./images/Vector.svg" alt="arrow" />
+                </a>
+                <div class="history-nav">
+                  <a href="#" class="history-nav-link">instagram</a>
+                  <a href="#" class="history-nav-link">Вконтакте</a>
+                </div>
+              </div>
+            </li>
+
+            <li class="story">
+              <div class="gradient-story"></div>
+              <img
+                class="story-photo"
+                src="./images/story photo-3.jpg"
+                alt=""
+              />
+              <p class="story-title">Автостопом в Стамбул</p>
+              <p class="story-subtitle">
+                Идейные соображения высшего порядка, а также рамки и <br />
+                место обучения кадров обеспечивает широкому кругу <br />
+                (специалистов) участие в формировании новых предложений.
+              </p>
+              <div class="btn-more">
+                <a class="btn-more-details btn-storys"
+                  >Подробнее
+                  <img class="vector" src="./images/Vector.svg" alt="arrow" />
+                </a>
+                <div class="history-nav">
+                  <a href="#" class="history-nav-link">instagram</a>
+                  <a href="#" class="history-nav-link">facebook</a>
+                  <a href="#" class="history-nav-link">Вконтакте</a>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="main__feedback">
+          <div>
+            <img class="feedback-img" src="./images/footer photo.jpg" alt="" />
+          </div>
+          <div class="feedback-text">
+            <p class="feedback-title">
+              Пора в путешествие <br />
+              вместе с нами!
+            </p>
+            <p class="feedback-subtitle">
+              Напиши на почту и узнай подробности <br />
+              на
+              <a class="feedback-email" href="mailto:yourtour@gmail.com "
+                >yourtour@gmail.com</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer__wrapper">
+        <div class="footer-social-media">
+          <p class="footer-title">Наши социальные сети</p>
+          <ul class="footer-social">
+            <li>
+              <a class="btn-social" href="#">
+                <img src="./images/inst.png" alt="instagram" />
+                <p class="name-social">instagram</p></a
+              >
+            </li>
+            <li>
+              <a class="btn-social" href="#">
+                <img src="./images/fb.png" alt="facebook" />
+                <p class="name-social">facebook</p></a
+              >
+            </li>
+            <li>
+              <a class="btn-social" href="#">
+                <img src="./images/vk.png" alt="vkontakte" />
+                <p class="name-social">vkontakte</p></a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script src="./main.js"></script>
+  </body>
+</html>
