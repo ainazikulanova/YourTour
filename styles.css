@@ -42,7 +42,7 @@ body {
   top: 0px;
   left: 0px;
   color: black;
-  transition: 0.4s;
+  transition: 0.3s;
   transition-duration: 0.3s;
 }
 
@@ -189,7 +189,7 @@ body {
   bottom: 0;
   left: 0;
   width: 100%;
-  border-bottom: 1px solid rgba(0, 0, 0, 0);
+  border-bottom: 1px solid #f9f7f4;
 }
 
 .main__link:hover {
@@ -349,6 +349,7 @@ body {
   resize: none;
   font-size: 20px;
   padding: 0;
+  text-indent: 10px;
 
   &:focus {
     outline: 1px solid #a6a6a6;
@@ -363,10 +364,13 @@ body {
   cursor: pointer;
 }
 
+.input-box input {
+  text-indent: 20px;
+}
+
 .input-box select {
   outline: none;
   border: none;
-  /* color: #a6a6a6; */
 }
 
 .input-box option {
@@ -378,12 +382,12 @@ body {
   cursor: pointer;
 }
 
-.details-direction:focus {
+.details-direction:focus,
+.details-direction:invalid {
   color: black;
 }
 
 .input-box ::placeholder {
-  padding-left: 20px;
   color: #a6a6a6;
 }
 
