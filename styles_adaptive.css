@@ -200,10 +200,6 @@
     font-size: 16px;
   }
 
-  .input-box ::placeholder {
-    padding-left: 10px;
-  }
-
   .input-comments {
     width: 278px;
     height: 132px;
