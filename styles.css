@@ -16,6 +16,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50%;
+  margin-top: -90px;
 }
 
 .header__img {
@@ -27,9 +28,8 @@ body {
   justify-content: center;
   align-items: center;
   gap: 150px;
-  padding-top: 28px;
-  padding-bottom: 28px;
   background-color: rgba(0, 0, 0, 0);
+  height: 90px;
 }
 
 .fixed {
@@ -42,8 +42,7 @@ body {
   top: 0px;
   left: 0px;
   color: black;
-  transition: 0.3s;
-  transition-duration: 0.3s;
+  transition-duration: 0.2s;
 }
 
 .nav-link {
@@ -400,6 +399,10 @@ body {
   font-size: 20px;
   transition: 0.3s;
   padding: 0;
+}
+
+input:valid {
+  background-color: #f9f7f4;
 }
 
 .select::after {
