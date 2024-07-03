@@ -16,7 +16,11 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50%;
-  margin-top: -90px;
+}
+
+.header__double {
+  height: 90px;
+  opacity: 0;
 }
 
 .header__img {
