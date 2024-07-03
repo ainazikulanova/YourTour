@@ -20,12 +20,10 @@ window.addEventListener("scroll", function () {
     headerEl.classList.add("fixed");
     headerImg.src = "./images/logo-black.svg";
     headerNum.classList.add("fixed-number");
-    document.body.removeAttribute("style");
   } else {
     headerEl.classList.remove("fixed");
     headerImg.src = "./images/YourTour.svg";
     headerNum.classList.remove("fixed-number");
-    document.body.style.paddingTop = headerH + "px";
   }
 });
 
