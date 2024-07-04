@@ -19,12 +19,20 @@ body {
 }
 
 .header__double {
-  height: 90px;
+  height: 88px;
   opacity: 0;
 }
 
 .header__img {
   background-size: cover;
+}
+
+.details-direction {
+  color: gray;
+}
+
+.details-direction option {
+  color: black;
 }
 
 .header__nav {
@@ -33,7 +41,7 @@ body {
   align-items: center;
   gap: 150px;
   background-color: rgba(0, 0, 0, 0);
-  height: 90px;
+  height: 88px;
 }
 
 .fixed {
@@ -116,7 +124,7 @@ body {
   font-size: 96px;
   line-height: 105px;
   margin-bottom: 50px;
-  margin-top: 119px;
+  margin-top: 29px;
 }
 
 .header__subtitle {
