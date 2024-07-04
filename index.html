@@ -187,7 +187,11 @@
               <div class="input-box">
                 <span class="details">Направление</span><br />
                 <div class="select">
-                  <select class="details-direction">
+                  <select
+                    class="details-direction"
+                    id="mySelect"
+                    onchange="changeColor()"
+                  >
                     <option hidden>Куда хотите поехать</option>
                     <option value="Горы">Горы</option>
                     <option value="Море">Пляж</option>
