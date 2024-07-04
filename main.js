@@ -38,3 +38,8 @@ document.getElementById("resetButton").addEventListener("click", function () {
   document.getElementById("check-yes").checked = false;
   document.getElementById("check-not").checked = false;
 });
+
+function changeColor() {
+  var select = document.getElementById("mySelect");
+  select.style.color = "black";
+}
