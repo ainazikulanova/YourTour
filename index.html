@@ -181,6 +181,8 @@
                   class="input"
                   placeholder="Введите ваше имя"
                   name="name"
+                  required
+                  pattern="[A-Za-zА-Яа-яЁё]{3,}"
                 />
               </div>
 
@@ -207,26 +209,46 @@
                   class="input"
                   placeholder="example@mail.com"
                   name="email"
+                  required
                 />
               </div>
 
               <div class="input-box">
                 <span class="details">Телефон</span>
                 <input
-                  type="text"
-                  class="input"
+                  type="tel"
+                  name="phone"
+                  id="phone"
+                  pattern="[0-9]{10}"
+                  required
                   placeholder="+ 7 ( _ _ _ ) _ _ _ - _ _ - _ _"
+                  class="input"
                 />
               </div>
 
-              <div class="input-box">
+              <div class="input-box input-data">
                 <span class="details">Дата от</span>
-                <input type="text" class="input" placeholder="ДД.ММ.ГГГГ" />
+                <input
+                  type="date"
+                  name="date"
+                  requiredtype="text"
+                  class="input"
+                  id="myDateBefore"
+                  onchange="changeColorBefore()"
+                />
               </div>
 
-              <div class="input-box">
+              <div class="input-box input-data">
                 <span class="details">Дата до</span>
-                <input type="text" class="input" placeholder="ДД.ММ.ГГГГ" />
+                <label
+                  ><input
+                    type="date"
+                    name="date"
+                    requiredtype="text"
+                    class="input input-date"
+                    id="myDateAfter"
+                    onchange="changeColorAfter()"
+                /></label>
               </div>
             </div>
 
@@ -578,5 +600,6 @@
       </div>
     </footer>
     <script src="./main.js"></script>
+    <script src="https://unpkg.com/imask"></script>
   </body>
 </html>
