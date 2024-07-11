@@ -39,7 +39,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 181px;
+  gap: 180px;
   background-color: rgba(0, 0, 0, 0);
   height: 88px;
 }
@@ -287,13 +287,15 @@ body {
   transition: background-color 0.2s ease;
 }
 
-.service:hover .btn-more-details {
+.service:hover .btn-more-details,
+.service:focus .btn-more-details {
   transform: scale(1);
   background-color: #286562;
   border-radius: 50px;
 }
 
-.service:hover img {
+.service:hover img,
+.service:focus img {
   transform: scale(1.2);
   object-fit: cover;
 }
