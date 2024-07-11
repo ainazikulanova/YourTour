@@ -8,6 +8,8 @@
   }
 
   .services {
+    grid-template-columns: repeat(2, 450px);
+    width: 918px;
     gap: 18px;
   }
   .service,
@@ -40,7 +42,7 @@
   }
 
   .input-comments {
-    width: 800px;
+    width: 778px;
   }
 
   .wrapper-review {
@@ -57,12 +59,8 @@
     height: 567px;
   }
 
-  .footer-title {
-    margin-left: 53px;
-  }
-
-  .footer-social {
-    margin-right: 53px;
+  .footer-social-media {
+    gap: 277px;
   }
 }
 
@@ -95,14 +93,14 @@
     line-height: 112%;
     letter-spacing: 0.02em;
     margin-bottom: 40px;
-    margin-top: -48px;
+    margin-top: -40px;
   }
 
   .header__subtitle {
     font-size: 16px;
     width: 310px;
     margin: auto;
-    margin-bottom: 40px;
+    padding-bottom: 40px;
     line-height: 142%;
   }
 
@@ -118,7 +116,7 @@
     font-size: 34px;
     line-height: 112%;
     letter-spacing: 0.02em;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     padding-top: 75px;
   }
 
@@ -134,18 +132,16 @@
   }
 
   .services {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 30px;
-    margin-top: 50px;
+    padding-top: 50px;
+    grid-template-columns: repeat(1, 318px);
+    width: 318px;
   }
 
   .service,
   .service__img,
   .gradient {
     width: 318px;
-    height: 360px;
+    height: 318px;
     border-radius: 20px;
     background-size: cover;
   }
@@ -173,11 +169,13 @@
     font-size: 16px;
     padding-bottom: 50px;
     line-height: 142%;
+    width: 100%;
+    text-align: center;
   }
 
   .form {
     width: 318px;
-    padding: 40px 10px 40px 0px;
+    padding: 40px 0px 40px 0px;
     border-radius: 30px;
   }
 
@@ -201,7 +199,7 @@
   }
 
   .input-comments {
-    width: 278px;
+    width: 258px;
     height: 132px;
     font-size: 16px;
   }
@@ -259,6 +257,7 @@
 
   .main__reviews {
     flex-wrap: wrap;
+    gap: 18px;
   }
 
   .wrapper-review {
@@ -358,7 +357,7 @@
   }
 
   .feedback-text {
-    padding-top: 30px;
+    padding-top: 0px;
     justify-content: center;
   }
 
@@ -376,16 +375,20 @@
   .footer-title {
     font-size: 16px;
     text-align: center;
-    margin-left: 92px;
-    margin-top: 21px;
+    padding-top: 21px;
+  }
+
+  .footer-social-media {
+    display: block;
+
+    align-items: center;
   }
 
   .footer-social {
     justify-content: center;
-    gap: 15px;
+    gap: 5px;
     padding-top: 7px;
     padding-bottom: 21px;
-    margin-right: 21px;
   }
 
   .name-social {
@@ -393,11 +396,21 @@
   }
 
   .btn-social {
-    gap: 5px;
+    gap: 0px;
   }
 
   .select::after {
     margin-top: 15px;
     margin-left: -30px;
+  }
+
+  .main__feedback {
+    padding-bottom: 75px;
+  }
+}
+
+@media (max-width: 330px) {
+  .header__number {
+    font-size: 14px;
   }
 }
