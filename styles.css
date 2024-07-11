@@ -39,7 +39,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 150px;
+  gap: 181px;
   background-color: rgba(0, 0, 0, 0);
   height: 88px;
 }
@@ -122,7 +122,7 @@ body {
   color: #fff;
   font-weight: 700;
   font-size: 96px;
-  line-height: 105px;
+  line-height: 109%;
   margin-bottom: 50px;
   margin-top: 29px;
 }
@@ -133,7 +133,9 @@ body {
   line-height: 28px;
   font-weight: 400;
   top: 572px;
-  margin-bottom: 50px;
+  padding-bottom: 50px;
+  margin: auto;
+  width: 562px;
 }
 
 .header__search {
@@ -168,8 +170,12 @@ body {
   line-height: 73px;
   text-align: center;
   color: #1b1f2b;
-  margin-bottom: 35px;
+  margin-bottom: 30px;
   padding-top: 135px;
+}
+
+.main__title-history {
+  padding-top: 105px;
 }
 
 .main,
@@ -213,11 +219,13 @@ body {
 }
 
 .services {
-  display: flex;
+  display: grid;
   justify-content: center;
-  flex-wrap: wrap;
   gap: 30px;
-  margin-top: 100px;
+  margin: auto;
+  grid-template-columns: repeat(3, 370px);
+  width: 1170px;
+  padding-top: 100px;
 }
 
 .service {
@@ -241,11 +249,9 @@ body {
   display: flex;
   gap: 15px;
   background-color: transparent;
-  position: relative;
 }
 
 .vector {
-  padding-left: 15px;
   width: 24px;
   background: transparent;
 }
@@ -266,9 +272,11 @@ body {
   cursor: pointer;
   border: none;
   background: transparent;
-  display: block;
   transition: 0.3s;
   padding: 7px 25px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
 }
 
 .btn-more-details::before {
@@ -350,26 +358,32 @@ body {
 
 .input-comments {
   border-radius: 10px;
-  width: 1025px;
+  width: 1010px;
   height: 152px;
   border: 1px solid #f4f0e9;
   background-color: #f9f7f4;
   margin-bottom: 33px;
+  margin-top: 8px;
   text-align: start;
   overflow: auto;
   resize: none;
   font-size: 20px;
   padding: 0;
-  text-indent: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 
   &:focus {
     outline: 1px solid #a6a6a6;
   }
 }
 
+.comments {
+  margin-top: 33px;
+}
+
 .input-box {
   display: block;
-  margin-bottom: 33px;
+  margin-bottom: 3px;
   width: 500px;
   height: 104px;
   cursor: pointer;
@@ -413,10 +427,6 @@ body {
   padding: 0;
 }
 
-input:valid {
-  background-color: #f9f7f4;
-}
-
 .select::after {
   width: 13px;
   height: 13px;
@@ -457,10 +467,15 @@ input:valid {
   outline: 1px solid #a6a6a6;
 }
 
+input:invalid {
+  box-shadow: none;
+  outline: none;
+}
+
 .details {
   font-size: 20px;
   line-height: 142%;
-  padding-bottom: 8px;
+  padding-bottom: 10px;
 }
 
 .option .holder {
@@ -471,10 +486,11 @@ input:valid {
   display: flex;
   gap: 30px;
   cursor: pointer;
+  margin-top: 8px;
 }
 
 .form-age {
-  padding-top: 100px;
+  padding-top: 119px;
   font-size: 20px;
   padding-bottom: 8px;
 }
@@ -616,11 +632,13 @@ input:valid {
 }
 
 .main__subtitle {
-  text-align: center;
+  margin: auto;
   color: #a6a6a6;
   font-size: 20px;
-  padding-top: -5px;
+  margin-top: -5px;
   padding-bottom: 100px;
+  line-height: 142%;
+  width: 418px;
 }
 
 .main__reviews {
@@ -875,7 +893,8 @@ input:valid {
 
 .footer-social-media {
   display: flex;
-  justify-content: space-between;
+  gap: 527px;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
 }
@@ -885,8 +904,6 @@ input:valid {
   gap: 25px;
   padding-top: 30px;
   padding-bottom: 30px;
-  margin-left: 21px;
-  margin-right: 200px;
 }
 
 .btn-social {
@@ -902,7 +919,6 @@ input:valid {
   font-size: 20px;
   line-height: 142%;
   white-space: nowrap;
-  margin-left: 200px;
 }
 
 .name-social {
