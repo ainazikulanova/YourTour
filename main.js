@@ -43,3 +43,20 @@ function changeColor() {
   var select = document.getElementById("mySelect");
   select.style.color = "black";
 }
+
+function changeColorBefore() {
+  var date = document.getElementById("myDateBefore");
+  date.style.color = "black";
+}
+
+function changeColorAfter() {
+  var date = document.getElementById("myDateAfter");
+  date.style.color = "black";
+}
+
+var element = document.getElementById("phone");
+var maskOptions = {
+  mask: "+ 7 ( _ _ _ ) _ _ _ - _ _ - _ _",
+  lazy: false,
+};
+var mask = new IMask(element, maskOptions);
