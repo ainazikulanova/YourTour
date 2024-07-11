@@ -28,7 +28,7 @@ body {
 }
 
 .details-direction {
-  color: gray;
+  color: #a6a6a6;
 }
 
 .details-direction option {
@@ -393,6 +393,20 @@ body {
 
 .input-box input {
   text-indent: 20px;
+}
+
+input[type="date"] {
+  color: #a6a6a6;
+  text-indent: 10px;
+}
+
+::placeholder {
+  color: #a6a6a6;
+}
+
+::-webkit-calendar-picker-indicator {
+  padding: 20px;
+  cursor: pointer;
 }
 
 .input-box select {
