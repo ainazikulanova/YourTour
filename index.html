@@ -172,7 +172,7 @@
             кадров
           </p>
 
-          <div class="form">
+          <form class="form">
             <div class="form-wrapper">
               <div class="input-box">
                 <span class="details">Имя</span>
@@ -219,10 +219,11 @@
                   type="tel"
                   name="phone"
                   id="phone"
-                  pattern="[0-9]{10}"
+                  pattern="[0-9]{11}"
                   required
                   placeholder="+ 7 ( _ _ _ ) _ _ _ - _ _ - _ _"
                   class="input"
+                  onkeyup="this.value = this.value.replace(/[^\d]/g, '');"
                 />
               </div>
 
@@ -283,7 +284,7 @@
               </div>
 
               <div class="checkbox-text">
-                <button class="checkbox"></button>
+                <input type="checkbox" id="logCheck" class="checkbox"></input>
                 <label for="logCheck" class="check"
                   >Нажимая кнопку, я принимаю условия<a
                     href="#"
@@ -295,13 +296,13 @@
               </div>
 
               <div class="form-agree">
-                <button class="btn-form-find">Найти тур</button>
-                <button id="resetButton" class="btn-form-reset">
+                <button type="submit" class="btn-form-find">Найти тур</button>
+                <button type="reset" id="resetButton" class="btn-form-reset">
                   Сбросить
                 </button>
               </div>
             </div>
-          </div>
+          </form>
         </div>
 
         <div id="reviews" class="main__title">
