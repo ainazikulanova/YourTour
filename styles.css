@@ -560,27 +560,26 @@ input:invalid {
 }
 
 .checkbox {
-  background-image: url(./images/radiobutton.svg);
+  -webkit-appearance: none;
+  appearance: none;
+  /* background-image: url(./images/radiobutton.svg); */
   background-color: #fff;
   width: 26px;
   height: 26px;
   border: none;
   cursor: pointer;
   padding: 0px;
-  padding-top: 6.9px;
-  padding-bottom: 6.9px;
+  border-radius: 5px;
 }
 
 .stroke::after {
   content: url(./images/stroke.svg);
-  margin: 0;
-  padding: 0;
-  width: 13px;
-  height: 10px;
 }
 
 .checkbox-text {
-  display: block;
+  display: flex;
+  gap: 10px;
+  align-items: center;
   padding-bottom: 33px;
 }
 
@@ -589,7 +588,8 @@ input:invalid {
   height: 24px;
   border: 2px solid black;
   accent-color: #fff;
-  padding: 1px;
+  padding-left: 4.7px;
+  padding-top: 3px;
 }
 
 .check {
