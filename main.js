@@ -62,8 +62,16 @@ document.addEventListener("DOMContentLoaded", function () {
       detailsBtn.forEach((nav) => nav.classList.remove("btn-styled"));
       this.classList.add("btn-styled");
     });
-    item.addEventListener("dblclick", function () {
-      this.classList.add("btn-double-styled");
+  });
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+  const detailsBtn = document.querySelectorAll(".story");
+
+  detailsBtn.forEach((item) => {
+    item.addEventListener("click", function () {
+      detailsBtn.forEach((nav) => nav.classList.remove("btn-styled"));
+      this.classList.add("btn-styled");
     });
   });
 });
