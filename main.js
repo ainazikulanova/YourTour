@@ -54,9 +54,13 @@ function changeColorAfter() {
   date.style.color = "black";
 }
 
-var element = document.getElementById("phone");
-var maskOptions = {
-  mask: "+ 7 ( _ _ _ ) _ _ _ - _ _ - _ _",
-  lazy: false,
-};
-var mask = new IMask(element, maskOptions);
+document.addEventListener("DOMContentLoaded", function () {
+  const detailsBtn = document.querySelectorAll(".service");
+
+  detailsBtn.forEach((item) => {
+    item.addEventListener("click", function () {
+      detailsBtn.forEach((nav) => nav.classList.remove("btn-styled"));
+      this.classList.add("btn-styled");
+    });
+  });
+});
