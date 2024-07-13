@@ -174,6 +174,10 @@ body {
   padding-top: 135px;
 }
 
+.title__tour {
+  margin-bottom: 35px;
+}
+
 .main__title-history {
   padding-top: 105px;
 }
@@ -225,7 +229,7 @@ body {
   margin: auto;
   grid-template-columns: repeat(3, 370px);
   width: 1170px;
-  padding-top: 100px;
+  padding-top: 110px;
 }
 
 .service {
@@ -268,7 +272,7 @@ body {
   color: #fff;
   z-index: 3;
   left: 25px;
-  bottom: 50px;
+  bottom: 40px;
   cursor: pointer;
   border: none;
   background: transparent;
@@ -502,7 +506,6 @@ input:invalid {
   display: flex;
   gap: 30px;
   cursor: pointer;
-  margin-top: 8px;
 }
 
 .form-age {
@@ -562,7 +565,7 @@ input:invalid {
 .checkbox {
   -webkit-appearance: none;
   appearance: none;
-  /* background-image: url(./images/radiobutton.svg); */
+  background-image: url(./images/radiobutton.svg);
   background-color: #fff;
   width: 26px;
   height: 26px;
@@ -570,10 +573,14 @@ input:invalid {
   cursor: pointer;
   padding: 0px;
   border-radius: 5px;
+  display: block;
 }
 
 .stroke::after {
+  display: block;
   content: url(./images/stroke.svg);
+  padding-left: 7px;
+  padding-top: 4px;
 }
 
 .checkbox-text {
@@ -657,6 +664,14 @@ input:invalid {
   width: 418px;
 }
 
+.subtitle__gallery {
+  padding-bottom: 102px;
+}
+
+.title_gallery {
+  padding-top: 145px;
+}
+
 .main__reviews {
   display: flex;
   justify-content: center;
@@ -668,8 +683,8 @@ input:invalid {
   padding-left: 40px;
   padding-top: 40px;
   padding-right: 40px;
-  width: 550px;
-  height: 650px;
+  width: 490px;
+  height: 633px;
   background-color: #f4f0e9;
   list-style: none;
   position: relative;
@@ -678,7 +693,7 @@ input:invalid {
 .review-text {
   font-weight: 700;
   font-size: 23px;
-  line-height: 142%;
+  line-height: 122%;
 }
 
 .review-name {
@@ -765,6 +780,10 @@ input:invalid {
 .story:hover img {
   transform: scale(1.2);
   border-radius: 50px;
+}
+
+.btn-storys {
+  bottom: 50px;
 }
 
 .story:hover .btn-storys {
