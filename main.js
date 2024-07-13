@@ -62,5 +62,8 @@ document.addEventListener("DOMContentLoaded", function () {
       detailsBtn.forEach((nav) => nav.classList.remove("btn-styled"));
       this.classList.add("btn-styled");
     });
+    item.addEventListener("dblclick", function () {
+      this.classList.add("btn-double-styled");
+    });
   });
 });
