@@ -407,6 +407,10 @@
   .main__feedback {
     padding-bottom: 75px;
   }
+
+  .btn-styled {
+    object-fit: cover;
+  }
 }
 
 @media (max-width: 330px) {
