@@ -565,22 +565,27 @@ input:invalid {
 .checkbox {
   -webkit-appearance: none;
   appearance: none;
-  background-image: url(./images/radiobutton.svg);
   background-color: #fff;
-  width: 26px;
-  height: 26px;
+  width: 24px;
+  height: 24px;
   border: none;
   cursor: pointer;
   padding: 0px;
   border-radius: 5px;
   display: block;
+  position: relative;
 }
 
 .stroke::after {
-  display: block;
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-size: cover;
+  width: 13px;
+  height: 13px;
   content: url(./images/stroke.svg);
-  padding-left: 7px;
-  padding-top: 4px;
 }
 
 .checkbox-text {
@@ -595,7 +600,7 @@ input:invalid {
   height: 24px;
   border: 2px solid black;
   accent-color: #fff;
-  padding-left: 4.7px;
+  padding-left: 8px;
   padding-top: 3px;
 }
 
