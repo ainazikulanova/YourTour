@@ -235,7 +235,7 @@
                 <input
                   type="date"
                   name="date"
-                  requiredtype="text"
+                  required
                   class="input"
                   id="myDateBefore"
                   onchange="changeColorBefore()"
@@ -248,7 +248,7 @@
                   ><input
                     type="date"
                     name="date"
-                    requiredtype="text"
+                    required
                     class="input input-date"
                     id="myDateAfter"
                     onchange="changeColorAfter()"
@@ -270,6 +270,7 @@
                     type="radio"
                     id="check-yes"
                     name="age"
+                    required
                   />
                   <span class="radio-style"></span>
                   <label class="label" for="check-yes">Да</label>
@@ -281,13 +282,14 @@
                     type="radio"
                     id="check-not"
                     name="age"
+                    required
                   /><span class="radio-style"></span>
                   <label class="label" for="check-not">Нет</label>
                 </label>
               </div>
 
               <div class="checkbox-text">
-                <a type="checkbox" id="logCheck" class="checkbox"></a>
+                <input type="checkbox" id="logCheck" required class="checkbox"></input>
                 <label for="logCheck" class="check"
                   >Нажимая кнопку, я принимаю условия<a
                     href="#"
