@@ -320,6 +320,7 @@ body {
     rgba(0, 0, 0, 0.5) 100%
   );
   z-index: 1;
+  cursor: pointer;
 }
 
 .service__name {
@@ -364,8 +365,8 @@ body {
 
 .input-comments {
   border-radius: 10px;
-  width: 1010px;
-  height: 152px;
+  width: 990px;
+  height: 112px;
   border: 1px solid #f4f0e9;
   background-color: #f9f7f4;
   margin-bottom: 33px;
@@ -374,9 +375,7 @@ body {
   overflow: auto;
   resize: none;
   font-size: 20px;
-  padding: 0;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding: 20px;
 
   &:focus {
     outline: 1px solid #a6a6a6;
@@ -839,6 +838,7 @@ input:invalid {
     rgba(0, 0, 0, 0.2) 100%
   );
   z-index: 1;
+  cursor: pointer;
 }
 
 .history-nav-link {
