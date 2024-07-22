@@ -12,6 +12,11 @@
     width: 918px;
     gap: 18px;
   }
+
+  .service__name {
+    width: 350px;
+  }
+
   .service,
   .service__img,
   .gradient {
@@ -50,7 +55,7 @@
   }
 
   .input-comments {
-    width: 778px;
+    width: 758px;
   }
 
   .wrapper-review {
@@ -139,11 +144,12 @@
   .main__link {
     font-size: 16px;
   }
-
   .main__nav {
-    font-size: 16px;
-    row-gap: 10px;
+    font-size: 10px;
+    row-gap: 1px;
+    column-gap: 20px;
     height: 56px;
+    justify-content: center;
     text-align: center;
   }
 
@@ -169,6 +175,7 @@
   }
 
   .service__name {
+    width: 270px;
     font-size: 23px;
     line-height: 120%;
     top: 25px;
@@ -185,7 +192,7 @@
     font-size: 16px;
     padding-bottom: 40px;
     line-height: 142%;
-    width: 100%;
+    width: 98%;
     text-align: center;
   }
 
@@ -215,8 +222,8 @@
   }
 
   .input-comments {
-    width: 258px;
-    height: 132px;
+    width: 238px;
+    height: 112px;
     font-size: 16px;
   }
 
@@ -403,11 +410,12 @@
     font-size: 16px;
     text-align: center;
     padding-top: 21px;
+    width: 98%;
   }
 
   .footer-social-media {
     display: block;
-
+    width: 98%;
     align-items: center;
   }
 
@@ -446,6 +454,76 @@
 
 @media (max-width: 330px) {
   .header__number {
+    font-size: 12px;
+  }
+
+  .header__nav {
+    gap: 20px;
+  }
+  .fixed {
+    width: 299px;
+  }
+
+  .header__subtitle {
+    width: 298px;
+  }
+
+  .services {
+    width: 298px;
+  }
+
+  .service,
+  .service__img,
+  .gradient {
+    width: 298px;
+    height: 298px;
+  }
+
+  .main__title {
+    font-size: 30px;
+  }
+
+  .name-social {
+    font-size: 12px;
+  }
+
+  .story,
+  .gradient-story {
+    width: 298px;
+    height: 430px;
+  }
+
+  .gallery-photo {
+    width: 134px;
+  }
+
+  .gallery-photo-small {
+    width: 88px;
+  }
+
+  .form {
+    width: 298px;
+  }
+
+  .input-comments {
+    padding: 0;
+  }
+
+  .form-agree {
+    gap: 5px;
+  }
+
+  .input-box,
+  .input,
+  .details-direction {
+    width: 238px;
     font-size: 14px;
+  }
+
+  .review-text {
+    font-size: 14px;
+  }
+  .review-typ {
+    font-size: 11px;
   }
 }
