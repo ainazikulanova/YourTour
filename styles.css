@@ -179,6 +179,9 @@ body {
 .main__title-history {
   padding-top: 105px;
 }
+.main__nav {
+  padding-top: 7px;
+}
 
 .main,
 .main__nav {
@@ -188,7 +191,6 @@ body {
   font-size: 23px;
   flex-wrap: wrap;
 }
-
 .main__link {
   font-weight: 700;
   font-size: 23px;
@@ -671,7 +673,7 @@ input:invalid {
 }
 
 .title_gallery {
-  padding-top: 145px;
+  padding-top: 138px;
 }
 
 .main__reviews {
