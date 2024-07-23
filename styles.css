@@ -16,15 +16,12 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50%;
+  background-size: cover;
 }
 
 .header__double {
   height: 88px;
   opacity: 0;
-}
-
-.header__img {
-  background-size: cover;
 }
 
 .details-direction {
@@ -162,6 +159,7 @@ body {
 
 .wrapper {
   background-color: #f9f7f4;
+  overflow-x: hidden;
 }
 
 .main__title {
