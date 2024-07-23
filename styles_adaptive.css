@@ -23,6 +23,9 @@
     width: 450px;
     height: 531px;
   }
+  .main__title-history {
+    padding-top: 100px;
+  }
 
   .form {
     width: 918px;
@@ -31,7 +34,7 @@
 
   .form-wrapper {
     width: 918px;
-    gap: 20px;
+    gap: 36px;
   }
 
   .title_gallery {
@@ -40,7 +43,7 @@
 
   .comments-block {
     padding-top: 33px;
-    padding-left: 65px;
+    padding-left: 55px;
   }
 
   .input-box,
@@ -58,9 +61,13 @@
     width: 758px;
   }
 
+  .comments {
+    margin-top: 0px;
+  }
+
   .wrapper-review {
-    width: 410px;
-    height: 821px;
+    width: 370px;
+    height: 801px;
   }
 
   .none-one {
@@ -78,6 +85,13 @@
 
   .footer-social-media {
     gap: 277px;
+  }
+  .form-age {
+    padding-top: 130px;
+  }
+
+  .subtitle__gallery {
+    padding-bottom: 108px;
   }
 }
 
@@ -156,15 +170,18 @@
   }
 
   .main__link {
-    font-size: 16px;
+    font-size: 15px;
+    line-height: 142%;
+    padding-left: 10px;
   }
   .main__nav {
     font-size: 10px;
     row-gap: 1px;
-    column-gap: 20px;
+    column-gap: 10px;
     height: 56px;
     justify-content: center;
     text-align: center;
+    padding-top: 0;
   }
 
   .services {
@@ -219,6 +236,7 @@
   .form-wrapper {
     width: 318px;
     flex-wrap: wrap;
+    gap: 20px;
   }
 
   .input-box,
@@ -237,13 +255,18 @@
 
   .input-comments {
     width: 238px;
-    height: 112px;
+    height: 92px;
     font-size: 16px;
+    margin-bottom: 0;
   }
 
   .comments-block {
     margin-top: -15px;
     padding-left: 20px;
+  }
+
+  .form-age {
+    padding-top: 119px;
   }
 
   .form-age,
@@ -310,6 +333,7 @@
 
   .review-text {
     font-size: 16px;
+    line-height: 142%;
   }
 
   .review-photo {
@@ -329,10 +353,12 @@
 
   .review-name {
     font-size: 23px;
+    bottom: 52px;
   }
 
   .review-typ {
     font-size: 16px;
+    bottom: 20px;
   }
 
   .gallery-photos {
@@ -484,6 +510,7 @@
 
   .services {
     width: 290px;
+    padding-left: 18px;
   }
 
   .service,
@@ -500,6 +527,13 @@
 
   .name-social {
     font-size: 12px;
+  }
+
+  .btn-form-find,
+  .btn-form-reset {
+    font-size: 13px;
+    width: 125px;
+    height: 47px;
   }
 
   .story,
