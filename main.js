@@ -44,16 +44,6 @@ function changeColor() {
   select.style.color = "black";
 }
 
-function changeColorBefore() {
-  var date = document.getElementById("myDateBefore");
-  date.style.color = "black";
-}
-
-function changeColorAfter() {
-  var date = document.getElementById("myDateAfter");
-  date.style.color = "black";
-}
-
 document.addEventListener("DOMContentLoaded", function () {
   const detailsBtn = document.querySelectorAll(".service");
 
@@ -79,4 +69,14 @@ document.addEventListener("DOMContentLoaded", function () {
 const phoneInput = document.getElementById("phone");
 const mask = new IMask(phoneInput, {
   mask: "+{7}(000)000-00-00",
+});
+
+const dateInput = document.getElementById("dateBefore");
+const maskDate = new IMask(dateInput, {
+  mask: "00.00.0000",
+});
+
+const dateAfterInput = document.getElementById("dateAfter");
+const maskAfterDate = new IMask(dateAfterInput, {
+  mask: "00.00.0000",
 });
