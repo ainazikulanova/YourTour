@@ -511,7 +511,7 @@
   }
 }
 
-@media (max-width: 330px) {
+@media (max-width: 350px) {
   .header__number {
     font-size: 12px;
   }
@@ -575,7 +575,8 @@
   }
 
   .input-comments {
-    padding: 0;
+    width: 218px;
+    padding: 10px;
   }
 
   .form-agree {
