@@ -231,13 +231,13 @@
               <div class="input-box input-data">
                 <span class="details">Дата от</span>
                 <input
-                  type="date"
-                  name="date"
-                  required
-                  class="input"
-                  id="myDateBefore"
-                  max="9999-12-31"
-                  onchange="changeColorBefore()"
+                type="text"
+                placeholder="ДД.ММ.ГГГГ"
+                name="dateBefore"
+                required
+                class="input input-date"
+                id="dateBefore"
+                maxlength="10"
                 />
               </div>
 
@@ -245,13 +245,13 @@
                 <span class="details">Дата до</span>
                 <label
                   ><input
-                    type="date"
+                    type="text"
+                    placeholder="ДД.ММ.ГГГГ"
                     name="date"
                     required
                     class="input input-date"
-                    id="myDateAfter"
-                    max="9999-12-31"
-                    onchange="changeColorAfter()"
+                    id="dateAfter"
+                    maxlength="10"
                 /></label>
               </div>
             </div>
