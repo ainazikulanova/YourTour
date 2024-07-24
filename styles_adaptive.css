@@ -1,4 +1,23 @@
 @media (max-width: 1199px) {
+  .header {
+    background-image: url(./images/headerImgFull.png);
+    object-fit: cover;
+    object-position: top;
+  }
+
+  .header__img {
+    position: absolute;
+    width: 100%;
+    height: 830px;
+    background: linear-gradient(
+      360deg,
+      rgba(0, 0, 0, 0.4) 0%,
+      rgba(0, 0, 0, 0.06) 48.44%,
+      rgba(0, 0, 0, 0.5) 100%
+    );
+    z-index: 1;
+  }
+
   .header__nav {
     gap: 83px;
   }
@@ -98,7 +117,7 @@
 @media (max-width: 930px) {
   .header {
     height: 488px;
-    background-image: url(./images/footer\ photo.jpg);
+    background-image: url(./images/headerImgFull.png);
   }
 
   .header__img {
@@ -109,7 +128,7 @@
       360deg,
       rgba(0, 0, 0, 0.4) 0%,
       rgba(0, 0, 0, 0.06) 48.44%,
-      rgba(0, 0, 0, 0.5) 100%
+      rgba(0, 0, 0, 0.5) 80%
     );
     z-index: 1;
   }
@@ -499,9 +518,6 @@
 
   .header__nav {
     gap: 20px;
-  }
-  .fixed {
-    width: 299px;
   }
 
   .header__subtitle {
