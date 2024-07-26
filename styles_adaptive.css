@@ -53,7 +53,8 @@
 
   .form-wrapper {
     width: 918px;
-    gap: 36px;
+    row-gap: 33px;
+    column-gap: 20px;
   }
 
   .title_gallery {
@@ -62,14 +63,14 @@
 
   .comments-block {
     padding-top: 33px;
-    padding-left: 55px;
+    padding-left: 60px;
   }
 
   .input-box,
   .input {
     width: 389px;
     height: 68px;
-    margin-bottom: 33px;
+    margin-bottom: 36px;
   }
 
   .main__reviews {
@@ -105,8 +106,9 @@
   .footer-social-media {
     gap: 277px;
   }
-  .form-age {
-    padding-top: 130px;
+
+  .subtitle__reviews {
+    padding-bottom: 109px;
   }
 
   .subtitle__gallery {
@@ -241,9 +243,12 @@
   .main__subtitle {
     font-size: 16px;
     padding-bottom: 40px;
-    line-height: 142%;
     width: 98%;
     text-align: center;
+  }
+
+  .subtitle__reviews {
+    padding-bottom: 46px;
   }
 
   .form {
@@ -282,10 +287,6 @@
   .comments-block {
     margin-top: -15px;
     padding-left: 20px;
-  }
-
-  .form-age {
-    padding-top: 119px;
   }
 
   .form-age,
@@ -591,5 +592,11 @@
   }
   .review-typ {
     font-size: 11px;
+  }
+}
+
+@media (max-width: 320px) {
+  .main__link {
+    margin-left: 0;
   }
 }
