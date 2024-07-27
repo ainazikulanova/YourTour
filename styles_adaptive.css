@@ -22,6 +22,10 @@
     gap: 83px;
   }
 
+  .header__subtitle {
+    width: 422px;
+  }
+
   .nav-link {
     gap: 30px;
   }
@@ -99,8 +103,8 @@
     height: 567px;
   }
   .footer-social {
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
 
   .footer-social-media {
@@ -108,7 +112,11 @@
   }
 
   .subtitle__reviews {
-    padding-bottom: 109px;
+    padding-bottom: 103px;
+  }
+
+  .form-age {
+    padding-bottom: 12px;
   }
 
   .subtitle__gallery {
@@ -159,7 +167,7 @@
     line-height: 112%;
     letter-spacing: 0.02em;
     margin-bottom: 40px;
-    margin-top: -40px;
+    margin-top: -35px;
   }
 
   .header__subtitle {
@@ -192,8 +200,8 @@
 
   .main__link {
     font-size: 15px;
-    line-height: 142%;
-    margin-left: 15px;
+    line-height: 102%;
+    margin-left: 6px;
   }
   .main__nav {
     font-size: 16px;
@@ -285,8 +293,12 @@
   }
 
   .comments-block {
-    margin-top: -15px;
+    margin-top: -10px;
     padding-left: 20px;
+  }
+
+  .form-age {
+    padding-top: 110px;
   }
 
   .form-age,
@@ -495,8 +507,8 @@
   }
 
   .select::after {
-    margin-top: 15px;
-    margin-left: -30px;
+    margin-top: 25px;
+    margin-left: -32px;
   }
 
   .main__feedback {
@@ -524,6 +536,9 @@
   .services {
     width: 290px;
     padding-left: 18px;
+  }
+  .comments-block {
+    padding-left: 26px;
   }
 
   .service,
