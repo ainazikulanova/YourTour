@@ -451,7 +451,7 @@ input[type="date"] {
   width: 13px;
   height: 13px;
   position: absolute;
-  margin-top: 30px;
+  margin-top: 40px;
   content: url(./images/стрелка.svg);
   margin-left: -40px;
 }
