@@ -311,6 +311,7 @@
   }
 
   .checkbox-text {
+    padding-bottom: 28px;
     font-size: 16px;
     width: 278px;
     height: auto;
