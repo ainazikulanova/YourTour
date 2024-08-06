@@ -22,8 +22,17 @@
     gap: 83px;
   }
 
+  .header__title {
+    left: 20%;
+  }
+
   .header__subtitle {
     width: 422px;
+    left: 30%;
+  }
+
+  .header__search {
+    left: 44.2%;
   }
 
   .nav-link {
@@ -166,16 +175,18 @@
     font-size: 34px;
     line-height: 112%;
     letter-spacing: 0.02em;
-    margin-bottom: 40px;
+    padding-bottom: 40px;
+    padding-top: 0;
     margin-top: -35px;
   }
 
   .header__subtitle {
     font-size: 16px;
     width: 310px;
-    margin: auto;
+    top: 295px;
     padding-bottom: 40px;
     line-height: 142%;
+    left: 8%;
   }
 
   .header__search {
@@ -184,6 +195,8 @@
     font-size: 14px;
     color: black;
     cursor: pointer;
+    left: 34%;
+    top: 403px;
   }
 
   .main__title {
@@ -531,7 +544,7 @@
   }
 
   .header__subtitle {
-    width: 298px;
+    width: 278px;
   }
 
   .services {
