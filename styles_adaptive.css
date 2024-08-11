@@ -23,16 +23,19 @@
   }
 
   .header__title {
-    left: 20%;
+    left: 50%;
+    transform: translateX(-50%);
   }
 
   .header__subtitle {
     width: 422px;
-    left: 30%;
+    left: 50%;
+    transform: translateX(-50%);
   }
 
   .header__search {
-    left: 44.2%;
+    left: 50%;
+    transform: translateX(-50%);
   }
 
   .nav-link {
@@ -186,7 +189,6 @@
     top: 295px;
     padding-bottom: 40px;
     line-height: 142%;
-    left: 8%;
   }
 
   .header__search {
@@ -195,8 +197,9 @@
     font-size: 14px;
     color: black;
     cursor: pointer;
-    left: 34%;
     top: 403px;
+    left: 50%;
+    transform: translateX(-50%);
   }
 
   .main__title {
