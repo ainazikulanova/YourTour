@@ -30,7 +30,7 @@ window.addEventListener("scroll", function () {
 const checkboxStroke = document.querySelector(".checkbox");
 
 checkboxStroke.addEventListener("click", function () {
-  checkboxStroke.classList.add("stroke");
+  checkboxStroke.classList.toggle("stroke");
 });
 
 document.getElementById("resetButton").addEventListener("click", function () {
@@ -80,3 +80,33 @@ const dateAfterInput = document.getElementById("dateAfter");
 const maskAfterDate = new IMask(dateAfterInput, {
   mask: "00.00.0000",
 });
+
+const inputDate = document.getElementById("dateBefore");
+
+inputDate.addEventListener("input", function () {
+  const value = inputDate.value;
+  const maxDate = new Date("2024-12-31");
+  const [day, month, year] = value.split(".").map(Number);
+
+  if (value.length === 10 && new Date(year, month - 1, day) > maxDate) {
+    inputDate.value = "";
+  }
+});
+
+const inputDateAfter = document.getElementById("dateAfter");
+
+inputDateAfter.addEventListener("input", function () {
+  const value = inputDateAfter.value;
+  const maxDate = new Date("2024-12-31");
+  const [day, month, year] = value.split(".").map(Number);
+
+  if (value.length === 10 && new Date(year, month - 1, day) > maxDate) {
+    inputDateAfter.value = "";
+  }
+});
+
+function setActive(button) {
+  const buttons = document.getElementsByClassName("main__link");
+  Array.from(buttons).forEach((btn) => btn.classList.remove("active"));
+  button.classList.add("active");
+}
