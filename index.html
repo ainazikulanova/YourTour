@@ -18,49 +18,51 @@
     <title>YourTour</title>
   </head>
 
-  <header class="header">
-    <div class="header__img">
-    <div id="header" class="header__nav">
-      <a href="#" class="header__logo"
-        ><img
-          id="scrollImage"
-          class="logo"
-          src="./images/YourTour.svg"
-          alt="Логотип"
-      /></a>
-      <div class="nav-link">
-        <a href="#tours" class="header__link">Туры</a>
-        <a href="#create-tour" class="header__link">Создать тур</a>
-        <a href="#reviews" class="header__link">Отзывы</a>
-        <a href="#history" class="header__link">Истории</a>
-      </div>
-      <a id="header-number" class="header__number" href="tel:+79999999999"
-        >+7 999 999 99 99</a
-      >
-    </div>
-    <div id="header" class="header__double"></div>
-    <h1 class="header__title">
-      Идеальные <br />
-      путешествия <br />
-      существуют
-    </h1>
-    <h2 class="header__subtitle">
-      Идейные соображения высшего порядка, а также рамки и место обучения кадров
-    </h2>
-    <button class="header__search">Найти тур</button>
-  </div>
-  </header>
   <body>
+    <header class="header">
+      <div class="header__img">
+        <div id="header" class="header__nav">
+          <a href="#" class="header__logo"
+            ><img
+              id="scrollImage"
+              class="logo"
+              src="./images/YourTour.svg"
+              alt="Логотип"
+          /></a>
+          <div class="nav-link">
+            <a href="#tours" class="header__link">Туры</a>
+            <a href="#create-tour" class="header__link">Создать тур</a>
+            <a href="#reviews" class="header__link">Отзывы</a>
+            <a href="#history" class="header__link">Истории</a>
+          </div>
+          <a id="header-number" class="header__number" href="tel:+79999999999"
+            >+7 999 999 99 99</a
+          >
+        </div>
+        <h1 class="header__title">Идеальные путешествия существуют</h1>
+        <p class="header__subtitle">
+          Идейные соображения высшего порядка, а также рамки и место обучения
+          кадров
+        </p>
+        <button class="header__search">Найти тур</button>
+      </div>
+    </header>
     <main>
       <div class="wrapper">
-        <div id="tours" class="main__title title_choice">Выбери свой тур</div>
-        <div class="main__nav">
-          <button class="main__link">Популярные</button>
-          <button class="main__link">Авторские</button>
-          <button class="main__link">Походы</button>
-          <button class="main__link">Сплавы</button>
-          <button class="main__link">Велопрогулки</button>
-        </div>
+        <p id="tours" class="main__title title_choice">Выбери свой тур</p>
+        <nav class="main__nav">
+          <button onclick="setActive(this)" class="main__link active">
+            Популярные
+          </button>
+          <button onclick="setActive(this)" class="main__link">
+            Авторские
+          </button>
+          <button onclick="setActive(this)" class="main__link">Походы</button>
+          <button onclick="setActive(this)" class="main__link">Сплавы</button>
+          <button onclick="setActive(this)" class="main__link">
+            Велопрогулки
+          </button>
+        </nav>
 
         <div class="services">
           <div class="service">
@@ -68,7 +70,7 @@
             <img
               class="service__img"
               src="./images/card tour photo-1.jpg"
-              alt="Альтушка"
+              alt="travel card"
             />
             <p class="service__name">Путешествие в горы</p>
             <p class="service__price">от 80 000 руб</p>
@@ -85,7 +87,7 @@
             <img
               class="service__img"
               src="./images/card tour photo-2.jpg"
-              alt="Альтушка"
+              alt="travel card"
             />
             <p class="service__name">Путешествие в горы</p>
             <p class="service__price">от 80 000 руб</p>
@@ -102,7 +104,7 @@
             <img
               class="service__img"
               src="./images/card tour photo-3.jpg"
-              alt="Альтушка"
+              alt="travel card"
             />
             <p class="service__name">Путешествие в горы</p>
             <p class="service__price">от 80 000 руб</p>
@@ -119,7 +121,7 @@
             <img
               class="service__img"
               src="./images/card tour photo-4.jpg"
-              alt="Альтушка"
+              alt="travel card"
             />
             <p class="service__name">Путешествие в горы</p>
             <p class="service__price">от 80 000 руб</p>
@@ -136,7 +138,7 @@
             <img
               class="service__img"
               src="./images/card tour photo-5.jpg"
-              alt="Альтушка"
+              alt="travel card"
             />
             <p class="service__name">Путешествие в горы</p>
             <p class="service__price">от 80 000 руб</p>
@@ -153,7 +155,7 @@
             <img
               class="service__img"
               src="./images/card tour photo-6.jpg"
-              alt="Альтушка"
+              alt="travel card"
             />
             <p class="service__name">Путешествие в горы</p>
             <p class="service__price">от 80 000 руб</p>
@@ -185,7 +187,7 @@
                   placeholder="Введите ваше имя"
                   name="name"
                   required
-                  pattern="[A-Za-zА-Яа-яЁё]{3,}"
+                  pattern="[A-Za-zА-Яа-яЁё\s]{3,}"
                 />
               </div>
 
@@ -231,13 +233,14 @@
               <div class="input-box input-data">
                 <span class="details">Дата от</span>
                 <input
-                type="text"
-                placeholder="ДД.ММ.ГГГГ"
-                name="dateBefore"
-                required
-                class="input input-date"
-                id="dateBefore"
-                maxlength="10"
+                  type="text"
+                  placeholder="ДД.ММ.ГГГГ"
+                  name="dateBefore"
+                  required
+                  class="input input-date"
+                  id="dateBefore"
+                  maxlength="10"
+                  max="31-12-2024"
                 />
               </div>
 
@@ -289,7 +292,12 @@
               </div>
 
               <div class="checkbox-text">
-                <input type="checkbox" id="logCheck" required class="checkbox"></input>
+                <input
+                  type="checkbox"
+                  id="logCheck"
+                  required
+                  class="checkbox"
+                />
                 <label for="logCheck" class="check"
                   >Нажимая кнопку, я принимаю условия<a
                     href="#"
@@ -311,8 +319,7 @@
         </div>
 
         <div id="reviews" class="main__title">
-          Отзывы наших <br />
-          путешественников
+          Отзывы наших путешественников
         </div>
         <p class="main__subtitle subtitle__reviews">
           Идейные соображения высшего порядка, а также рамки и место обучения
@@ -483,15 +490,17 @@
                 alt=""
               />
               <p class="story-title">Автостопом в Стамбул</p>
-              <p class="story-subtitle">
-                Идейные соображения высшего порядка, а также рамки и <br />
-                место обучения кадров обеспечивает широкому кругу <br />
-                (специалистов) участие в формировании новых предложений:
-                <br /><br />
-                вкусная еда <br />
-                дешевый транспорт <br />
-                красивый город. <br />
-              </p>
+              <div class="story-subtitle">
+                Идейные соображения высшего порядка, а также рамки и место
+                обучения кадров обеспечивает широкому кругу (специалистов)
+                участие в формировании новых предложений:
+                <ul class="list">
+                  <li class="list-list">вкусная еда</li>
+                  <li class="list-list">дешевый транспорт</li>
+                  <li class="list-list">красивый город.</li>
+                </ul>
+              </div>
+
               <div class="btn-more">
                 <a class="btn-more-details btn-storys"
                   >Подробнее
@@ -514,9 +523,9 @@
               />
               <p class="story-title">Автостопом в Стамбул</p>
               <p class="story-subtitle">
-                Идейные соображения высшего порядка, а также рамки и <br />
-                место обучения кадров обеспечивает широкому кругу <br />
-                (специалистов) участие в формировании новых предложений.
+                Идейные соображения высшего порядка, а также рамки и место
+                обучения кадров обеспечивает широкому кругу (специалистов)
+                участие в формировании новых предложений.
               </p>
               <div class="btn-more">
                 <a class="btn-more-details btn-storys"
@@ -539,9 +548,9 @@
               />
               <p class="story-title">Автостопом в Стамбул</p>
               <p class="story-subtitle">
-                Идейные соображения высшего порядка, а также рамки и <br />
-                место обучения кадров обеспечивает широкому кругу <br />
-                (специалистов) участие в формировании новых предложений.
+                Идейные соображения высшего порядка, а также рамки и место
+                обучения кадров обеспечивает широкому кругу (специалистов)
+                участие в формировании новых предложений.
               </p>
               <div class="btn-more">
                 <a class="btn-more-details btn-storys"
@@ -563,13 +572,9 @@
             <img class="feedback-img" src="./images/footer photo.jpg" alt="" />
           </div>
           <div class="feedback-text">
-            <p class="feedback-title">
-              Пора в путешествие <br />
-              вместе с нами!
-            </p>
+            <p class="feedback-title">Пора в путешествие вместе с нами!</p>
             <p class="feedback-subtitle">
-              Напиши на почту и узнай подробности <br />
-              на
+              Напиши на почту и узнай подробности на
               <a class="feedback-email" href="mailto:yourtour@gmail.com "
                 >yourtour@gmail.com</a
               >
