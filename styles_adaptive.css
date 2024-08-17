@@ -1,12 +1,13 @@
 @media (max-width: 1199px) {
   .header {
-    background-image: url(./images/headerImgFull.png);
-    object-fit: cover;
     object-position: top;
+    object-fit: cover;
+    background-image: url(./images/headerImgFull.png);
   }
 
   .header__img {
     position: absolute;
+    z-index: 1;
     width: 100%;
     height: 830px;
     background: linear-gradient(
@@ -15,7 +16,6 @@
       rgba(0, 0, 0, 0.06) 48.44%,
       rgba(0, 0, 0, 0.5) 100%
     );
-    z-index: 1;
   }
 
   .header__nav {
@@ -43,9 +43,9 @@
   }
 
   .services {
-    grid-template-columns: repeat(2, 450px);
     width: 918px;
     gap: 18px;
+    grid-template-columns: repeat(2, 450px);
   }
 
   .service__name {
@@ -144,6 +144,7 @@
 
   .header__img {
     position: absolute;
+    z-index: 1;
     width: 100%;
     height: 488px;
     background: linear-gradient(
@@ -152,7 +153,6 @@
       rgba(0, 0, 0, 0.06) 48.44%,
       rgba(0, 0, 0, 0.5) 80%
     );
-    z-index: 1;
   }
 
   .nav-link {
@@ -175,39 +175,39 @@
   }
 
   .header__title {
+    padding-bottom: 40px;
+    padding-top: 88px;
+    margin-top: -35px;
     font-size: 34px;
     line-height: 112%;
     letter-spacing: 0.02em;
-    padding-bottom: 40px;
-    padding-top: 0;
-    margin-top: -35px;
   }
 
   .header__subtitle {
-    font-size: 16px;
     width: 310px;
     top: 295px;
     padding-bottom: 40px;
+    font-size: 16px;
     line-height: 142%;
   }
 
   .header__search {
+    top: 403px;
+    left: 50%;
+    transform: translateX(-50%);
     width: 114px;
     height: 34px;
     font-size: 14px;
     color: black;
     cursor: pointer;
-    top: 403px;
-    left: 50%;
-    transform: translateX(-50%);
   }
 
   .main__title {
+    margin-bottom: 30px;
+    padding-top: 75px;
     font-size: 34px;
     line-height: 112%;
     letter-spacing: 0.02em;
-    margin-bottom: 30px;
-    padding-top: 75px;
   }
 
   .main__title-history {
@@ -215,24 +215,24 @@
   }
 
   .main__link {
+    margin-left: 6px;
     font-size: 15px;
     line-height: 102%;
-    margin-left: 6px;
   }
   .main__nav {
-    font-size: 16px;
+    padding-top: 0;
+    height: 56px;
     row-gap: 1px;
     column-gap: 15px;
-    height: 56px;
     justify-content: center;
     text-align: center;
-    padding-top: 0;
+    font-size: 16px;
   }
 
   .services {
     padding-top: 50px;
-    grid-template-columns: repeat(1, 318px);
     width: 318px;
+    grid-template-columns: repeat(1, 318px);
   }
 
   .service,
@@ -245,17 +245,17 @@
   }
 
   .service__price {
-    font-size: 16px;
     top: 66px;
     left: 25px;
+    font-size: 16px;
   }
 
   .service__name {
+    top: 25px;
+    left: 25px;
     width: 270px;
     font-size: 23px;
     line-height: 120%;
-    top: 25px;
-    left: 25px;
   }
 
   .btn-more-details {
@@ -265,10 +265,10 @@
   }
 
   .main__subtitle {
-    font-size: 16px;
     padding-bottom: 40px;
     width: 98%;
     text-align: center;
+    font-size: 16px;
   }
 
   .subtitle__reviews {
@@ -290,10 +290,10 @@
   .input-box,
   .input,
   .details-direction {
-    margin-bottom: 41px;
-    border-radius: 10px;
     width: 278px;
     height: 43px;
+    margin-bottom: 41px;
+    border-radius: 10px;
     font-size: 16px;
   }
 
@@ -304,8 +304,8 @@
   .input-comments {
     width: 238px;
     height: 92px;
-    font-size: 16px;
     margin-bottom: 0;
+    font-size: 16px;
   }
 
   .comments-block {
@@ -327,10 +327,10 @@
   }
 
   .checkbox-text {
-    padding-bottom: 28px;
-    font-size: 16px;
     width: 278px;
     height: auto;
+    padding-bottom: 28px;
+    font-size: 16px;
     line-height: 142%;
   }
 
@@ -341,11 +341,11 @@
 
   .btn-form-find,
   .btn-form-reset {
-    font-size: 14px;
     width: 135px;
     height: 47px;
     padding: 12px 30px;
     align-items: center;
+    font-size: 14px;
   }
 
   .change-age {
@@ -375,9 +375,9 @@
   }
 
   .wrapper-review {
-    border-radius: 20px;
-    padding: 20px;
     margin: 0px 20px 0px 20px;
+    padding: 20px;
+    border-radius: 20px;
   }
 
   .review-text {
@@ -401,18 +401,18 @@
   }
 
   .review-name {
-    font-size: 23px;
     bottom: 52px;
+    font-size: 23px;
   }
 
   .review-typ {
-    font-size: 16px;
     bottom: 20px;
+    font-size: 16px;
   }
 
   .gallery-photos {
-    gap: 18px;
     padding-bottom: 18px;
+    gap: 18px;
   }
 
   .none {
@@ -420,9 +420,9 @@
   }
 
   .gallery-photo {
-    border-radius: 20px;
     width: 154px;
     height: 110px;
+    border-radius: 20px;
   }
 
   .gallery-small {
@@ -430,9 +430,9 @@
   }
 
   .gallery-photo-small {
-    border-radius: 20px;
     width: 99px;
     height: 110px;
+    border-radius: 20px;
   }
 
   .story-photo {
@@ -444,24 +444,24 @@
   .story,
   .gradient-story {
     margin-bottom: 20px;
-    border-radius: 20px;
     width: 318px;
     height: 455px;
+    border-radius: 20px;
   }
 
   .story-title {
-    font-size: 23px;
     top: 30px;
     left: 30px;
     width: 236px;
+    font-size: 23px;
     line-height: 120%;
   }
 
   .story-subtitle {
-    font-size: 16px;
     left: 30px;
     top: 106px;
     width: 263px;
+    font-size: 16px;
   }
 
   .history-nav-link {
@@ -473,10 +473,10 @@
   }
 
   .feedback-img {
-    border-radius: 20px;
     width: 130px;
     height: 133px;
     align-items: center;
+    border-radius: 20px;
   }
 
   .feedback-text {
@@ -485,34 +485,36 @@
   }
 
   .feedback-title {
+    text-align: center;
     font-size: 23px;
     line-height: 120%;
-    text-align: center;
   }
 
   .feedback-subtitle {
-    font-size: 16px;
+    width: 291px;
+    margin: auto;
     text-align: center;
+    font-size: 16px;
   }
 
   .footer-title {
+    width: 98%;
+    padding-top: 21px;
     font-size: 16px;
     text-align: center;
-    padding-top: 21px;
-    width: 98%;
   }
 
   .footer-social-media {
-    display: block;
     width: 98%;
+    display: block;
     align-items: center;
   }
 
   .footer-social {
-    justify-content: center;
-    gap: 5px;
     padding-top: 7px;
     padding-bottom: 21px;
+    gap: 5px;
+    justify-content: center;
   }
 
   .name-social {
@@ -561,9 +563,9 @@
   .service,
   .service__img,
   .gradient {
-    justify-content: center;
     width: 290px;
     height: 290px;
+    justify-content: center;
   }
 
   .main__title {
@@ -576,9 +578,9 @@
 
   .btn-form-find,
   .btn-form-reset {
-    font-size: 13px;
     width: 125px;
     height: 47px;
+    font-size: 13px;
   }
 
   .story,
