@@ -1,0 +1,5 @@
+.stories__more {
+  display: flex;
+  gap: 15px;
+  background-color: transparent;
+}

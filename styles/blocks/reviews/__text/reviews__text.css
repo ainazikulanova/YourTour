@@ -1,0 +1,19 @@
+.reviews__text {
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 122%;
+  letter-spacing: 0;
+}
+
+@media (max-width: 930px) {
+  .reviews__text {
+    font-size: 16px;
+    line-height: 142%;
+  }
+}
+
+@media (max-width: 350px) {
+  .reviews__text {
+    font-size: 14px;
+  }
+}

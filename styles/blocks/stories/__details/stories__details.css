@@ -1,0 +1,35 @@
+.stories__details {
+  position: absolute;
+  z-index: 3;
+  display: flex;
+  left: 40px;
+  bottom: 55px;
+  border: none;
+  padding: 7px 20px;
+  background: transparent;
+  transition: 0.3s;
+  align-items: center;
+  gap: 17px;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 105%;
+  color: #fff;
+  cursor: pointer;
+}
+
+.stories__details::before {
+  position: absolute;
+  z-index: -1;
+  padding: 7px 25px;
+  background-color: rgba(0, 0, 0, 0);
+  transition: background-color 0.2s ease;
+}
+
+@media (max-width: 930px) {
+  .stories__details {
+    left: 15px;
+    bottom: 29px;
+    padding: 5px 15px;
+    font-size: 16px;
+  }
+}

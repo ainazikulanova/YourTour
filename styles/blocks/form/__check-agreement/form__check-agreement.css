@@ -1,0 +1,21 @@
+.form__check-agreement {
+  color: black;
+  font-size: 17px;
+  text-decoration: none;
+  transition: 0.7s;
+  letter-spacing: -0.01em;
+
+  &:hover {
+    border-bottom: 1px solid black;
+  }
+
+  &:active {
+    color: #286562;
+  }
+}
+
+@media (max-width: 930px) {
+  .form__check-agreement {
+    letter-spacing: -0.03em;
+  }
+}

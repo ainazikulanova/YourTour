@@ -1,0 +1,22 @@
+.stories__photo {
+  height: 567px;
+  width: auto;
+  margin: auto;
+  border-radius: 50px;
+  transition: transform 0.3s;
+  background-size: cover;
+}
+@media (max-width: 1199px) {
+  .stories__photo {
+    width: 918px;
+    height: 567px;
+  }
+}
+
+@media (max-width: 930px) {
+  .stories__photo {
+    margin-bottom: 20px;
+    border-radius: 20px;
+    background-size: cover;
+  }
+}

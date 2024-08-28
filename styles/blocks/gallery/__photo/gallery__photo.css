@@ -1,0 +1,19 @@
+.gallery__photo {
+  height: 300px;
+  width: 100%;
+  border-radius: 50px;
+  object-fit: cover;
+}
+
+@media (max-width: 930px) {
+  .gallery__photo {
+    width: 154px;
+    height: 110px;
+    border-radius: 20px;
+  }
+}
+@media (max-width: 350px) {
+  .gallery__photo {
+    width: 134px;
+  }
+}

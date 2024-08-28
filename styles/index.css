@@ -1,0 +1,110 @@
+@import url(./vendor/reset.css);
+
+@import url(./blocks/body/body.css);
+
+@import url(./blocks/main/main.css);
+
+@import url(./blocks/header/__gradient/header__gradient.css);
+@import url(./blocks/header/__link/header__link.css);
+@import url(./blocks/header/__logo-img/header__logo-img.css);
+@import url(./blocks/header/__nav-link/header__nav-link.css);
+@import url(./blocks/header/__nav/header__nav.css);
+@import url(./blocks/header/__number/header__number.css);
+@import url(./blocks/header/__search/header__search.css);
+@import url(./blocks/header/__subtitle/header__subtitle.css);
+@import url(./blocks/header/__title/header__title.css);
+@import url(./blocks/header/header.css);
+@import url(./blocks/header/__nav/_position_fixed/header__nav_position_fixed.css);
+@import url(./blocks/header/__link/_position_fixed/header__link_posotion_fixed.css);
+@import url(./blocks/header/__number/_position_fixed/header__number_position_fixed.css);
+
+@import url(./blocks/title/title.css);
+@import url(./blocks/subtitle/subtitle.css);
+
+@import url(./blocks/tours/__nav/tours__nav.css);
+@import url(./blocks/tours/__link/tours__link.css);
+@import url(./blocks/tours/__link/_state-active/tours__link_state-active.css);
+@import url(./blocks/tours/tours.css);
+
+@import url(./blocks/services/services.css);
+@import url(./blocks/services/__details/services__details.css);
+@import url(./blocks/services/__gradient/services__gradient.css);
+@import url(./blocks/services/__icon/services__icon.css);
+@import url(./blocks/services/__img/services__img.css);
+@import url(./blocks/services/__item/services__item.css);
+@import url(./blocks/services/__more/services__more.css);
+@import url(./blocks/services/__name/services__name.css);
+@import url(./blocks/services/__price/services__price.css);
+
+@import url(./blocks/form/form.css);
+@import url(./blocks/form/__actions/form__actions.css);
+@import url(./blocks/form/__age-option/form__age-option.css);
+@import url(./blocks/form/__age-options/form__age-options.css);
+@import url(./blocks/form/__age-question/form__age-question.css);
+@import url(./blocks/form/__btn-reset/form__btn-reset.css);
+@import url(./blocks/form/__btn-submit/form__btn-submit.css);
+@import url(./blocks/form/__check-agreement/form__check-agreement.css);
+@import url(./blocks/form/__check/form__check.css);
+@import url(./blocks/form/__checkbox-text/form__checkbox-text.css);
+@import url(./blocks/form/__checkbox/form__checkbox.css);
+@import url(./blocks/form/__content/form__content.css);
+@import url(./blocks/form/__field/form__field.css);
+@import url(./blocks/form/__fieldset/form__fieldset.css);
+@import url(./blocks/form/__input/form__input.css);
+@import url(./blocks/form/__label-age/form__label-age.css);
+@import url(./blocks/form/__label/form__label.css);
+@import url(./blocks/form/__radio-style/form__radio-style.css);
+@import url(./blocks/form/__radio/form__radio.css);
+@import url(./blocks/form/__select-input/form__select-input.css);
+@import url(./blocks/form/__select/form__select.css);
+@import url(./blocks/form/__textarea/form__textarea.css);
+@import url(./blocks/form/__wrapper/form__wrapper.css);
+@import url(./blocks/form/__stroke/form__stroke.css);
+
+@import url(./blocks/reviews/reviews.css);
+@import url(./blocks/reviews/__item/_first/reviews__item_first.css);
+@import url(./blocks/reviews/__item/_second/reviews__item_second.css);
+@import url(./blocks/reviews/__item/reviews__item.css);
+@import url(./blocks/reviews/__name/reviews__name.css);
+@import url(./blocks/reviews/__photo/reviews__photo.css);
+@import url(./blocks/reviews/__text/reviews__text.css);
+@import url(./blocks/reviews/__text/_padding_bottom/reviews__text_padding_bottom.css);
+@import url(./blocks/reviews/__type/reviews__type.css);
+
+@import url(./blocks/gallery/__item/_first/gallery__item_first.css);
+@import url(./blocks/gallery/__item/_second/gallery__item_second.css);
+@import url(./blocks/gallery/__photo/_small/gallery__photo_small.css);
+@import url(./blocks/gallery/__photo/gallery__photo.css);
+@import url(./blocks/gallery/__photos/gallery__photos.css);
+@import url(./blocks/gallery/__photos/_small/gallery__photos_small.css);
+@import url(./blocks/gallery/gallery.css);
+
+@import url(./blocks/stories/__details/stories__details.css);
+@import url(./blocks/stories/__gradient/stories__gradient.css);
+@import url(./blocks/stories/__icon/);
+@import url(./blocks/stories/__item-list/stories__item-list.css);
+@import url(./blocks/stories/__item-subitem/stories__item-subitem.css);
+@import url(./blocks/stories/__item/stories__item.css);
+@import url(./blocks/stories/__items/stories__items.css);
+@import url(./blocks/stories/__list/stories__list.css);
+@import url(./blocks/stories/__more/stories__more.css);
+@import url(./blocks/stories/__nav-link/stories__nav-link.css);
+@import url(./blocks/stories/__nav/stories__nav.css);
+@import url(./blocks/stories/__photo/stories__photo.css);
+@import url(./blocks/stories/__subtitle/stories__subtitle.css);
+@import url(./blocks/stories/__title/stories__title.css);
+@import url(./blocks/stories/stories.css);
+
+@import url(./blocks/feedback/__email/feedback__email.css);
+@import url(./blocks/feedback/__img/feedback__img.css);
+@import url(./blocks/feedback/__subtitle/feedback__subtitle.css);
+@import url(./blocks/feedback/__text/feedback__text.css);
+@import url(./blocks/feedback/__title/feedback__title.css);
+@import url(./blocks/feedback/feedback.css);
+
+@import url(./blocks/footer/__btn-social/footer__btn-social.css);
+@import url(./blocks/footer/__name-social/footer__name-social.css);
+@import url(./blocks/footer/__social-media/footer__social-media.css);
+@import url(./blocks/footer/__social/footer__social.css);
+@import url(./blocks/footer/__title/footer__title.css);
+@import url(./blocks/footer/footer.css);

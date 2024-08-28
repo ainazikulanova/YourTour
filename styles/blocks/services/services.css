@@ -1,0 +1,32 @@
+.services {
+  display: grid;
+  justify-content: center;
+  width: 1170px;
+  padding-top: 102px;
+  gap: 30px;
+  margin: auto;
+  grid-template-columns: repeat(3, 370px);
+}
+
+@media (max-width: 1199px) {
+  .services {
+    width: 918px;
+    gap: 18px;
+    grid-template-columns: repeat(2, 450px);
+  }
+}
+
+@media (max-width: 930px) {
+  .services {
+    padding-top: 47px;
+    width: 318px;
+    grid-template-columns: repeat(1, 318px);
+  }
+}
+
+@media (max-width: 350px) {
+  .services {
+    width: 290px;
+    padding-left: 18px;
+  }
+}

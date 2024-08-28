@@ -1,0 +1,20 @@
+.services__img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50px;
+  object-fit: cover;
+  transition: transform 0.3s;
+}
+
+@media (max-width: 930px) {
+  .services__img {
+    border-radius: 20px;
+    background-size: cover;
+  }
+}
+
+@media (max-width: 350px) {
+  .services__img {
+    justify-content: center;
+  }
+}

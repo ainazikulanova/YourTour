@@ -1,0 +1,21 @@
+.tours__nav {
+  padding-top: 7px;
+  display: flex;
+  justify-content: center;
+  gap: 29px;
+  font-size: 23px;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 930px) {
+  .tours__nav {
+    margin: 0px 53px 0px 46px;
+    padding-top: 13px;
+    height: 56px;
+    row-gap: 12px;
+    column-gap: 0;
+    justify-content: center;
+    text-align: center;
+    font-size: 16px;
+  }
+}

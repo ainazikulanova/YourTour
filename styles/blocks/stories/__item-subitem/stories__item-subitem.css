@@ -1,0 +1,16 @@
+.stories__item-subitem {
+  position: relative;
+  padding-left: 15px;
+}
+
+.stories__item-subitem::before {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 4px;
+  height: 4px;
+  content: "";
+  background-color: white;
+  border-radius: 50%;
+}

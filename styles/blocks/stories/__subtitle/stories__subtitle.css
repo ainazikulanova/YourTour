@@ -1,0 +1,20 @@
+.stories__subtitle {
+  position: absolute;
+  z-index: 3;
+  width: 570px;
+  left: 60px;
+  top: 140px;
+  color: #fff;
+  font-size: 20px;
+  line-height: 142%;
+  cursor: pointer;
+}
+
+@media (max-width: 930px) {
+  .stories__subtitle {
+    left: 30px;
+    top: 106px;
+    width: 263px;
+    font-size: 16px;
+  }
+}

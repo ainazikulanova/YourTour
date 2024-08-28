@@ -1,0 +1,28 @@
+.form__wrapper {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 1199px) {
+  .form__wrapper {
+    width: 918px;
+    row-gap: 33px;
+    column-gap: 20px;
+  }
+}
+
+@media (max-width: 930px) {
+  .form__wrapper {
+    width: 318px;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 350px) {
+  .form__wrapper {
+    width: 290px;
+  }
+}

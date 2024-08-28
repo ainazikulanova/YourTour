@@ -1,0 +1,22 @@
+.stories__title {
+  position: absolute;
+  z-index: 3;
+  top: 60px;
+  left: 60px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 122%;
+  cursor: pointer;
+}
+
+@media (max-width: 930px) {
+  .stories__title {
+    top: 30px;
+    left: 30px;
+    width: 145px;
+    font-size: 23px;
+    line-height: 120%;
+    letter-spacing: 0.04em;
+  }
+}

@@ -1,0 +1,29 @@
+.stories__gradient {
+  position: absolute;
+  z-index: 1;
+  height: 567px;
+  width: 1100px;
+  border-radius: 50px;
+  background: linear-gradient(
+    270deg,
+    rgba(0, 0, 0, 0) 0.01%,
+    rgba(0, 0, 0, 0.2) 100%
+  );
+  cursor: pointer;
+}
+
+@media (max-width: 930px) {
+  .stories__gradient {
+    margin-bottom: 20px;
+    width: 318px;
+    height: 455px;
+    border-radius: 20px;
+  }
+}
+
+@media (max-width: 350px) {
+  .stories__gradient {
+    width: 290px;
+    height: 430px;
+  }
+}

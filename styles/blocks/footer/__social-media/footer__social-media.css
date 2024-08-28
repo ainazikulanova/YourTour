@@ -1,0 +1,22 @@
+.footer__social-media {
+  display: flex;
+  justify-content: center;
+  gap: 527px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 1199px) {
+  .footer__social-media {
+    gap: 277px;
+  }
+}
+
+@media (max-width: 930px) {
+  .footer__social-media {
+    width: 98%;
+    margin: auto;
+    display: block;
+    align-items: center;
+  }
+}

@@ -1,0 +1,44 @@
+.stories__item {
+  position: relative;
+  height: 567px;
+  width: auto;
+  margin-bottom: 50px;
+  overflow: hidden;
+  border-radius: 50px;
+}
+
+.stories__item:hover img {
+  transform: scale(1.2);
+  border-radius: 50px;
+}
+
+.stories__item:hover .stories__details {
+  padding: 7px 25px;
+  transform: scale(1);
+  background-color: #286562;
+  border-radius: 50px;
+}
+
+.stories__item:active .stories__details {
+  background-color: #efa501;
+}
+
+.stories__item:hover .services__icon {
+  transform: none;
+}
+
+@media (max-width: 930px) {
+  .stories__item {
+    margin-bottom: 20px;
+    width: 318px;
+    height: 455px;
+    border-radius: 20px;
+  }
+}
+
+@media (max-width: 350px) {
+  .stories__item {
+    width: 290px;
+    height: 430px;
+  }
+}

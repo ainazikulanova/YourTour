@@ -1,0 +1,23 @@
+.form__radio:checked + .form__radio-style::before {
+  transform: scale(1);
+}
+
+.form__radio {
+  width: 1px;
+  height: 1px;
+  margin: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0);
+  border-radius: 50%;
+  cursor: pointer;
+  transform: 0.3s;
+}
+
+@media (max-width: 930px) {
+  .form__radio:checked + .form__radio-style::before {
+    width: 12px;
+    height: 12px;
+    margin-left: 3px;
+    margin-top: 3px;
+  }
+}

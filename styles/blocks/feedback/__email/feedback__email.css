@@ -1,0 +1,14 @@
+.feedback__email {
+  color: black;
+  text-decoration: none;
+  transition-duration: 0.3s;
+}
+
+.feedback__email:hover {
+  border-bottom: 1px solid;
+  cursor: pointer;
+}
+
+.feedback__email:active {
+  color: #286562;
+}

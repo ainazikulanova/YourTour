@@ -1,0 +1,16 @@
+.form__select::after {
+  position: absolute;
+  z-index: 1;
+  width: 13px;
+  height: 13px;
+  margin-top: 33px;
+  margin-left: -42px;
+  content: url("../../../../images/select_icon.svg");
+}
+
+@media (max-width: 930px) {
+  .form__select::after {
+    margin-top: 25px;
+    margin-left: -32px;
+  }
+}

@@ -1,0 +1,19 @@
+.header__nav-link {
+  padding-left: 9px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 1199px) {
+  .header__nav-link {
+    gap: 30px;
+  }
+}
+
+@media (max-width: 930px) {
+  .header__nav-link {
+    display: none;
+  }
+}

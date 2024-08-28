@@ -1,0 +1,23 @@
+::placeholder {
+  color: #a6a6a6;
+}
+
+::-webkit-calendar-picker-indicator {
+  padding: 20px;
+  cursor: pointer;
+}
+
+.option .holder {
+  padding-left: 20px;
+}
+
+input[type="date"] {
+  text-indent: 10px;
+  color: #a6a6a6;
+}
+
+@media (max-width: 930px) {
+  .form {
+    width: 360px;
+  }
+}

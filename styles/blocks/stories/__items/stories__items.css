@@ -1,0 +1,15 @@
+.stories__items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 85px;
+  list-style: none;
+}
+
+@media (max-width: 930px) {
+  .stories__items {
+    padding-bottom: 55px;
+    padding-top: 6px;
+    width: 360px;
+  }
+}

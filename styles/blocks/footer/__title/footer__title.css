@@ -1,0 +1,17 @@
+.footer__title {
+  color: #a6a6a6;
+  font-size: 20px;
+  line-height: 142%;
+  white-space: nowrap;
+  letter-spacing: 0;
+}
+
+@media (max-width: 930px) {
+  .footer__title {
+    width: 98%;
+    margin: auto;
+    padding-top: 21px;
+    font-size: 16px;
+    text-align: center;
+  }
+}

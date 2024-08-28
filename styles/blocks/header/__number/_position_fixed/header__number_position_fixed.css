@@ -1,0 +1,21 @@
+.header__number_position_fixed {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 5px;
+  transition: border-color 0.3s;
+  color: black;
+}
+
+.header__number_position_fixed::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  content: "";
+  border-bottom: 1px solid rgba(0, 0, 0, 0);
+  transition-duration: 0.3s;
+}
+
+.header__number_position_fixed:hover::after {
+  border-bottom-color: black;
+}

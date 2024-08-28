@@ -1,0 +1,13 @@
+.footer__btn-social {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: black;
+  transition: 0.3s;
+}
+@media (max-width: 930px) {
+  .footer__btn-social {
+    gap: 0;
+  }
+}

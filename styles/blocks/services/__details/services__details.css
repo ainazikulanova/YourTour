@@ -1,0 +1,36 @@
+.services__details {
+  position: absolute;
+  z-index: 3;
+  display: flex;
+  left: 30px;
+  bottom: 43px;
+  border: none;
+  padding: 7px 20px;
+  background: transparent;
+  transition: 0.3s;
+  align-items: center;
+  gap: 15px;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 122%;
+  color: #fff;
+  letter-spacing: 0;
+  cursor: pointer;
+}
+
+.services__details::before {
+  position: absolute;
+  z-index: -1;
+  padding: 7px 25px;
+  background-color: rgba(0, 0, 0, 0);
+  transition: background-color 0.2s ease;
+}
+
+@media (max-width: 930px) {
+  .services__details {
+    left: 10px;
+    bottom: 23px;
+    padding: 5px 15px;
+    font-size: 16px;
+  }
+}

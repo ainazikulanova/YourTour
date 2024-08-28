@@ -1,0 +1,18 @@
+.reviews__item_second {
+  width: 490px;
+  height: 633px;
+}
+
+@media (max-width: 1199px) {
+  .reviews__item_second {
+    width: 370px;
+    height: 801px;
+  }
+}
+
+@media (max-width: 930px) {
+  .reviews__item_second {
+    width: 318px;
+    height: 552px;
+  }
+}

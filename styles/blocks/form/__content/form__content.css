@@ -1,0 +1,33 @@
+.form__content {
+  width: 1040px;
+  height: auto;
+  margin: auto;
+  padding-top: 69px;
+  padding-bottom: 69px;
+  padding-left: 65px;
+  padding-right: 65px;
+  display: block;
+  background-color: #fff;
+  border-radius: 50px;
+}
+
+@media (max-width: 1199px) {
+  .form__content {
+    width: 918px;
+    padding: 60px 0px 60px 0px;
+  }
+}
+
+@media (max-width: 930px) {
+  .form__content {
+    width: 318px;
+    padding: 24px 0px 40px 0px;
+    border-radius: 30px;
+  }
+}
+
+@media (max-width: 350px) {
+  .form__content {
+    width: 290px;
+  }
+}

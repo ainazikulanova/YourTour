@@ -1,0 +1,10 @@
+.feedback__text {
+  padding-top: 104px;
+}
+
+@media (max-width: 930px) {
+  .feedback__text {
+    padding-top: 0px;
+    justify-content: center;
+  }
+}

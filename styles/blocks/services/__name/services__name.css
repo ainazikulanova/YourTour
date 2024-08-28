@@ -1,0 +1,29 @@
+.services__name {
+  position: absolute;
+  z-index: 2;
+  width: 245px;
+  top: 50px;
+  left: 50px;
+  font-weight: 500;
+  font-size: 35px;
+  color: #fff;
+  line-height: 122%;
+  cursor: pointer;
+}
+
+@media (max-width: 1199px) {
+  .services__name {
+    width: 350px;
+  }
+}
+
+@media (max-width: 930px) {
+  .services__name {
+    top: 25px;
+    left: 25px;
+    width: 270px;
+    font-size: 23px;
+    line-height: 120%;
+    letter-spacing: 0.04em;
+  }
+}
