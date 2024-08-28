@@ -7,6 +7,7 @@
   font-size: 20px;
   line-height: 28.4px;
 }
+
 @media (max-width: 930px) {
   .subtitle {
     padding-bottom: 40px;
