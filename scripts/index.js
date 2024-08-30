@@ -123,9 +123,6 @@ function validateDate(inputElement) {
       inputElement.value = "";
       alert("Введите корректную дату.");
     }
-  } else {
-    inputElement.value = "";
-    alert("Введите дату в формате ДД.ММ.ГГГГ.");
   }
 }
 
