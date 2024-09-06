@@ -19,5 +19,6 @@ input[type="date"] {
 @media (max-width: 930px) {
   .form {
     width: 360px;
+    margin: auto;
   }
 }

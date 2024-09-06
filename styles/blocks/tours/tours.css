@@ -1,5 +1,6 @@
 @media (max-width: 930px) {
   .tours {
     width: 360px;
+    margin: auto;
   }
 }

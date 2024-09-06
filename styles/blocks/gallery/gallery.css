@@ -2,5 +2,6 @@
   .gallery {
     width: 360px;
     padding-top: 10px;
+    margin: auto;
   }
 }
