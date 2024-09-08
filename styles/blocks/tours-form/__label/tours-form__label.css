@@ -1,0 +1,10 @@
+.tours-form__label {
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+
+@media (max-width: 930px) {
+  .tours-form__label {
+    font-size: 16px;
+  }
+}

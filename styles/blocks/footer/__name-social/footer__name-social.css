@@ -12,13 +12,13 @@
   bottom: 0;
   left: 0;
   width: 100%;
-  border-bottom: 1px solid rgba(0, 0, 0, 0);
+  border-bottom: 1px solid #00000000;
   transition-duration: 0.3s;
   content: "";
 }
 
 .footer__name-social:hover::after {
-  border-bottom-color: black;
+  border-bottom-color: #000000;
 }
 
 @media (max-width: 930px) {

@@ -1,0 +1,36 @@
+.tours-form__radio-style {
+  position: relative;
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  border: 2px solid #000000;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.tours-form__radio-style::before {
+  position: absolute;
+  width: 13px;
+  height: 13px;
+  left: 4.5px;
+  top: 4.5px;
+  background-color: #000000;
+  border-radius: 50%;
+  content: "";
+  transform: scale(0);
+  transition: transform 0.3s ease;
+}
+
+@media (max-width: 930px) {
+  .tours-form__radio-style {
+    width: 18px;
+    height: 18px;
+  }
+
+  .tours-form__radio-style::before {
+    width: 10px;
+    height: 10px;
+    left: 0;
+    top: 0;
+  }
+}

@@ -26,7 +26,7 @@
 }
 
 .tours__link:hover {
-  box-shadow: 0 2px 0 black;
+  box-shadow: 0 2px 0 #000000;
 }
 
 .tours__link.tours__link_state-active {

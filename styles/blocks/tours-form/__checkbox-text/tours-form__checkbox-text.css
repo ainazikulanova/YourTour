@@ -1,0 +1,40 @@
+.tours-form__checkbox-text {
+  display: flex;
+  padding-bottom: 35px;
+  align-items: center;
+  gap: 21px;
+  letter-spacing: 0.007em;
+}
+
+.tours-form__checkbox-text .tours-form__input {
+  width: 24px;
+  height: 24px;
+  padding-left: 8px;
+  padding-top: 3px;
+  border: 2px solid black;
+  accent-color: #fff;
+}
+
+@media (max-width: 1199px) {
+  .tours-form__checkbox-text {
+    padding-bottom: 34px;
+    gap: 11px;
+  }
+}
+
+@media (max-width: 930px) {
+  .tours-form__checkbox-text {
+    width: 278px;
+    height: auto;
+    padding-bottom: 31px;
+    gap: 8px;
+    font-size: 16px;
+    line-height: 142%;
+    align-items: normal;
+  }
+
+  .tours-form__checkbox-text input {
+    width: 39px;
+    height: 21px;
+  }
+}

@@ -54,7 +54,7 @@
           Идейные соображения высшего порядка, а также рамки и место обучения
           кадров
         </p>
-        <button class="header__search">Найти тур</button>
+        <button class="header__search-btn">Найти тур</button>
       </div>
     </header>
     <main class="main">
@@ -209,21 +209,21 @@
         </ul>
       </section>
 
-      <section class="form">
+      <section class="tours-form">
         <p id="create-tour" class="title">Собери свой тур</p>
         <p class="subtitle">
           Идейные соображения высшего порядка, а также рамки и место обучения
           кадров
         </p>
 
-        <form class="form__content">
-          <fieldset class="form__wrapper">
-            <div class="form__field">
-              <label for="name" class="form__label">Имя</label>
+        <form class="tours-form__content">
+          <fieldset class="tours-form__wrapper">
+            <div class="tours-form__field">
+              <label for="name" class="tours-form__label">Имя</label>
               <input
                 id="name"
                 type="text"
-                class="form__input"
+                class="tours-form__input"
                 placeholder="Введите ваше имя"
                 name="name"
                 required
@@ -232,11 +232,13 @@
               />
             </div>
 
-            <div class="form__field">
-              <label for="my-select" class="form__label">Направление</label>
-              <div class="form__select">
+            <div class="tours-form__field">
+              <label for="my-select" class="tours-form__label"
+                >Направление</label
+              >
+              <div class="tours-form__select">
                 <select
-                  class="form__select-input"
+                  class="tours-form__select-input"
                   id="my-select"
                   onchange="changeColor()"
                   required
@@ -249,12 +251,12 @@
               </div>
             </div>
 
-            <div class="form__field">
-              <label for="email" class="form__label">Email</label>
+            <div class="tours-form__field">
+              <label for="email" class="tours-form__label">Email</label>
               <input
                 id="email"
                 type="email"
-                class="form__input"
+                class="tours-form__input"
                 placeholder="example@mail.com"
                 name="email"
                 required
@@ -262,98 +264,106 @@
               />
             </div>
 
-            <div class="form__field">
-              <label for="phone" class="form__label">Телефон</label>
+            <div class="tours-form__field">
+              <label for="phone" class="tours-form__label">Телефон</label>
               <input
                 type="tel"
                 name="phone"
                 id="phone"
                 required
                 placeholder="+7 ( _ _ _ ) _ _ _-_ _-_ _"
-                class="form__input"
+                class="tours-form__input"
                 autocomplete="on"
               />
             </div>
 
-            <div class="form__field">
-              <label for="date-before" class="form__label">Дата от</label>
+            <div class="tours-form__field">
+              <label for="date-before" class="tours-form__label">Дата от</label>
               <input
                 type="text"
                 placeholder="ДД.ММ.ГГГГ"
                 name="dateBefore"
                 required
-                class="form__input"
+                class="tours-form__input"
                 id="date-before"
                 maxlength="10"
               />
             </div>
 
-            <div class="form__field">
-              <label for="date-after" class="form__label">Дата до </label>
+            <div class="tours-form__field">
+              <label for="date-after" class="tours-form__label">Дата до </label>
               <input
                 type="text"
                 placeholder="ДД.ММ.ГГГГ"
                 name="date"
                 required
-                class="form__input"
+                class="tours-form__input"
                 id="date-after"
                 maxlength="10"
               />
             </div>
           </fieldset>
 
-          <fieldset class="form__fieldset">
-            <div class="form__field">
-              <label for="comments" class="form__label">Комментарий</label>
-              <textarea id="comments" class="form__textarea"></textarea>
+          <fieldset class="tours-form__fieldset">
+            <div class="tours-form__field">
+              <label for="comments" class="tours-form__label"
+                >Комментарий</label
+              >
+              <textarea id="comments" class="tours-form__textarea"></textarea>
             </div>
 
-            <p class="form__age-question">Вам есть 18 лет?</p>
-            <div class="form__age-options">
-              <label class="form__age-option">
+            <p class="tours-form__age-question">Вам есть 18 лет?</p>
+            <div class="tours-form__age-options">
+              <label class="tours-form__age-option">
                 <input
-                  class="form__radio"
+                  class="tours-form__radio"
                   type="radio"
                   id="check-yes"
                   name="age"
                   required
                 />
-                <span class="form__radio-style"></span>
-                <label class="form__label-age" for="check-yes">Да</label>
+                <span class="tours-form__radio-style"></span>
+                <label class="tours-form__label-age" for="check-yes">Да</label>
               </label>
 
-              <label class="form__age-option">
+              <label class="tours-form__age-option">
                 <input
-                  class="form__radio"
+                  class="tours-form__radio"
                   type="radio"
                   id="check-not"
                   name="age"
                   required
-                /><span class="form__radio-style"></span>
-                <label class="form__label-age" for="check-not">Нет</label>
+                /><span class="tours-form__radio-style"></span>
+                <label class="tours-form__label-age" for="check-not">Нет</label>
               </label>
             </div>
 
-            <div class="form__checkbox-text">
+            <div class="tours-form__checkbox-text">
               <input
                 type="checkbox"
                 id="log-check"
                 required
-                class="form__checkbox"
+                class="tours-form__checkbox"
               />
-              <label for="log-check" class="form__check"
+              <label for="log-check" class="tours-form__check"
                 >Нажимая кнопку, я принимаю условия<a
                   href="#"
-                  class="form__check-agreement"
+                  class="tours-form__check-agreement"
                 >
                   Лицензионного договора</a
                 ></label
               >
             </div>
 
-            <div class="form__actions">
-              <button type="submit" class="form__btn-submit">Найти тур</button>
-              <button type="reset" id="reset-button" class="form__btn-reset">
+            <div class="tours-form__actions">
+              <button type="submit" class="tours-form__btn-submit">
+                Найти тур
+              </button>
+              <button
+                type="reset"
+                id="reset-button"
+                class="tours-form__btn-reset"
+              >
                 Сбросить
               </button>
             </div>

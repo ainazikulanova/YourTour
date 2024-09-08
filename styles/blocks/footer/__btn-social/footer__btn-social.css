@@ -3,7 +3,7 @@
   align-items: center;
   gap: 10px;
   text-decoration: none;
-  color: black;
+  color: #000000;
   transition: 0.3s;
 }
 @media (max-width: 930px) {

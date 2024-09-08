@@ -2,7 +2,7 @@
   position: relative;
   display: inline-block;
   padding-bottom: 5px;
-  color: #fff;
+  color: #ffffff;
   font-size: 20px;
   text-decoration: none;
   transition: border-color 0.3s;
@@ -19,7 +19,7 @@
 }
 
 .stories__nav-link:hover::after {
-  border-bottom-color: #fff;
+  border-bottom-color: #ffffff;
 }
 
 .stories__nav-link:active::after {

@@ -1,0 +1,11 @@
+.tours-form__check {
+  color: #a6a6a6;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+}
+
+@media (max-width: 930px) {
+  .tours-form__check {
+    letter-spacing: 0;
+  }
+}

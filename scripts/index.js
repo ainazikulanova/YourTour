@@ -27,20 +27,20 @@ window.addEventListener("scroll", function () {
   }
 });
 
-const checkboxStroke = document.querySelector(".form__checkbox");
+const checkboxStroke = document.querySelector(".tours-form__checkbox");
 
 checkboxStroke.addEventListener("click", function () {
-  checkboxStroke.classList.toggle("form__stroke");
+  checkboxStroke.classList.toggle("tours-form__stroke");
 });
 
 document.getElementById("reset-button").addEventListener("click", function () {
-  checkboxStroke.classList.remove("form__stroke");
+  checkboxStroke.classList.remove("tours-form__stroke");
   document.getElementById("check-yes").checked = false;
   document.getElementById("check-not").checked = false;
 });
 
-const selectIcon = document.querySelector(".form__select-input");
-selectIcon.classList.add("form__select");
+const selectIcon = document.querySelector(".tours-form__select-input");
+selectIcon.classList.add("tours-form__select");
 
 function changeColor() {
   var select = document.getElementById("my-select");

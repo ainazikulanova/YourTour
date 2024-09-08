@@ -1,0 +1,54 @@
+.tours-form__field {
+  width: 500px;
+  height: 104px;
+  display: block;
+  margin-bottom: 3px;
+  cursor: pointer;
+}
+
+.tours-form__field input {
+  margin-top: 10px;
+  text-indent: 20px;
+}
+
+.tours-form__field select {
+  border: none;
+  outline: none;
+}
+
+.tours-form__field option {
+  color: black;
+}
+
+.tours-form__field ::placeholder {
+  color: #a6a6a6;
+}
+
+@media (max-width: 1199px) {
+  .tours-form__field {
+    width: 389px;
+    height: 68px;
+    margin-bottom: 36px;
+  }
+}
+
+@media (max-width: 930px) {
+  .tours-form__field {
+    width: 278px;
+    height: 43px;
+    margin-bottom: 41px;
+    border-radius: 10px;
+    font-size: 16px;
+  }
+
+  .tours-form__field input {
+    text-indent: 10px;
+  }
+}
+
+@media (max-width: 350px) {
+  .tours-form__field {
+    width: 238px;
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,16 @@
+.tours-form__actions {
+  display: flex;
+  gap: 30px;
+}
+
+@media (max-width: 930px) {
+  .tours-form__actions {
+    gap: 10px;
+  }
+}
+
+@media (max-width: 350px) {
+  .tours-form__actions {
+    gap: 5px;
+  }
+}

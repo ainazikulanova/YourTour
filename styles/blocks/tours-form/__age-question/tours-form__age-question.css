@@ -1,0 +1,19 @@
+.tours-form__age-question {
+  padding-top: 117px;
+  padding-bottom: 12px;
+  transform: 0.3s;
+  font-size: 20px;
+}
+
+@media (max-width: 1199px) {
+  .tours-form__age-question {
+    padding-bottom: 14px;
+  }
+}
+
+@media (max-width: 930px) {
+  .tours-form__age-question {
+    padding-top: 110px;
+    font-size: 16px;
+  }
+}

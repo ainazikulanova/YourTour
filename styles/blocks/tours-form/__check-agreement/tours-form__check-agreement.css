@@ -1,0 +1,21 @@
+.tours-form__check-agreement {
+  color: #000000;
+  font-size: 17px;
+  text-decoration: none;
+  transition: 0.7s;
+  letter-spacing: -0.01em;
+
+  &:hover {
+    border-bottom: 1px solid #000000;
+  }
+
+  &:active {
+    color: #286562;
+  }
+}
+
+@media (max-width: 930px) {
+  .tours-form__check-agreement {
+    letter-spacing: -0.03em;
+  }
+}

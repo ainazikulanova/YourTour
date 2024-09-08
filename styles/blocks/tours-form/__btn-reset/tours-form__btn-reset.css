@@ -1,0 +1,40 @@
+.tours-form__btn-reset {
+  width: 235px;
+  height: 58px;
+  border: none;
+  padding: 15px 30px;
+  background-color: #e0f0e5;
+  color: #286562;
+  font-size: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+  line-height: 29px;
+
+  &:hover {
+    background-color: #f1f3f2;
+  }
+
+  &:active {
+    background-color: #d9dfdb;
+  }
+}
+
+@media (max-width: 930px) {
+  .tours-form__btn-reset {
+    width: 135px;
+    height: 47px;
+    padding: 12px 30px;
+    align-items: center;
+    font-size: 16px;
+    line-height: 23px;
+  }
+}
+
+@media (max-width: 350px) {
+  .tours-form__btn-reset {
+    width: 125px;
+    height: 47px;
+    font-size: 13px;
+  }
+}

@@ -1,0 +1,13 @@
+.tours-form__checkbox {
+  position: relative;
+  width: 26px;
+  height: 25px;
+  margin: 0;
+  padding: 0px;
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 2px solid #000000;
+}
