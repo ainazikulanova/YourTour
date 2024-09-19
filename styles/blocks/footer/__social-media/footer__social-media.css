@@ -1,21 +1,21 @@
 .footer__social-media {
   display: flex;
-  justify-content: center;
-  gap: 527px;
+  justify-content: space-between;
   align-items: center;
+  padding: 0px 376px 0px 376px;
   flex-wrap: wrap;
 }
 
 @media (max-width: 1199px) {
   .footer__social-media {
-    gap: 277px;
+    padding: 0px 56px 0px 56px;
   }
 }
 
 @media (max-width: 930px) {
   .footer__social-media {
-    width: 98%;
     margin: auto;
+    padding: 0px 21.5px 0px 21.5px;
     display: block;
     align-items: center;
   }

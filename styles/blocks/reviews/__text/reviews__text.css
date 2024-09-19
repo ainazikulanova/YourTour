@@ -5,10 +5,18 @@
   letter-spacing: 0;
 }
 
+.reviews__text:first-of-type {
+  margin-bottom: 28px;
+}
+
 @media (max-width: 930px) {
   .reviews__text {
     font-size: 16px;
     line-height: 142%;
+  }
+
+  .reviews__text:first-of-type {
+    margin-bottom: 24px;
   }
 }
 

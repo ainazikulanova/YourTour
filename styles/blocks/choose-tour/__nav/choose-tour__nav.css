@@ -1,4 +1,4 @@
-.tours__nav {
+.choose-tour__nav {
   padding-top: 7px;
   display: flex;
   justify-content: center;
@@ -8,7 +8,7 @@
 }
 
 @media (max-width: 930px) {
-  .tours__nav {
+  .choose-tour__nav {
     margin: 0px 53px 0px 46px;
     padding-top: 13px;
     height: 56px;

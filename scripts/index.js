@@ -1,6 +1,6 @@
 const headerEl = document.getElementById("header");
 const headerImg = document.getElementById("scroll-image");
-const headerLink = document.getElementsByClassName("header__link");
+const headerLink = document.getElementsByClassName("header__item");
 const headerNav = document.querySelector(".header__nav");
 const headerNum = document.getElementById("header-number");
 const headerH = headerNav.offsetHeight;
@@ -10,9 +10,9 @@ window.addEventListener("scroll", function () {
 
   for (var i = 0; i < headerLink.length; i++) {
     if (scrollPos >= 450) {
-      headerLink[i].classList.add("header__link_posotion_fixed");
+      headerLink[i].classList.add("header__item_position_fixed");
     } else {
-      headerLink[i].classList.remove("header__link_posotion_fixed");
+      headerLink[i].classList.remove("header__item_position_fixed");
     }
   }
 
@@ -48,14 +48,14 @@ function changeColor() {
 }
 
 document.addEventListener("DOMContentLoaded", function () {
-  const detailsBtn = document.querySelectorAll(".tours__link");
+  const detailsBtn = document.querySelectorAll(".choose-tour__link");
 
   detailsBtn.forEach((item) => {
     item.addEventListener("click", function () {
       detailsBtn.forEach((nav) =>
-        nav.classList.remove("tours__link_state-active")
+        nav.classList.remove("choose-tour__link_state-active")
       );
-      this.classList.add("tours__link_state-active");
+      this.classList.add("choose-tour__link_state-active");
     });
   });
 });

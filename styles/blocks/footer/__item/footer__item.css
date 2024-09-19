@@ -1,4 +1,4 @@
-.footer__btn-social {
+.footer__item {
   display: flex;
   align-items: center;
   gap: 10px;
@@ -7,7 +7,7 @@
   transition: 0.3s;
 }
 @media (max-width: 930px) {
-  .footer__btn-social {
+  .footer__item {
     gap: 0;
   }
 }

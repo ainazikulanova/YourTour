@@ -1,4 +1,4 @@
-.header__nav-link {
+.header__list {
   padding-left: 9px;
   display: flex;
   justify-content: center;
@@ -7,13 +7,13 @@
 }
 
 @media (max-width: 1199px) {
-  .header__nav-link {
+  .header__list {
     gap: 30px;
   }
 }
 
 @media (max-width: 930px) {
-  .header__nav-link {
+  .header__list {
     display: none;
   }
 }

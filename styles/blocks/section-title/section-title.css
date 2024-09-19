@@ -1,4 +1,4 @@
-.title {
+.section-title {
   width: 730px;
   margin: auto;
   text-align: center;
@@ -11,7 +11,7 @@
   letter-spacing: 0;
 }
 @media (max-width: 930px) {
-  .title {
+  .section-title {
     width: 318px;
     margin-bottom: 20px;
     padding-top: 75px;
@@ -22,7 +22,7 @@
 }
 
 @media (max-width: 350px) {
-  .title {
+  .section-title {
     font-size: 30px;
   }
 }

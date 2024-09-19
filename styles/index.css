@@ -5,9 +5,9 @@
 @import url(./blocks/main/main.css);
 
 @import url(./blocks/header/__gradient/header__gradient.css);
-@import url(./blocks/header/__link/header__link.css);
+@import url(./blocks/header/__item/header__item.css);
 @import url(./blocks/header/__logo-img/header__logo-img.css);
-@import url(./blocks/header/__nav-link/header__nav-link.css);
+@import url(./blocks/header/__list/header__list.css);
 @import url(./blocks/header/__nav/header__nav.css);
 @import url(./blocks/header/__number/header__number.css);
 @import url(./blocks/header/__search-btn/header__search-btn.css);
@@ -15,16 +15,16 @@
 @import url(./blocks/header/__title/header__title.css);
 @import url(./blocks/header/header.css);
 @import url(./blocks/header/__nav/_position_fixed/header__nav_position_fixed.css);
-@import url(./blocks/header/__link/_position_fixed/header__link_posotion_fixed.css);
+@import url(./blocks/header/__item/_position_fixed/header__item_position_fixed.css);
 @import url(./blocks/header/__number/_position_fixed/header__number_position_fixed.css);
 
-@import url(./blocks/title/title.css);
-@import url(./blocks/subtitle/subtitle.css);
+@import url(./blocks/section-title/section-title.css);
+@import url(./blocks/section-subtitle/section-subtitle.css);
 
-@import url(./blocks/tours/__nav/tours__nav.css);
-@import url(./blocks/tours/__link/tours__link.css);
-@import url(./blocks/tours/__link/_state-active/tours__link_state-active.css);
-@import url(./blocks/tours/tours.css);
+@import url(./blocks/choose-tour/__nav/choose-tour__nav.css);
+@import url(./blocks/choose-tour/__link/choose-tour__link.css);
+@import url(./blocks/choose-tour/__link/_state-active/choose-tour__link_state-active.css);
+@import url(./blocks/choose-tour/choose-tour.css);
 
 @import url(./blocks/services/services.css);
 @import url(./blocks/services/__details/services__details.css);
@@ -35,6 +35,8 @@
 @import url(./blocks/services/__more/services__more.css);
 @import url(./blocks/services/__name/services__name.css);
 @import url(./blocks/services/__price/services__price.css);
+
+@import url(./blocks/collect-tour/collect-tour.css);
 
 @import url(./blocks/tours-form/tours-form.css);
 @import url(./blocks/tours-form/__actions/tours-form__actions.css);
@@ -68,7 +70,6 @@
 @import url(./blocks/reviews/__name/reviews__name.css);
 @import url(./blocks/reviews/__photo/reviews__photo.css);
 @import url(./blocks/reviews/__text/reviews__text.css);
-@import url(./blocks/reviews/__text/_padding_bottom/reviews__text_padding_bottom.css);
 @import url(./blocks/reviews/__type/reviews__type.css);
 
 @import url(./blocks/gallery/__item/_first/gallery__item_first.css);
@@ -101,9 +102,9 @@
 @import url(./blocks/feedback/__title/feedback__title.css);
 @import url(./blocks/feedback/feedback.css);
 
-@import url(./blocks/footer/__btn-social/footer__btn-social.css);
+@import url(./blocks/footer/__item/footer__item.css);
 @import url(./blocks/footer/__name-social/footer__name-social.css);
 @import url(./blocks/footer/__social-media/footer__social-media.css);
-@import url(./blocks/footer/__social/footer__social.css);
+@import url(./blocks/footer/__list/footer__list.css);
 @import url(./blocks/footer/__title/footer__title.css);
 @import url(./blocks/footer/footer.css);

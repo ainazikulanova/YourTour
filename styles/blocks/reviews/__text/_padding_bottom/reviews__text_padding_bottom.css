@@ -1,9 +1,0 @@
-.reviews__text_padding_bottom {
-  padding-bottom: 28px;
-}
-
-@media (max-width: 930px) {
-  .reviews__text_padding_bottom {
-    padding-bottom: 24px;
-  }
-}

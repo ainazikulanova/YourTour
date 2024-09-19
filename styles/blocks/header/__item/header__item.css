@@ -1,25 +1,25 @@
-.header__link {
+.header__item {
   position: relative;
   display: inline-block;
   padding-bottom: 5px;
   transition: border-color 0.3s;
   font-size: 20px;
   font-weight: 400;
-  color: #fff;
+  color: #ffffff;
   cursor: pointer;
   text-decoration: none;
 }
 
-.header__link::after {
+.header__item::after {
   position: absolute;
   bottom: 0;
   left: 0;
   width: 100%;
   content: "";
   transition-duration: 0.3s;
-  border-bottom: 1px solid rgba(0, 0, 0, 0);
+  border-bottom: 1px solid #00000000;
 }
 
-.header__link:hover::after {
-  border-bottom-color: #fff;
+.header__item:hover::after {
+  border-bottom-color: #ffffff;
 }

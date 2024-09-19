@@ -1,4 +1,4 @@
-.subtitle {
+.section-subtitle {
   width: 402px;
   margin: auto;
   padding-bottom: 101px;
@@ -9,17 +9,11 @@
 }
 
 @media (max-width: 930px) {
-  .subtitle {
+  .section-subtitle {
     padding-bottom: 40px;
     width: 320px;
     text-align: center;
     font-size: 16px;
     line-height: 23.4px;
-  }
-}
-
-@media (max-width: 350px) {
-  .name-social {
-    font-size: 12px;
   }
 }

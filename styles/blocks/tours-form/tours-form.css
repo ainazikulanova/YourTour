@@ -1,6 +1,8 @@
-@media (max-width: 930px) {
-  .tours-form {
-    width: 360px;
-    margin: auto;
-  }
+.tours-form {
+  padding: 70px;
+  margin: auto;
+  width: 1170px;
+  height: auto;
+  box-sizing: border-box;
+  background-color: #ffffff;
 }

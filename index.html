@@ -5,12 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Идеальные путешествия существуют.  Идейные соображения высшего порядка, а также рамки и место обучения
-    кадров"
+      content="Планируйте путешествия вашей мечты с эксклюзивными турами, уникальными маршрутами и захватывающими приключениями! Незабываемый отдых в лучших уголках мира."
     />
     <meta
       name="keywords"
-      content="Идеальные путешествия, лучшие туры, незабываемые поездки, отдых, отпуск, досуг"
+      content="эксклюзивные туры, путешествия по миру, авторские маршруты, приключенческие туры, отдых на море, горные экспедиции"
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -35,13 +34,13 @@
           />
 
           <nav>
-            <ul class="header__nav-link">
-              <li><a href="#tours" class="header__link">Туры</a></li>
+            <ul class="header__list">
+              <li><a href="#tours" class="header__item">Туры</a></li>
               <li>
-                <a href="#create-tour" class="header__link">Создать тур</a>
+                <a href="#create-tour" class="header__item">Создать тур</a>
               </li>
-              <li><a href="#reviews" class="header__link">Отзывы</a></li>
-              <li><a href="#history" class="header__link">Истории</a></li>
+              <li><a href="#reviews" class="header__item">Отзывы</a></li>
+              <li><a href="#history" class="header__item">Истории</a></li>
             </ul>
           </nav>
 
@@ -58,52 +57,62 @@
       </div>
     </header>
     <main class="main">
-      <section class="tours">
-        <p id="tours" class="title">Выбери свой тур</p>
+      <section class="choose-tour">
+        <h2 id="tours" class="choose-tour__title section-title">
+          Выбери свой тур
+        </h2>
         <nav>
-          <ul class="tours__nav">
+          <ul class="choose-tour__nav">
             <li>
-              <a
-                class="tours__link tours__link_state-active"
+              <button
+                class="choose-tour__link choose-tour__link_state-active"
                 onclick="setActive(this)"
-                >Популярные</a
               >
+                Популярные
+              </button>
             </li>
             <li>
-              <a class="tours__link" onclick="setActive(this)">Авторские</a>
+              <button class="choose-tour__link" onclick="setActive(this)">
+                Авторские
+              </button>
             </li>
             <li>
-              <a class="tours__link" onclick="setActive(this)">Походы</a>
+              <button class="choose-tour__link" onclick="setActive(this)">
+                Походы
+              </button>
             </li>
             <li>
-              <a class="tours__link" onclick="setActive(this)">Сплавы</a>
+              <button class="choose-tour__link" onclick="setActive(this)">
+                Сплавы
+              </button>
             </li>
             <li>
-              <a class="tours__link" onclick="setActive(this)">Велопрогулки</a>
+              <button class="choose-tour__link" onclick="setActive(this)">
+                Велопрогулки
+              </button>
             </li>
           </ul>
         </nav>
-      </section>
 
-      <section>
         <ul class="services">
           <li class="services__item">
             <div class="services__gradient"></div>
             <img
               class="services__img"
               src="./images/card_tour_photo_1.png"
-              alt="travel card"
+              alt="Путешествие в горы с автодомом на фоне гор."
             />
-            <p class="services__name">Путешествие в горы</p>
+            <h3 class="services__name">Путешествие в горы</h3>
             <p class="services__price">от 80 000 руб</p>
             <div class="services__more">
-              <a class="services__details"
-                >Подробнее
+              <button class="services__details">
+                Подробнее
                 <img
                   class="services__icon"
                   src="./images/arrow_icon.svg"
                   alt="arrow"
-              /></a>
+                />
+              </button>
             </div>
           </li>
 
@@ -112,18 +121,19 @@
             <img
               class="services__img"
               src="./images/card_tour_photo_2.png"
-              alt="travel card"
+              alt="Путешествие на песчаных дюнах пустыни."
             />
-            <p class="services__name">Путешествие в горы</p>
+            <h3 class="services__name">Путешествие в горы</h3>
             <p class="services__price">от 80 000 руб</p>
             <div class="services__more">
-              <a class="services__details"
-                >Подробнее
+              <button class="services__details">
+                Подробнее
                 <img
                   class="services__icon"
                   src="./images/arrow_icon.svg"
                   alt="arrow"
-              /></a>
+                />
+              </button>
             </div>
           </li>
 
@@ -132,18 +142,19 @@
             <img
               class="services__img"
               src="./images/card_tour_photo_3.png"
-              alt="travel card"
+              alt="Путешествие на побережье скал с видом на океан."
             />
-            <p class="services__name">Путешествие в горы</p>
+            <h3 class="services__name">Путешествие в горы</h3>
             <p class="services__price">от 80 000 руб</p>
             <div class="services__more">
-              <a class="services__details"
-                >Подробнее
+              <button class="services__details">
+                Подробнее
                 <img
                   class="services__icon"
                   src="./images/arrow_icon.svg"
                   alt="arrow"
-              /></a>
+                />
+              </button>
             </div>
           </li>
 
@@ -152,18 +163,19 @@
             <img
               class="services__img"
               src="./images/card_tour_photo_4.png"
-              alt="travel card"
+              alt="Городское путешествие в узких улицах с исторической архитектурой."
             />
-            <p class="services__name">Путешествие в горы</p>
+            <h3 class="services__name">Путешествие в горы</h3>
             <p class="services__price">от 80 000 руб</p>
             <div class="services__more">
-              <a class="services__details"
-                >Подробнее
+              <button class="services__details">
+                Подробнее
                 <img
                   class="services__icon"
                   src="./images/arrow_icon.svg"
                   alt="arrow"
-              /></a>
+                />
+              </button>
             </div>
           </li>
 
@@ -172,18 +184,19 @@
             <img
               class="services__img"
               src="./images/card_tour_photo_5.png"
-              alt="travel card"
+              alt="Путешествие к побережью с домиками."
             />
-            <p class="services__name">Путешествие в горы</p>
+            <h3 class="services__name">Путешествие в горы</h3>
             <p class="services__price">от 80 000 руб</p>
             <div class="services__more">
-              <a class="services__details"
-                >Подробнее
+              <button class="services__details">
+                Подробнее
                 <img
                   class="services__icon"
                   src="./images/arrow_icon.svg"
                   alt="arrow"
-              /></a>
+                />
+              </button>
             </div>
           </li>
 
@@ -192,31 +205,34 @@
             <img
               class="services__img"
               src="./images/card_tour_photo_6.png"
-              alt="travel card"
+              alt="Путешествие к кристально чистым озером и окружающими горами."
             />
-            <p class="services__name">Путешествие в горы</p>
+            <h3 class="services__name">Путешествие в горы</h3>
             <p class="services__price">от 80 000 руб</p>
             <div class="services__more">
-              <a class="services__details"
-                >Подробнее
+              <button class="services__details">
+                Подробнее
                 <img
                   class="services__icon"
                   src="./images/arrow_icon.svg"
                   alt="arrow"
-              /></a>
+                />
+              </button>
             </div>
           </li>
         </ul>
       </section>
 
-      <section class="tours-form">
-        <p id="create-tour" class="title">Собери свой тур</p>
-        <p class="subtitle">
+      <section class="collect-tour">
+        <h2 id="create-tour" class="collect-tour__title section-title">
+          Собери свой тур
+        </h2>
+        <p class="collect-tour__subtitle section-subtitle">
           Идейные соображения высшего порядка, а также рамки и место обучения
           кадров
         </p>
 
-        <form class="tours-form__content">
+        <form class="tours-form">
           <fieldset class="tours-form__wrapper">
             <div class="tours-form__field">
               <label for="name" class="tours-form__label">Имя</label>
@@ -341,11 +357,11 @@
             <div class="tours-form__checkbox-text">
               <input
                 type="checkbox"
-                id="log-check"
+                id="check-log"
                 required
                 class="tours-form__checkbox"
               />
-              <label for="log-check" class="tours-form__check"
+              <label for="check-log" class="tours-form__check"
                 >Нажимая кнопку, я принимаю условия<a
                   href="#"
                   class="tours-form__check-agreement"
@@ -370,9 +386,12 @@
           </fieldset>
         </form>
       </section>
-      <section>
-        <p id="reviews" class="title">Отзывы наших путешественников</p>
-        <p class="subtitle">
+
+      <section class="traveller-reviews">
+        <h2 id="reviews" class="traveller-reviews__title section-title">
+          Отзывы наших путешественников
+        </h2>
+        <p class="traveller-reviews__subtitle section-subtitle">
           Идейные соображения высшего порядка, а также рамки и место обучения
           кадров
         </p>
@@ -395,7 +414,7 @@
           </li>
 
           <li class="reviews__item reviews__item_second">
-            <p class="reviews__text reviews__text_padding_bottom">
+            <p class="reviews__text">
               Равным образом постоянный количественный рост и сфера нашей
               активности играет важную роль в формировании системы обучения
               кадров, соответствует насущным потребностям.
@@ -420,9 +439,12 @@
           </li>
         </ul>
       </section>
-      <section>
-        <p class="title">Фотографии путешествий</p>
-        <p class="subtitle">
+
+      <section class="travel-photos">
+        <h2 class="travel-photos__title section-title">
+          Фотографии путешествий
+        </h2>
+        <p class="travel-photos__subtitle section-subtitle">
           Идейные соображения высшего порядка, а также рамки и место обучения
           кадров
         </p>
@@ -432,28 +454,28 @@
               <img
                 class="gallery__photo"
                 src="./images/travel_photo_1.png"
-                alt="travel photo"
+                alt="Самолет над побережьем."
               />
             </li>
-            <li class="gallery__item gallery__item_first">
+            <li class="gallery__item">
               <img
                 class="gallery__photo"
                 src="./images/travel_photo_2.png"
-                alt="travel photo"
+                alt="Вид из палатки в пустыне."
               />
             </li>
-            <li class="gallery__item gallery__item_second">
+            <li class="gallery__item">
               <img
                 class="gallery__photo"
                 src="./images/travel_photo_3.png"
-                alt="travel photo"
+                alt="Восход в горах."
               />
             </li>
             <li class="gallery__item">
               <img
                 class="gallery__photo"
                 src="./images/travel_photo_4.png"
-                alt="travel photo"
+                alt="Безлюдная дорога в горах."
               />
             </li>
           </ul>
@@ -463,35 +485,35 @@
               <img
                 class="gallery__photo gallery__photo_small"
                 src="./images/travel_photo_5.png"
-                alt="travel photo"
+                alt=" Двое людей стоят на утесе, наблюдая за морем и закатом."
               />
             </li>
             <li class="gallery__item gallery__item_second">
               <img
                 class="gallery__photo gallery__photo_small"
                 src="./images/travel_photo_6.png"
-                alt="travel photo"
+                alt="Чтение карты в машине."
               />
             </li>
             <li class="gallery__item gallery__item_first">
               <img
                 class="gallery__photo gallery__photo_small"
                 src="./images/travel_photo_7.png"
-                alt="travel photo"
+                alt="Деревянный мост, ведущий через густой лес."
               />
             </li>
             <li class="gallery__item">
               <img
                 class="gallery__photo gallery__photo_small"
                 src="./images/travel_photo_8.png"
-                alt="travel photo"
+                alt="Кемпер с палаткой на крыше у озера."
               />
             </li>
             <li class="gallery__item">
               <img
                 class="gallery__photo gallery__photo_small"
                 src="./images/travel_photo_13.png"
-                alt="travel photo"
+                alt="Узкая европейская улица с историческими домами."
               />
             </li>
           </ul>
@@ -501,36 +523,39 @@
               <img
                 class="gallery__photo"
                 src="./images/travel_photo_9.png"
-                alt="travel photo"
+                alt="Небольшой старинный городок."
               />
             </li>
             <li class="gallery__item">
               <img
                 class="gallery__photo"
                 src="./images/travel_photo_10.png"
-                alt="travel photo"
+                alt="Человек сидит на краю пирса у горного озера."
               />
             </li>
             <li class="gallery__item gallery__item_second">
               <img
                 class="gallery__photo"
                 src="./images/travel_photo_11.png"
-                alt="travel photo"
+                alt="Городская улица с пешеходами и кафе"
               />
             </li>
             <li class="gallery__item gallery__item_first">
               <img
                 class="gallery__photo"
                 src="./images/travel_photo_12.png"
-                alt="travel photo"
+                alt="Человек в каяке на тихом озере."
               />
             </li>
           </ul>
         </div>
       </section>
-      <section class="stories">
-        <p id="history" class="title">Истории путешествий</p>
-        <p class="subtitle">
+
+      <section class="histories">
+        <h2 id="history" class="histories__title section-title">
+          Истории путешествий
+        </h2>
+        <p class="histories__subtitle section-subtitle">
           Идейные соображения высшего порядка, а также рамки и место обучения
           кадров
         </p>
@@ -541,9 +566,9 @@
               <img
                 class="stories__photo"
                 src="./images/story_photo_1.png"
-                alt="story photo"
+                alt="Палатка, установленная на песчаном пляже с видом на закат."
               />
-              <p class="stories__title">Автостопом в Стамбул</p>
+              <h3 class="stories__title">Автостопом в Стамбул</h3>
               <div class="stories__subtitle">
                 <p>
                   Идейные соображения высшего порядка, а также рамки и место
@@ -558,13 +583,14 @@
               </div>
 
               <div class="stories__more">
-                <a class="stories__details"
-                  >Подробнее
+                <button class="stories__details">
+                  Подробнее
                   <img
                     class="stories__icon"
                     src="./images/arrow_icon.svg"
                     alt="arrow"
-                /></a>
+                  />
+                </button>
               </div>
 
               <div class="stories__nav">
@@ -579,23 +605,23 @@
               <img
                 class="stories__photo"
                 src="./images/story_photo_2.png"
-                alt="story photo"
+                alt="Вечерние посиделки с компанией у костра."
               />
-              <p class="stories__title">Автостопом в Стамбул</p>
+              <h3 class="stories__title">Автостопом в Стамбул</h3>
               <p class="stories__subtitle">
                 Идейные соображения высшего порядка, а также рамки и место
                 обучения кадров обеспечивает широкому кругу (специалистов)
                 участие в формировании новых предложений.
               </p>
               <div class="stories__more">
-                <a class="stories__details"
-                  >Подробнее
+                <button class="stories__details">
+                  Подробнее
                   <img
                     class="stories__icon"
                     src="./images/arrow_icon.svg"
                     alt="arrow"
                   />
-                </a>
+                </button>
               </div>
               <div class="stories__nav">
                 <a href="#" class="stories__nav-link">instagram</a>
@@ -608,23 +634,23 @@
               <img
                 class="stories__photo"
                 src="./images/story_photo_3.png"
-                alt="story photo"
+                alt="Прогулка по морю на закате."
               />
-              <p class="stories__title">Автостопом в Стамбул</p>
+              <h3 class="stories__title">Автостопом в Стамбул</h3>
               <p class="stories__subtitle">
                 Идейные соображения высшего порядка, а также рамки и место
                 обучения кадров обеспечивает широкому кругу (специалистов)
                 участие в формировании новых предложений.
               </p>
               <div class="stories__more">
-                <a class="stories__details"
-                  >Подробнее
+                <button class="stories__details">
+                  Подробнее
                   <img
                     class="stories__icon"
                     src="./images/arrow_icon.svg"
                     alt="arrow"
                   />
-                </a>
+                </button>
               </div>
               <div class="stories__nav">
                 <a href="#" class="stories__nav-link">instagram</a>
@@ -640,10 +666,10 @@
         <img
           class="feedback__img"
           src="./images/footer_photo.png"
-          alt="footer photo"
+          alt="Дом на берегу реки на фоне снежных гор."
         />
         <div class="feedback__text">
-          <p class="feedback__title">Пора в путешествие вместе с нами!</p>
+          <h2 class="feedback__title">Пора в путешествие вместе с нами!</h2>
           <p class="feedback__subtitle">
             Напиши на почту и узнай подробности на
             <a class="feedback__email" href="mailto:yourtour@gmail.com"
@@ -653,32 +679,33 @@
         </div>
       </section>
     </main>
+
     <footer>
-      <div class="footer">
+      <section class="footer">
         <div class="footer__social-media">
-          <p class="footer__title">Наши социальные сети</p>
-          <ul class="footer__social">
+          <h2 class="footer__title">Наши социальные сети</h2>
+          <ul class="footer__list">
             <li>
-              <a class="footer__btn-social" href="#">
-                <img src="./images/inst.png" alt="instagram" />
+              <a class="footer__item" href="#">
+                <img src="./images/inst.png" alt="instagram logo" />
                 <p class="footer__name-social">instagram</p></a
               >
             </li>
             <li>
-              <a class="footer__btn-social" href="#">
-                <img src="./images/fb.png" alt="facebook" />
+              <a class="footer__item" href="#">
+                <img src="./images/fb.png" alt="facebook logo" />
                 <p class="footer__name-social">facebook</p></a
               >
             </li>
             <li>
-              <a class="footer__btn-social" href="#">
-                <img src="./images/vk.png" alt="vkontakte" />
+              <a class="footer__item" href="#">
+                <img src="./images/vk.png" alt="vkontakte logo" />
                 <p class="footer__name-social">vkontakte</p></a
               >
             </li>
           </ul>
         </div>
-      </div>
+      </section>
     </footer>
     <script src="https://unpkg.com/imask"></script>
     <script src="scripts/index.js"></script>

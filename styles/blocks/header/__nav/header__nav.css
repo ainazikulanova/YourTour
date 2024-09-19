@@ -3,7 +3,7 @@
   justify-content: center;
   align-items: center;
   gap: 173px;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: #00000000;
 }
 
 @media (max-width: 1199px) {
