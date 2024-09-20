@@ -1,0 +1,21 @@
+.header__search-btn {
+  padding: 5px 20px;
+  font-size: 17px;
+  letter-spacing: -0.17px;
+  transition: color 0.2s;
+
+  &:hover {
+    color: #fff;
+  }
+
+  &:active {
+    color: black;
+  }
+}
+
+@media (max-width: 930px) {
+  .header__search-btn {
+    font-size: 16px;
+    cursor: pointer;
+  }
+}

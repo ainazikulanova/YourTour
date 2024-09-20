@@ -1,5 +1,6 @@
 .tours-form__age-options {
   display: flex;
+  justify-content: flex-start;
   gap: 33px;
   cursor: pointer;
   transform: 0.3s;

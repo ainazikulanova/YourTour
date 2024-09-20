@@ -11,7 +11,7 @@
   transform: none;
 }
 
-.services__item:hover .services__details {
+.services__item:hover .services__btn {
   transform: scale(1);
   border-radius: 50px;
   background-color: #286562;
@@ -22,7 +22,7 @@
   object-fit: cover;
 }
 
-.services__item:active .services__details {
+.services__item:active .services__btn {
   background-color: #efa501;
 }
 

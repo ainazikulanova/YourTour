@@ -1,20 +1,20 @@
-.tours-form__radio:checked + .tours-form__radio-style::before {
+.tours-form__radio:checked + .tours-form__pseudo-radio::before {
   transform: scale(1);
+  transition: transform 0.3s ease;
 }
 
 .tours-form__radio {
+  appearance: none;
   width: 1px;
   height: 1px;
   margin: 0;
-  overflow: hidden;
-  clip: rect(0, 0, 0);
   border-radius: 50%;
   cursor: pointer;
   transform: 0.3s;
 }
 
 @media (max-width: 930px) {
-  .tours-form__radio:checked + .tours-form__radio-style::before {
+  .tours-form__radio:checked + .tours-form__pseudo-radio::before {
     width: 12px;
     height: 12px;
     margin-left: 3px;

@@ -1,0 +1,11 @@
+.choose-tour__btn-label_state-active {
+  color: #efa501;
+  box-shadow: 0 2px 0 #efa501;
+  transition: box-shadow 0.3s ease;
+  pointer-events: none;
+}
+
+.choose-tour__btn-label_state-active:hover {
+  box-shadow: 0 2px 0 #efa501;
+  cursor: default;
+}

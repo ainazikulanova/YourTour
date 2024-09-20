@@ -48,12 +48,16 @@
             >+7 999 999 99 99</a
           >
         </div>
+      </div>
+      <div class="header__content">
         <h1 class="header__title">Идеальные путешествия существуют</h1>
         <p class="header__subtitle">
           Идейные соображения высшего порядка, а также рамки и место обучения
           кадров
         </p>
-        <button class="header__search-btn">Найти тур</button>
+        <button class="header__search-btn">
+          <span class="header__search-btn-label">Найти тур</span>
+        </button>
       </div>
     </header>
     <main class="main">
@@ -64,31 +68,31 @@
         <nav>
           <ul class="choose-tour__nav">
             <li>
-              <button
-                class="choose-tour__link choose-tour__link_state-active"
-                onclick="setActive(this)"
-              >
-                Популярные
+              <button class="choose-tour__btn" onclick="setActive(this)">
+                <span
+                  class="choose-tour__btn-label choose-tour__btn-label_state-active"
+                  >Популярные</span
+                >
               </button>
             </li>
             <li>
-              <button class="choose-tour__link" onclick="setActive(this)">
-                Авторские
+              <button class="choose-tour__btn" onclick="setActive(this)">
+                <span class="choose-tour__btn-label">Авторские</span>
               </button>
             </li>
             <li>
-              <button class="choose-tour__link" onclick="setActive(this)">
-                Походы
+              <button class="choose-tour__btn" onclick="setActive(this)">
+                <span class="choose-tour__btn-label">Походы</span>
               </button>
             </li>
             <li>
-              <button class="choose-tour__link" onclick="setActive(this)">
-                Сплавы
+              <button class="choose-tour__btn" onclick="setActive(this)">
+                <span class="choose-tour__btn-label">Сплавы</span>
               </button>
             </li>
             <li>
-              <button class="choose-tour__link" onclick="setActive(this)">
-                Велопрогулки
+              <button class="choose-tour__btn" onclick="setActive(this)">
+                <span class="choose-tour__btn-label">Велопрогулки</span>
               </button>
             </li>
           </ul>
@@ -105,8 +109,8 @@
             <h3 class="services__name">Путешествие в горы</h3>
             <p class="services__price">от 80 000 руб</p>
             <div class="services__more">
-              <button class="services__details">
-                Подробнее
+              <button class="services__btn">
+                <span class="services__btn-label">Подробнее</span>
                 <img
                   class="services__icon"
                   src="./images/arrow_icon.svg"
@@ -126,8 +130,8 @@
             <h3 class="services__name">Путешествие в горы</h3>
             <p class="services__price">от 80 000 руб</p>
             <div class="services__more">
-              <button class="services__details">
-                Подробнее
+              <button class="services__btn">
+                <span class="services__btn-label">Подробнее</span>
                 <img
                   class="services__icon"
                   src="./images/arrow_icon.svg"
@@ -147,8 +151,8 @@
             <h3 class="services__name">Путешествие в горы</h3>
             <p class="services__price">от 80 000 руб</p>
             <div class="services__more">
-              <button class="services__details">
-                Подробнее
+              <button class="services__btn">
+                <span class="services__btn-label">Подробнее</span>
                 <img
                   class="services__icon"
                   src="./images/arrow_icon.svg"
@@ -168,8 +172,8 @@
             <h3 class="services__name">Путешествие в горы</h3>
             <p class="services__price">от 80 000 руб</p>
             <div class="services__more">
-              <button class="services__details">
-                Подробнее
+              <button class="services__btn">
+                <span class="services__btn-label">Подробнее</span>
                 <img
                   class="services__icon"
                   src="./images/arrow_icon.svg"
@@ -189,8 +193,8 @@
             <h3 class="services__name">Путешествие в горы</h3>
             <p class="services__price">от 80 000 руб</p>
             <div class="services__more">
-              <button class="services__details">
-                Подробнее
+              <button class="services__btn">
+                <span class="services__btn-label">Подробнее</span>
                 <img
                   class="services__icon"
                   src="./images/arrow_icon.svg"
@@ -210,8 +214,8 @@
             <h3 class="services__name">Путешествие в горы</h3>
             <p class="services__price">от 80 000 руб</p>
             <div class="services__more">
-              <button class="services__details">
-                Подробнее
+              <button class="services__btn">
+                <span class="services__btn-label">Подробнее</span>
                 <img
                   class="services__icon"
                   src="./images/arrow_icon.svg"
@@ -232,7 +236,7 @@
           кадров
         </p>
 
-        <form class="tours-form">
+        <form class="tours-form" id="tour-form">
           <fieldset class="tours-form__wrapper">
             <div class="tours-form__field">
               <label for="name" class="tours-form__label">Имя</label>
@@ -338,7 +342,7 @@
                   name="age"
                   required
                 />
-                <span class="tours-form__radio-style"></span>
+                <span class="tours-form__pseudo-radio"></span>
                 <label class="tours-form__label-age" for="check-yes">Да</label>
               </label>
 
@@ -349,7 +353,7 @@
                   id="check-not"
                   name="age"
                   required
-                /><span class="tours-form__radio-style"></span>
+                /><span class="tours-form__pseudo-radio"></span>
                 <label class="tours-form__label-age" for="check-not">Нет</label>
               </label>
             </div>
@@ -359,7 +363,7 @@
                 type="checkbox"
                 id="check-log"
                 required
-                class="tours-form__checkbox"
+                class="tours-form__pseudo-checkbox"
               />
               <label for="check-log" class="tours-form__check"
                 >Нажимая кнопку, я принимаю условия<a
@@ -373,14 +377,14 @@
 
             <div class="tours-form__actions">
               <button type="submit" class="tours-form__btn-submit">
-                Найти тур
+                <span class="tours-form__btn-submit-label">Найти тур</span>
               </button>
               <button
                 type="reset"
                 id="reset-button"
                 class="tours-form__btn-reset"
               >
-                Сбросить
+                <span class="tours-form__btn-reset-label">Сбросить</span>
               </button>
             </div>
           </fieldset>
@@ -583,8 +587,8 @@
               </div>
 
               <div class="stories__more">
-                <button class="stories__details">
-                  Подробнее
+                <button class="stories__btn">
+                  <span class="stories__btn-label"> Подробнее</span>
                   <img
                     class="stories__icon"
                     src="./images/arrow_icon.svg"
@@ -614,8 +618,8 @@
                 участие в формировании новых предложений.
               </p>
               <div class="stories__more">
-                <button class="stories__details">
-                  Подробнее
+                <button class="stories__btn">
+                  <span class="stories__btn-label"> Подробнее</span>
                   <img
                     class="stories__icon"
                     src="./images/arrow_icon.svg"
@@ -643,8 +647,8 @@
                 участие в формировании новых предложений.
               </p>
               <div class="stories__more">
-                <button class="stories__details">
-                  Подробнее
+                <button class="stories__btn">
+                  <span class="stories__btn-label"> Подробнее</span>
                   <img
                     class="stories__icon"
                     src="./images/arrow_icon.svg"
@@ -687,19 +691,19 @@
           <ul class="footer__list">
             <li>
               <a class="footer__item" href="#">
-                <img src="./images/inst.png" alt="instagram logo" />
+                <img src="./images/inst.svg" alt="instagram logo" />
                 <p class="footer__name-social">instagram</p></a
               >
             </li>
             <li>
               <a class="footer__item" href="#">
-                <img src="./images/fb.png" alt="facebook logo" />
+                <img src="./images/fb.svg" alt="facebook logo" />
                 <p class="footer__name-social">facebook</p></a
               >
             </li>
             <li>
               <a class="footer__item" href="#">
-                <img src="./images/vk.png" alt="vkontakte logo" />
+                <img src="./images/vk.svg" alt="vkontakte logo" />
                 <p class="footer__name-social">vkontakte</p></a
               >
             </li>

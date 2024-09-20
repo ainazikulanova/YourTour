@@ -1,17 +1,13 @@
 .tours-form__age-option {
   display: flex;
   padding-bottom: 34px;
-  margin-left: -10px;
-  align-items: center;
-  gap: 10px;
+  justify-content: flex-start;
   accent-color: #000000;
-  transform: 0.3s;
 }
 
 @media (max-width: 930px) {
   .tours-form__age-option {
     padding-bottom: 30px;
-    gap: 9px;
     align-items: center;
   }
 }

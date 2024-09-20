@@ -5,12 +5,14 @@
 @import url(./blocks/main/main.css);
 
 @import url(./blocks/header/__gradient/header__gradient.css);
+@import url(./blocks/header/__content/header__content.css);
 @import url(./blocks/header/__item/header__item.css);
 @import url(./blocks/header/__logo-img/header__logo-img.css);
 @import url(./blocks/header/__list/header__list.css);
 @import url(./blocks/header/__nav/header__nav.css);
 @import url(./blocks/header/__number/header__number.css);
 @import url(./blocks/header/__search-btn/header__search-btn.css);
+@import url(./blocks/header/__search-btn-label/header__search-btn-label.css);
 @import url(./blocks/header/__subtitle/header__subtitle.css);
 @import url(./blocks/header/__title/header__title.css);
 @import url(./blocks/header/header.css);
@@ -22,17 +24,19 @@
 @import url(./blocks/section-subtitle/section-subtitle.css);
 
 @import url(./blocks/choose-tour/__nav/choose-tour__nav.css);
-@import url(./blocks/choose-tour/__link/choose-tour__link.css);
-@import url(./blocks/choose-tour/__link/_state-active/choose-tour__link_state-active.css);
+@import url(./blocks/choose-tour/__btn/choose-tour__btn.css);
+@import url(./blocks/choose-tour/__btn-label/choose-tour__btn-label.css);
+@import url(./blocks/choose-tour/__btn-label/_state-active/choose-tour__btn-label_state-active.css);
 @import url(./blocks/choose-tour/choose-tour.css);
 
 @import url(./blocks/services/services.css);
-@import url(./blocks/services/__details/services__details.css);
+@import url(./blocks/services/__btn/services__btn.css);
 @import url(./blocks/services/__gradient/services__gradient.css);
 @import url(./blocks/services/__icon/services__icon.css);
 @import url(./blocks/services/__img/services__img.css);
 @import url(./blocks/services/__item/services__item.css);
 @import url(./blocks/services/__more/services__more.css);
+@import url(./blocks/services/__btn-label/services__btn-label.css);
 @import url(./blocks/services/__name/services__name.css);
 @import url(./blocks/services/__price/services__price.css);
 
@@ -44,18 +48,20 @@
 @import url(./blocks/tours-form/__age-options/tours-form__age-options.css);
 @import url(./blocks/tours-form/__age-question/tours-form__age-question.css);
 @import url(./blocks/tours-form/__btn-reset/tours-form__btn-reset.css);
+@import url(./blocks/tours-form/__btn-reset-label/tours-form__btn-reset-label.css);
 @import url(./blocks/tours-form/__btn-submit/tours-form__btn-submit.css);
+@import url(./blocks/tours-form/__btn-submit-label/tours-form__btn-submit-label.css);
 @import url(./blocks/tours-form/__check-agreement/tours-form__check-agreement.css);
 @import url(./blocks/tours-form/__check/tours-form__check.css);
 @import url(./blocks/tours-form/__checkbox-text/tours-form__checkbox-text.css);
-@import url(./blocks/tours-form/__checkbox/tours-form__checkbox.css);
+@import url(./blocks/tours-form/__pseudo-checkbox/tours-form__pseudo-checkbox.css);
 @import url(./blocks/tours-form/__content/tours-form__content.css);
 @import url(./blocks/tours-form/__field/tours-form__field.css);
 @import url(./blocks/tours-form/__fieldset/tours-form__fieldset.css);
 @import url(./blocks/tours-form/__input/tours-form__input.css);
 @import url(./blocks/tours-form/__label-age/tours-form__label-age.css);
 @import url(./blocks/tours-form/__label/tours-form__label.css);
-@import url(./blocks/tours-form/__radio-style/tours-form__radio-style.css);
+@import url(./blocks/tours-form/__pseudo-radio/tours-form__pseudo-radio.css);
 @import url(./blocks/tours-form/__radio/tours-form__radio.css);
 @import url(./blocks/tours-form/__select-input/tours-form__select-input.css);
 @import url(./blocks/tours-form/__select/tours-form__select.css);
@@ -80,7 +86,8 @@
 @import url(./blocks/gallery/__photos/_small/gallery__photos_small.css);
 @import url(./blocks/gallery/gallery.css);
 
-@import url(./blocks/stories/__details/stories__details.css);
+@import url(./blocks/stories/__btn/stories__btn.css);
+@import url(./blocks/stories/__btn-label/stories__btn-label.css);
 @import url(./blocks/stories/__gradient/stories__gradient.css);
 @import url(./blocks/stories/__item-list/stories__item-list.css);
 @import url(./blocks/stories/__item-subitem/stories__item-subitem.css);

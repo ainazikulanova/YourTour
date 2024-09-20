@@ -1,0 +1,13 @@
+.services__btn-label {
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 122%;
+  color: #fff;
+  letter-spacing: 0;
+}
+
+@media (max-width: 930px) {
+  .services__btn-label {
+    font-size: 16px;
+  }
+}

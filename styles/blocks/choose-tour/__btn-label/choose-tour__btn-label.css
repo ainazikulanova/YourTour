@@ -1,0 +1,29 @@
+.choose-tour__btn-label {
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 28px;
+  letter-spacing: 0.007em;
+  color: #1b1f2b;
+  background-color: #f9f7f4;
+}
+
+.choose-tour__btn-label::after {
+  content: "";
+  border-bottom: 2px;
+  transform: border 0.3s;
+}
+
+@media (max-width: 930px) {
+  .choose-tour__btn-label {
+    margin-left: 6px;
+    font-size: 16px;
+    line-height: 102%;
+    letter-spacing: 0.016em;
+  }
+}
+
+@media (max-width: 320px) {
+  .choose-tour__btn-label {
+    margin-left: 0;
+  }
+}

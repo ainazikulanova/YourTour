@@ -1,14 +1,15 @@
-.tours-form__radio-style {
+.tours-form__pseudo-radio {
   position: relative;
   display: inline-block;
   width: 22px;
   height: 22px;
+  margin-right: 10px;
   border: 2px solid #000000;
   border-radius: 50%;
   cursor: pointer;
 }
 
-.tours-form__radio-style::before {
+.tours-form__pseudo-radio::before {
   position: absolute;
   width: 13px;
   height: 13px;
@@ -22,12 +23,12 @@
 }
 
 @media (max-width: 930px) {
-  .tours-form__radio-style {
+  .tours-form__pseudo-radio {
     width: 18px;
     height: 18px;
   }
 
-  .tours-form__radio-style::before {
+  .tours-form__pseudo-radio::before {
     width: 10px;
     height: 10px;
     left: 0;

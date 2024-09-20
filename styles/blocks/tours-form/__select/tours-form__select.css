@@ -1,4 +1,4 @@
-.form__select::after {
+.tours-form__select::after {
   position: absolute;
   z-index: 1;
   width: 13px;
@@ -8,8 +8,12 @@
   content: url("../../../../images/select_icon.svg");
 }
 
+.tours-form__select {
+  color: #a6a6a6;
+}
+
 @media (max-width: 930px) {
-  .form__select::after {
+  .tours-form__select::after {
     margin-top: 25px;
     margin-left: -32px;
   }

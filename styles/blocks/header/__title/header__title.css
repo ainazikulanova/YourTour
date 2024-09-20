@@ -1,10 +1,6 @@
 .header__title {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  margin: auto;
-  padding-bottom: 50px;
-  padding-top: 115px;
+  padding-top: 119px;
+  width: 768px;
   color: #fff;
   font-weight: 700;
   font-size: 96px;
@@ -14,8 +10,6 @@
 
 @media (max-width: 1199px) {
   .header__title {
-    left: 50%;
-    transform: translateX(-50%);
     padding-top: 117px;
   }
 }

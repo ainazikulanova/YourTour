@@ -4,12 +4,9 @@
   border: none;
   padding: 15px 30px;
   background-color: #286562;
-  color: #ffffff;
-  font-size: 20px;
   border-radius: 10px;
   cursor: pointer;
   transition: 0.3s;
-  line-height: 29px;
 
   &:hover {
     background-color: #3b7e7b;
@@ -26,8 +23,6 @@
     height: 47px;
     padding: 12px 30px;
     align-items: center;
-    font-size: 16px;
-    line-height: 23px;
   }
 }
 
@@ -35,6 +30,5 @@
   .tours-form__btn-submit {
     width: 125px;
     height: 47px;
-    font-size: 13px;
   }
 }

@@ -27,7 +27,7 @@ window.addEventListener("scroll", function () {
   }
 });
 
-const checkboxStroke = document.querySelector(".tours-form__checkbox");
+const checkboxStroke = document.querySelector(".tours-form__pseudo-checkbox");
 
 checkboxStroke.addEventListener("click", function () {
   checkboxStroke.classList.toggle("tours-form__stroke");
@@ -39,23 +39,24 @@ document.getElementById("reset-button").addEventListener("click", function () {
   document.getElementById("check-not").checked = false;
 });
 
-const selectIcon = document.querySelector(".tours-form__select-input");
-selectIcon.classList.add("tours-form__select");
-
 function changeColor() {
   var select = document.getElementById("my-select");
-  select.style.color = "black";
+  if (select.value) {
+    select.classList.add("selected");
+  } else {
+    select.classList.remove("selected");
+  }
 }
 
 document.addEventListener("DOMContentLoaded", function () {
-  const detailsBtn = document.querySelectorAll(".choose-tour__link");
+  const detailsBtn = document.querySelectorAll(".choose-tour__btn-label");
 
   detailsBtn.forEach((item) => {
     item.addEventListener("click", function () {
       detailsBtn.forEach((nav) =>
-        nav.classList.remove("choose-tour__link_state-active")
+        nav.classList.remove("choose-tour__btn-label_state-active")
       );
-      this.classList.add("choose-tour__link_state-active");
+      this.classList.add("choose-tour__btn-label_state-active");
     });
   });
 });
@@ -133,3 +134,9 @@ inputDate.addEventListener("blur", function () {
 inputDateAfter.addEventListener("blur", function () {
   validateDate(inputDateAfter);
 });
+
+document
+  .getElementById("tour-form")
+  .addEventListener("submit", function (event) {
+    event.preventDefault();
+  });

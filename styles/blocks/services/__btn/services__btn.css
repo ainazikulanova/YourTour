@@ -1,23 +1,19 @@
-.stories__details {
+.services__btn {
   position: absolute;
   z-index: 3;
   display: flex;
-  left: 40px;
-  bottom: 55px;
-  border: none;
+  align-items: center;
   padding: 7px 20px;
+  gap: 15px;
+  left: 30px;
+  bottom: 43px;
+  border: none;
   background: transparent;
   transition: 0.3s;
-  align-items: center;
-  gap: 17px;
-  font-weight: 700;
-  font-size: 23px;
-  line-height: 105%;
-  color: #ffffff;
   cursor: pointer;
 }
 
-.stories__details::before {
+.services__btn::before {
   position: absolute;
   z-index: -1;
   padding: 7px 25px;
@@ -26,10 +22,9 @@
 }
 
 @media (max-width: 930px) {
-  .stories__details {
-    left: 15px;
-    bottom: 29px;
+  .services__btn {
     padding: 5px 15px;
-    font-size: 16px;
+    left: 10px;
+    bottom: 23px;
   }
 }

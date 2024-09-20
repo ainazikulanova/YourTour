@@ -1,9 +1,6 @@
 .gallery__photos {
   display: flex;
-  margin-top: -5px;
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-bottom: 30px;
+  padding: 0px 30px 30px 30px;
   justify-content: center;
   gap: 30px;
   list-style: none;
@@ -15,17 +12,14 @@
 
 @media (max-width: 1199px) {
   .gallery__photos {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 0px 20px 30px 20px;
     gap: 20px;
   }
 }
 
 @media (max-width: 930px) {
   .gallery__photos {
-    padding-left: 29px;
-    padding-right: 29px;
-    padding-bottom: 20px;
+    padding: 0px 29px 20px 29px;
     gap: 14px;
   }
 }
