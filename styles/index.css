@@ -29,6 +29,9 @@
 @import url(./blocks/choose-tour/__btn-label/_state-active/choose-tour__btn-label_state-active.css);
 @import url(./blocks/choose-tour/choose-tour.css);
 
+@import url(./blocks/icon-arrow/icon-arrow.css);
+@import url(./blocks/text-style/text-style.css);
+
 @import url(./blocks/services/services.css);
 @import url(./blocks/services/__btn/services__btn.css);
 @import url(./blocks/services/__gradient/services__gradient.css);
@@ -78,19 +81,20 @@
 @import url(./blocks/reviews/__text/reviews__text.css);
 @import url(./blocks/reviews/__type/reviews__type.css);
 
-@import url(./blocks/gallery/__item/_first/gallery__item_first.css);
-@import url(./blocks/gallery/__item/_second/gallery__item_second.css);
 @import url(./blocks/gallery/__photo/_small/gallery__photo_small.css);
 @import url(./blocks/gallery/__photo/gallery__photo.css);
 @import url(./blocks/gallery/__photos/gallery__photos.css);
 @import url(./blocks/gallery/__photos/_small/gallery__photos_small.css);
 @import url(./blocks/gallery/gallery.css);
+@import url(./blocks/gallery/__item/_row_first/gallery__item_row_first.css);
+@import url(./blocks/gallery/__item/_row_second/gallery__item_row_second.css);
+@import url(./blocks/gallery/__item/_row_three/gallery__item_row_three.css);
 
 @import url(./blocks/stories/__btn/stories__btn.css);
 @import url(./blocks/stories/__btn-label/stories__btn-label.css);
 @import url(./blocks/stories/__gradient/stories__gradient.css);
-@import url(./blocks/stories/__item-list/stories__item-list.css);
-@import url(./blocks/stories/__item-subitem/stories__item-subitem.css);
+@import url(./blocks/stories/__benefits-list/stories__benefits-list.css);
+@import url(./blocks/stories/__benefit-item/stories__benefit-item.css);
 @import url(./blocks/stories/__item/stories__item.css);
 @import url(./blocks/stories/__items/stories__items.css);
 @import url(./blocks/stories/__list/stories__list.css);
@@ -110,6 +114,10 @@
 @import url(./blocks/feedback/feedback.css);
 
 @import url(./blocks/footer/__item/footer__item.css);
+@import url(./blocks/footer/__icon/footer__icon.css);
+@import url(./blocks/footer/__icon/_fb/footer__icon_fb.css);
+@import url(./blocks/footer/__icon/_inst/footer__icon_inst.css);
+@import url(./blocks/footer/__icon/_vk/footer__icon_vk.css);
 @import url(./blocks/footer/__name-social/footer__name-social.css);
 @import url(./blocks/footer/__social-media/footer__social-media.css);
 @import url(./blocks/footer/__list/footer__list.css);

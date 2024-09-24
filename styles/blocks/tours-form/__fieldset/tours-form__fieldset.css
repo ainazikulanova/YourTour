@@ -7,14 +7,12 @@
   .tours-form__fieldset {
     margin-top: 0;
     padding-top: 33px;
-    padding-left: 60px;
   }
 }
 
 @media (max-width: 930px) {
   .tours-form__fieldset {
     padding-top: 20px;
-    padding-left: 20px;
   }
 }
 

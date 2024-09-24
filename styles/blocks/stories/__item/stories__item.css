@@ -1,4 +1,5 @@
 .stories__item {
+  z-index: 0;
   position: relative;
   height: 567px;
   width: auto;

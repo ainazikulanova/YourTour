@@ -1,42 +1,36 @@
 .tours-form__select-input {
+  -webkit-appearance: none;
+  appearance: none;
+  -moz-appearance: none;
   position: relative;
   width: 100%;
   height: 68px;
   padding-left: 20px;
   margin-top: 10px;
   border: 1px solid #f4f0e9;
-  -webkit-appearance: none;
-  appearance: none;
-  -moz-appearance: none;
   border-radius: 10px;
   background-color: #f9f7f4;
   font-size: 20px;
   transition: 0.3s;
+  cursor: pointer;
   color: #a6a6a6;
 }
 
-.tours-form__select-input.selected {
+.selected {
   color: black;
 }
 
-.tours-form__select-input:hover,
-.tours-form__textarea:hover {
+.tours-form__select-input option {
+  color: black;
+}
+
+.tours-form__select-input:hover {
   background-color: #f4f0e9;
   cursor: pointer;
 }
 
 .tours-form__select-input:focus {
   outline: 1px solid #a6a6a6;
-}
-
-.tours-form__select-input option {
-  color: #000000;
-  cursor: pointer;
-}
-
-.tours-form__select-input:focus,
-.tours-form__select-input:invalid {
-  color: #000000;
 }
 
 @media (max-width: 930px) {

@@ -5,6 +5,7 @@
 
 @media (max-width: 930px) {
   .tours-form__actions {
+    padding-bottom: 20px;
     gap: 10px;
   }
 }

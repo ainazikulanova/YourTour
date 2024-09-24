@@ -41,7 +41,7 @@ document.getElementById("reset-button").addEventListener("click", function () {
 
 function changeColor() {
   var select = document.getElementById("my-select");
-  if (select.value) {
+  if (select.value !== "") {
     select.classList.add("selected");
   } else {
     select.classList.remove("selected");

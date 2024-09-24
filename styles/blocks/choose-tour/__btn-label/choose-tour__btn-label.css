@@ -10,7 +10,7 @@
 .choose-tour__btn-label::after {
   content: "";
   border-bottom: 2px;
-  transform: border 0.3s;
+  transition: border-color 0.3s;
 }
 
 @media (max-width: 930px) {

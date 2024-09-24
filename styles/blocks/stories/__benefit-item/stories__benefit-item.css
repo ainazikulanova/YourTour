@@ -1,9 +1,9 @@
-.stories__item-subitem {
+.stories__benefit-item {
   position: relative;
   padding-left: 15px;
 }
 
-.stories__item-subitem::before {
+.stories__benefit-item::before {
   position: absolute;
   left: 0;
   top: 50%;

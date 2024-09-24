@@ -1,4 +1,5 @@
 .services__item {
+  z-index: 0;
   position: relative;
   width: 370px;
   height: 531px;
