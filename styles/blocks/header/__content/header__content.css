@@ -7,3 +7,9 @@
   margin: 0 auto;
   text-align: center;
 }
+
+@media (max-width: 930px) {
+  .header__content {
+    gap: 40px;
+  }
+}

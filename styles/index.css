@@ -81,10 +81,10 @@
 @import url(./blocks/reviews/__text/reviews__text.css);
 @import url(./blocks/reviews/__type/reviews__type.css);
 
-@import url(./blocks/gallery/__photo/_small/gallery__photo_small.css);
+@import url(./blocks/gallery/__photo-small/gallery__photo-small.css);
 @import url(./blocks/gallery/__photo/gallery__photo.css);
 @import url(./blocks/gallery/__photos/gallery__photos.css);
-@import url(./blocks/gallery/__photos/_small/gallery__photos_small.css);
+@import url(./blocks/gallery/__photos-small/gallery__photos-small.css);
 @import url(./blocks/gallery/gallery.css);
 @import url(./blocks/gallery/__item/_row_first/gallery__item_row_first.css);
 @import url(./blocks/gallery/__item/_row_second/gallery__item_row_second.css);

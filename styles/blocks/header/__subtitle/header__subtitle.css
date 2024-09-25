@@ -17,7 +17,6 @@
 @media (max-width: 930px) {
   .header__subtitle {
     width: 310px;
-    padding-bottom: 40px;
     font-size: 16px;
     line-height: 142%;
   }

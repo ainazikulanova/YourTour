@@ -1,7 +1,6 @@
 .header__number {
   position: relative;
   display: inline-block;
-  padding-left: 10px;
   padding-bottom: 2px;
   transition: border-color 0.3s;
   font-size: 20px;
@@ -18,7 +17,7 @@
   width: 100%;
   content: "";
   transition-duration: 0.3s;
-  border-bottom: 1px solid rgba(0, 0, 0, 0);
+  border-bottom: 1px solid #00000000;
 }
 
 .header__number:hover::after {
@@ -27,8 +26,8 @@
 
 @media (max-width: 930px) {
   .header__number {
+    width: 124px;
     font-size: 16px;
-    padding: 0;
   }
 }
 

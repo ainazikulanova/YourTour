@@ -1,7 +1,6 @@
 @media (max-width: 1199px) {
   .header__gradient {
     position: absolute;
-    z-index: 1;
     width: 100%;
     height: 830px;
     background: linear-gradient(
@@ -16,7 +15,6 @@
 @media (max-width: 930px) {
   .header__gradient {
     position: absolute;
-    z-index: 1;
     width: 100%;
     height: 488px;
     background: linear-gradient(
