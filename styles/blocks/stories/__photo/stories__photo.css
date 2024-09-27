@@ -4,6 +4,10 @@
   margin: auto;
   border-radius: 50px;
   transition: transform 0.3s;
+<<<<<<< HEAD
+=======
+  background-size: cover;
+>>>>>>> 7a2df493d6f3dba5dc243a414dfa70ed63c51c7b
   object-fit: cover;
   object-position: center;
 }

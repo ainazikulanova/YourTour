@@ -1,0 +1,26 @@
+.gallery__photo-small {
+  width: 348px;
+  height: 301px;
+  border-radius: 50px;
+  object-fit: cover;
+}
+
+@media (max-width: 1199px) {
+  .gallery__photo-small {
+    width: 330px;
+  }
+}
+
+@media (max-width: 930px) {
+  .gallery__photo-small {
+    width: 112px;
+    height: 110px;
+    border-radius: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .gallery__photo-small {
+    width: 99px;
+  }
+}
