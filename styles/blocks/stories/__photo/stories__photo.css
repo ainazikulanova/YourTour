@@ -4,7 +4,8 @@
   margin: auto;
   border-radius: 50px;
   transition: transform 0.3s;
-  background-size: cover;
+  object-fit: cover;
+  object-position: center;
 }
 @media (max-width: 1199px) {
   .stories__photo {

@@ -16,9 +16,8 @@
 
 @media (max-width: 930px) {
   .header__title {
-    padding-bottom: 40px;
-    padding-top: 91px;
-    margin-top: -35px;
+    padding-top: 52px;
+    width: 340px;
     font-size: 34px;
     line-height: 112%;
   }
