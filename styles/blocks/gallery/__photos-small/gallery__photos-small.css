@@ -1,5 +1,6 @@
 .gallery__photos-small {
   display: flex;
+  max-width: 1864px;
   padding: 0px 30px 30px 30px;
   justify-content: center;
   gap: 30px;

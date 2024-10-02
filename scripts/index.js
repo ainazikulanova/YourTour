@@ -7,23 +7,36 @@ const headerH = headerNav.offsetHeight;
 
 window.addEventListener("scroll", function () {
   const scrollPos = window.scrollY;
-
-  for (var i = 0; i < headerLink.length; i++) {
-    if (scrollPos >= 450) {
-      headerLink[i].classList.add("header__item_position_fixed");
-    } else {
-      headerLink[i].classList.remove("header__item_position_fixed");
-    }
-  }
+  const headerHeight = headerEl.offsetHeight;
 
   if (scrollPos >= 450) {
     headerEl.classList.add("header__nav_position_fixed");
     headerImg.src = "./images/logo_black.svg";
     headerNum.classList.add("header__number_position_fixed");
+
+    if (!document.querySelector(".header-placeholder")) {
+      const placeholder = document.createElement("div");
+      placeholder.style.height = `${headerHeight}px`;
+      placeholder.classList.add("header-placeholder");
+      headerEl.parentNode.insertBefore(placeholder, headerEl);
+    }
   } else {
     headerEl.classList.remove("header__nav_position_fixed");
     headerImg.src = "./images/logo_white.svg";
     headerNum.classList.remove("header__number_position_fixed");
+
+    const placeholder = document.querySelector(".header-placeholder");
+    if (placeholder) {
+      placeholder.parentNode.removeChild(placeholder);
+    }
+  }
+
+  for (let i = 0; i < headerLink.length; i++) {
+    if (scrollPos >= 450) {
+      headerLink[i].classList.add("header__item_position_fixed");
+    } else {
+      headerLink[i].classList.remove("header__item_position_fixed");
+    }
   }
 });
 

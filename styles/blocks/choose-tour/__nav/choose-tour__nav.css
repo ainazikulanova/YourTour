@@ -2,8 +2,7 @@
   padding-top: 7px;
   display: flex;
   justify-content: center;
-  gap: 29px;
-  font-size: 23px;
+  gap: 23px;
   flex-wrap: wrap;
 }
 
@@ -16,6 +15,5 @@
     column-gap: 0;
     justify-content: center;
     text-align: center;
-    font-size: 16px;
   }
 }

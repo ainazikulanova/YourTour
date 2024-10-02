@@ -1,26 +1,25 @@
 .stories__photo {
-  height: 567px;
-  width: auto;
-  margin: auto;
+  width: 100%;
+  height: 100%;
   border-radius: 50px;
   transition: transform 0.3s;
-<<<<<<< HEAD
-=======
-  background-size: cover;
->>>>>>> 7a2df493d6f3dba5dc243a414dfa70ed63c51c7b
   object-fit: cover;
   object-position: center;
 }
-@media (max-width: 1199px) {
-  .stories__photo {
-    width: 918px;
-    height: 567px;
+
+@media (max-width: 930px) {
+  .stories__item {
+    margin-bottom: 20px;
+
+    border-radius: 20px;
   }
 }
 
 @media (max-width: 930px) {
   .stories__photo {
     margin-bottom: 20px;
+    width: 318px;
+    height: 455px;
     border-radius: 20px;
     background-size: cover;
   }

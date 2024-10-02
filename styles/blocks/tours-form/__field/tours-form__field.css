@@ -17,7 +17,7 @@
 }
 
 .tours-form__field option {
-  color: black;
+  color: #000000;
 }
 
 .tours-form__field ::placeholder {

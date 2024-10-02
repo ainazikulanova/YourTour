@@ -17,11 +17,11 @@
 }
 
 .selected {
-  color: black;
+  color: #000000;
 }
 
 .tours-form__select-input option {
-  color: black;
+  color: #000000;
 }
 
 .tours-form__select-input:hover {
