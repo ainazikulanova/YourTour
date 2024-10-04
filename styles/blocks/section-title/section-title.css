@@ -7,7 +7,7 @@
   font-weight: 700;
   font-size: 59px;
   line-height: 74px;
-  color: #1b1f2b;
+  color: var(--black-color);
   letter-spacing: 0;
 }
 @media (max-width: 930px) {

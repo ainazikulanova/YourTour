@@ -3,7 +3,7 @@
   padding-bottom: 34px;
   justify-content: flex-start;
   align-items: center;
-  accent-color: #000000;
+  accent-color: var(--black-color);
 }
 
 @media (max-width: 930px) {

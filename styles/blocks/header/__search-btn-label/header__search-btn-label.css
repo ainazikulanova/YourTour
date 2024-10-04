@@ -5,11 +5,11 @@
   transition: color 0.2s;
 
   &:hover {
-    color: #ffffff;
+    color: var(--white-color);
   }
 
   &:active {
-    color: #000000;
+    color: var(--black-color);
   }
 }
 

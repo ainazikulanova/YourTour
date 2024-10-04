@@ -1,5 +1,5 @@
 .footer__title {
-  color: #a6a6a6;
+  color: var(--secondary-color);
   font-size: 20px;
   line-height: 142%;
   white-space: nowrap;

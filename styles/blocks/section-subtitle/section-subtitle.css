@@ -1,8 +1,8 @@
 .section-subtitle {
   width: 402px;
   margin: auto;
-  padding-bottom: 101px;
-  color: #a6a6a6;
+  padding-bottom: 99px;
+  color: var(--secondary-color);
   text-align: center;
   font-size: 20px;
   line-height: 28.4px;

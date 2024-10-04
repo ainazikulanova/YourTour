@@ -10,5 +10,5 @@
   backdrop-filter: blur(54px);
   background: rgba(243, 239, 232, 0.6);
   box-shadow: 0px 0px 29px -11px rgba(0, 0, 0, 0.3);
-  color: #000000;
+  color: var(--black-color);
 }

@@ -18,7 +18,7 @@
 }
 
 .footer__name-social:hover::after {
-  border-bottom-color: #000000;
+  border-bottom-color: var(--black-color);
 }
 
 @media (max-width: 930px) {

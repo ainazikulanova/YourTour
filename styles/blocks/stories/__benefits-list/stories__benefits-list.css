@@ -1,9 +1,9 @@
 .stories__benefits-list {
   position: absolute;
   z-index: 4;
-  left: 60px;
-  top: 270px;
-  color: #ffffff;
+  left: 74px;
+  top: 280px;
+  color: var(--white-color);
   font-size: 20px;
   line-height: 142%;
   cursor: pointer;

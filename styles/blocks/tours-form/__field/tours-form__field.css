@@ -17,11 +17,11 @@
 }
 
 .tours-form__field option {
-  color: #000000;
+  color: var(--black-color);
 }
 
 .tours-form__field ::placeholder {
-  color: #a6a6a6;
+  color: var(--secondary-color);
 }
 
 @media (max-width: 1199px) {

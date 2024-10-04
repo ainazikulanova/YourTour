@@ -11,8 +11,8 @@
   height: 24px;
   padding-left: 8px;
   padding-top: 3px;
-  border: 2px solid #000000;
-  accent-color: #ffffff;
+  border: 2px solid var(--black-color);
+  accent-color: var(--white-color);
 }
 
 @media (max-width: 1199px) {

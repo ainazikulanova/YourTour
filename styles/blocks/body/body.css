@@ -4,7 +4,7 @@ body {
 
 .body {
   font-family: "Roboto", sans-serif;
-  background-color: #f9f7f4;
+  background-color: var(--background-color);
   overflow-x: hidden;
 }
 

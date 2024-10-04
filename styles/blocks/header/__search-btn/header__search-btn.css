@@ -7,7 +7,7 @@
   border: 0;
 
   &:hover {
-    background-color: #efa501;
+    background-color: var(--active-color);
   }
 
   &:active {

@@ -3,7 +3,7 @@
   display: inline-block;
   padding-bottom: 5px;
   transition: border-color 0.3s;
-  color: #000000;
+  color: var(--black-color);
 }
 
 .header__number_position_fixed::after {
@@ -17,5 +17,5 @@
 }
 
 .header__number_position_fixed:hover::after {
-  border-bottom-color: #000000;
+  border-bottom-color: var(--black-color);
 }

@@ -11,6 +11,6 @@
   width: 4px;
   height: 4px;
   content: "";
-  background-color: #ffffff;
+  background-color: var(--white-color);
   border-radius: 50%;
 }

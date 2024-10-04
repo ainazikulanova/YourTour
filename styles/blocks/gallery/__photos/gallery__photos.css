@@ -1,6 +1,6 @@
 .gallery__photos {
   display: flex;
-  padding: 0px 30px 30px 30px;
+  padding: 0px 30px 27px 30px;
   justify-content: center;
   gap: 30px;
 }

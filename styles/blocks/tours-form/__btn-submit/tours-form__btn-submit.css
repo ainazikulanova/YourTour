@@ -3,7 +3,7 @@
   height: 58px;
   border: none;
   padding: 15px 30px;
-  background-color: #286562;
+  background-color: var(--primary-color);
   border-radius: 10px;
   cursor: pointer;
   transition: 0.3s;

@@ -1,14 +1,14 @@
 .feedback__email {
-  color: #000000;
+  color: var(--black-color);
   text-decoration: none;
   transition-duration: 0.3s;
 }
 
 .feedback__email:hover {
-  border-bottom: 1px solid;
-  cursor: pointer;
+  box-shadow: 0 1px 0 var(--black-color);
+  transition: box-shadow 0.3s ease;
 }
 
 .feedback__email:active {
-  color: #286562;
+  color: var(--primary-color);
 }

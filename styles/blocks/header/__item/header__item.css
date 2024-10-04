@@ -5,7 +5,7 @@
   transition: border-color 0.3s;
   font-size: 20px;
   font-weight: 400;
-  color: #ffffff;
+  color: var(--white-color);
   cursor: pointer;
   text-decoration: none;
 }
@@ -21,5 +21,5 @@
 }
 
 .header__item:hover::after {
-  border-bottom-color: #ffffff;
+  border-bottom-color: var(--white-color);
 }

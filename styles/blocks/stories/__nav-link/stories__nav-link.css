@@ -2,10 +2,14 @@
   position: relative;
   display: inline-block;
   padding-bottom: 5px;
-  color: #ffffff;
+  color: var(--white-color);
   font-size: 20px;
   text-decoration: none;
   transition: border-color 0.3s;
+
+  &:focus {
+    color: var(--active-color);
+  }
 }
 
 .stories__nav-link::after {
@@ -13,17 +17,17 @@
   bottom: 0;
   left: 0;
   width: 100%;
-  border-bottom: 1px solid rgba(0, 0, 0, 0);
+  border-bottom: 1px solid #00000000;
   transition-duration: 0.3s;
   content: "";
 }
 
 .stories__nav-link:hover::after {
-  border-bottom-color: #ffffff;
+  border-bottom-color: var(--white-color);
 }
 
 .stories__nav-link:active::after {
-  border-bottom-color: #efa501;
+  border-bottom-color: var(--active-color);
 }
 
 @media (max-width: 930px) {

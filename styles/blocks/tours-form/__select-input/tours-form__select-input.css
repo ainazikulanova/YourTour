@@ -7,30 +7,30 @@
   height: 68px;
   padding-left: 20px;
   margin-top: 10px;
-  border: 1px solid #f4f0e9;
+  border: 1px solid var(--third-rate-color);
   border-radius: 10px;
-  background-color: #f9f7f4;
+  background-color: var(--background-color);
   font-size: 20px;
   transition: 0.3s;
   cursor: pointer;
-  color: #a6a6a6;
+  color: var(--secondary-color);
 }
 
 .selected {
-  color: #000000;
+  color: var(--black-color);
 }
 
 .tours-form__select-input option {
-  color: #000000;
+  color: var(--black-color);
 }
 
 .tours-form__select-input:hover {
-  background-color: #f4f0e9;
+  background-color: var(--third-rate-color);
   cursor: pointer;
 }
 
 .tours-form__select-input:focus {
-  outline: 1px solid #a6a6a6;
+  outline: 1px solid var(--secondary-color);
 }
 
 @media (max-width: 930px) {

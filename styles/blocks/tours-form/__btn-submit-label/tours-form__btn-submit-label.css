@@ -1,5 +1,5 @@
 .tours-form__btn-submit-label {
-  color: #ffffff;
+  color: var(--white-color);
   font-size: 20px;
   line-height: 29px;
 }

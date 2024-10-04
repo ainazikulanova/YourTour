@@ -2,7 +2,7 @@
   width: 380px;
   font-size: 20px;
   line-height: 142%;
-  color: #a6a6a6;
+  color: var(--secondary-color);
   letter-spacing: 0;
 }
 

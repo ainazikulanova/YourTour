@@ -4,11 +4,11 @@
   border: none;
   padding: 0;
   padding-bottom: 3px;
-  background-color: #f9f7f4;
+  background-color: var(--background-color);
   cursor: pointer;
 }
 
 .choose-tour__btn-label:hover {
-  box-shadow: 0 2px 0 #000000;
+  box-shadow: 0 2px 0 var(--black-color);
   transition: box-shadow 0.3s ease;
 }

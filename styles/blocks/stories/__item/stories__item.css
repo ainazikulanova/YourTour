@@ -15,11 +15,11 @@
 .stories__item:hover .stories__btn {
   padding: 7px 25px;
   transform: scale(1);
-  background-color: #286562;
+  background-color: var(--primary-color);
   border-radius: 50px;
 }
 .stories__item:active .stories__btn {
-  background-color: #efa501;
+  background-color: var(--active-color);
 }
 .stories__item:hover .services__icon {
   transform: none;

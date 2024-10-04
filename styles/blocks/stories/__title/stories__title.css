@@ -3,7 +3,7 @@
   z-index: 3;
   top: 60px;
   left: 60px;
-  color: #ffffff;
+  color: var(--white-color);
   font-weight: 500;
   font-size: 35px;
   line-height: 122%;

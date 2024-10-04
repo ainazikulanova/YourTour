@@ -15,7 +15,7 @@
 .services__item:hover .services__btn {
   transform: scale(1);
   border-radius: 50px;
-  background-color: #286562;
+  background-color: var(--primary-color);
 }
 
 .services__item:hover img {
@@ -24,7 +24,7 @@
 }
 
 .services__item:active .services__btn {
-  background-color: #efa501;
+  background-color: var(--active-color);
 }
 
 @media (max-width: 1199px) {

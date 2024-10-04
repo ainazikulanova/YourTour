@@ -2,8 +2,8 @@
   font-weight: 700;
   font-size: 23px;
   line-height: 28px;
-  color: #1b1f2b;
-  background-color: #f9f7f4;
+  color: var(--black-color);
+  background-color: var(--background-color);
 }
 
 .choose-tour__btn-label::after {

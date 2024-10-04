@@ -1,12 +1,12 @@
 .tours-form__check-agreement {
-  color: #000000;
+  color: var(--black-color);
   font-size: 17px;
   text-decoration: none;
   transition: 0.7s;
   letter-spacing: -0.01em;
 
   &:hover {
-    border-bottom: 1px solid #000000;
+    border-bottom: 1px solid var(--black-color);
   }
 
   &:active {

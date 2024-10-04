@@ -9,7 +9,7 @@
 }
 
 .tours-form__select {
-  color: #a6a6a6;
+  color: var(--secondary-color);
 }
 
 @media (max-width: 930px) {

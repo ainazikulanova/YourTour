@@ -1,5 +1,5 @@
 .tours-form__btn-reset-label {
-  color: #286562;
+  color: var(--primary-color);
   font-size: 20px;
   line-height: 29px;
 }
