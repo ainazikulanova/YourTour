@@ -22,7 +22,6 @@
   .tours-form__input {
     width: 389px;
     height: 68px;
-    margin-bottom: 36px;
   }
 }
 
@@ -30,7 +29,6 @@
   .tours-form__input {
     width: 278px;
     height: 43px;
-    margin-bottom: 41px;
     border-radius: 10px;
     font-size: 16px;
   }

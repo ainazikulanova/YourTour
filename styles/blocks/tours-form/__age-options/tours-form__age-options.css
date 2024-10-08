@@ -1,14 +1,15 @@
 .tours-form__age-options {
+  margin-top: 12px;
   display: flex;
   justify-content: flex-start;
   gap: 33px;
+  font-size: 20px;
   cursor: pointer;
-  transform: 0.3s;
 }
 
 @media (max-width: 930px) {
   .tours-form__age-options {
-    gap: 29px;
+    gap: 26px;
     font-size: 16px;
   }
 }

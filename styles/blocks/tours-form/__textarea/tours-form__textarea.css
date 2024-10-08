@@ -1,7 +1,7 @@
 .tours-form__textarea {
   width: 990px;
   height: 112px;
-  margin-bottom: 33px;
+  margin-bottom: 30px;
   margin-top: 10px;
   padding: 20px;
   border: 1px solid var(--third-rate-color);
@@ -32,7 +32,7 @@
   .tours-form__textarea {
     width: 238px;
     height: 92px;
-    margin-bottom: 0;
+    margin-bottom: 23px;
     font-size: 16px;
   }
 }

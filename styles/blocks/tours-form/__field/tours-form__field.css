@@ -1,8 +1,7 @@
 .tours-form__field {
   width: 500px;
-  height: 104px;
   display: block;
-  margin-bottom: 3px;
+  margin-bottom: 7px;
   cursor: pointer;
 }
 
@@ -27,22 +26,28 @@
 @media (max-width: 1199px) {
   .tours-form__field {
     width: 389px;
-    height: 68px;
-    margin-bottom: 36px;
+  }
+
+  .tours-form__field input {
+    margin-top: 8px;
   }
 }
 
 @media (max-width: 930px) {
   .tours-form__field {
     width: 278px;
-    height: 43px;
-    margin-bottom: 41px;
     border-radius: 10px;
     font-size: 16px;
   }
 
   .tours-form__field input {
+    margin-bottom: 6px;
+    margin-top: 11px;
     text-indent: 10px;
+  }
+
+  .tours-form__field select {
+    margin-bottom: 8px;
   }
 }
 

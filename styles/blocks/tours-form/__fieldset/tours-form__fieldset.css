@@ -1,12 +1,10 @@
 .tours-form__fieldset {
-  margin-top: 30px;
-  padding-left: 4px;
+  padding-top: 30px;
 }
 
 @media (max-width: 1199px) {
   .tours-form__fieldset {
-    margin-top: 0;
-    padding-top: 33px;
+    padding-top: 31px;
   }
 }
 

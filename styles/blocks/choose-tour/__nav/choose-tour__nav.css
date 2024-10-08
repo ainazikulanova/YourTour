@@ -2,17 +2,23 @@
   padding-top: 7px;
   display: flex;
   justify-content: center;
-  gap: 23px;
+  gap: 30px;
   flex-wrap: wrap;
+}
+
+@media (max-width: 1199px) {
+  .choose-tour__nav {
+    gap: 27px;
+  }
 }
 
 @media (max-width: 930px) {
   .choose-tour__nav {
-    margin: 0px 53px 0px 46px;
+    margin: 0px 45px 0px 45px;
     padding-top: 13px;
     height: 56px;
     row-gap: 12px;
-    column-gap: 0;
+    column-gap: 2px;
     justify-content: center;
     text-align: center;
   }

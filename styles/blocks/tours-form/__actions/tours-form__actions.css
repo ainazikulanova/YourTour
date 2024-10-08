@@ -1,6 +1,6 @@
 .tours-form__actions {
   display: flex;
-  gap: 30px;
+  gap: 28px;
 }
 
 @media (max-width: 930px) {

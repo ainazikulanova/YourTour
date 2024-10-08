@@ -1,0 +1,25 @@
+.histories__subtitle {
+  width: 402px;
+  margin: auto;
+  padding-bottom: 96px;
+  color: var(--secondary-color);
+  text-align: center;
+  font-size: 20px;
+  line-height: 28.4px;
+}
+
+@media (max-width: 1199px) {
+  .histories__subtitle {
+    padding-bottom: 99px;
+  }
+}
+
+@media (max-width: 930px) {
+  .histories__subtitle {
+    padding-bottom: 41px;
+    width: 320px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 23.4px;
+  }
+}

@@ -1,6 +1,6 @@
 .tours-form {
   margin: auto;
-  padding: 70px;
+  padding: 74px 70px 70px 70px;
   width: 1170px;
   height: auto;
   box-sizing: border-box;
@@ -10,14 +10,14 @@
 
 @media (max-width: 1199px) {
   .tours-form {
-    padding: 60px;
+    padding: 64px 60px 60px 60px;
     width: 918px;
   }
 }
 
 @media (max-width: 930px) {
   .tours-form {
-    padding: 20px;
+    padding: 23px 20px 20px 20px;
     width: 318px;
     border-radius: 30px;
   }

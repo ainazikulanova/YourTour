@@ -3,13 +3,19 @@
   z-index: 1;
   width: 13px;
   height: 13px;
-  margin-top: 33px;
+  margin-top: 37px;
   margin-left: -42px;
   content: url("../../../../images/select_icon.svg");
 }
 
 .tours-form__select {
   color: var(--secondary-color);
+}
+
+@media (max-width: 1199px) {
+  .tours-form__select::after {
+    margin-top: 40px;
+  }
 }
 
 @media (max-width: 930px) {

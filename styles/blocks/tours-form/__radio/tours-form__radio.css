@@ -10,7 +10,6 @@
   margin: 0;
   border-radius: 50%;
   cursor: pointer;
-  transform: 0.3s;
 }
 
 @media (max-width: 930px) {

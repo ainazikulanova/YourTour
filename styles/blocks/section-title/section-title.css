@@ -10,6 +10,13 @@
   color: var(--black-color);
   letter-spacing: 0;
 }
+
+@media (max-width: 1199px) {
+  .section-title {
+    margin-bottom: 29px;
+  }
+}
+
 @media (max-width: 930px) {
   .section-title {
     width: 318px;

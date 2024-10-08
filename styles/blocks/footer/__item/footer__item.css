@@ -6,6 +6,13 @@
   color: var(--black-color);
   transition: 0.3s;
 }
+
+@media (max-width: 1199px) {
+  .footer__item {
+    gap: 11;
+  }
+}
+
 @media (max-width: 930px) {
   .footer__item {
     gap: 0;

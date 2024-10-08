@@ -31,7 +31,6 @@
 @import url(./blocks/choose-tour/choose-tour.css);
 
 @import url(./blocks/icon-arrow/icon-arrow.css);
-@import url(./blocks/text-style/text-style.css);
 
 @import url(./blocks/services/services.css);
 @import url(./blocks/services/__btn/services__btn.css);
@@ -91,6 +90,7 @@
 @import url(./blocks/gallery/__item/_row_second/gallery__item_row_second.css);
 @import url(./blocks/gallery/__item/_row_three/gallery__item_row_three.css);
 
+@import url(./blocks/histories/__subtitle/histories__subtitle.css);
 @import url(./blocks/stories/__btn/stories__btn.css);
 @import url(./blocks/stories/__btn-label/stories__btn-label.css);
 @import url(./blocks/stories/__gradient/stories__gradient.css);

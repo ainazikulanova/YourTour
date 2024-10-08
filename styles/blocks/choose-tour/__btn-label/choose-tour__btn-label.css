@@ -1,9 +1,10 @@
 .choose-tour__btn-label {
-  font-weight: 700;
+  font-weight: 550;
   font-size: 23px;
   line-height: 28px;
   color: var(--black-color);
   background-color: var(--background-color);
+  letter-spacing: -0.03em;
 }
 
 .choose-tour__btn-label::after {
@@ -12,17 +13,16 @@
   transition: border-color 0.3s;
 }
 
-@media (max-width: 930px) {
+@media (max-width: 1199px) {
   .choose-tour__btn-label {
-    margin-left: 6px;
-    font-size: 16px;
-    line-height: 102%;
-    letter-spacing: 0.016em;
+    letter-spacing: -0.018em;
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 930px) {
   .choose-tour__btn-label {
-    margin-left: 0;
+    font-size: 16px;
+    line-height: 102%;
+    letter-spacing: 0.016em;
   }
 }

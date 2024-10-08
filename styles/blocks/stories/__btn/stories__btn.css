@@ -11,6 +11,7 @@
   align-items: center;
   gap: 17px;
   cursor: pointer;
+  letter-spacing: -0.04em;
 }
 
 .stories__btn::before {
