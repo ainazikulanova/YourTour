@@ -4,7 +4,7 @@
   gap: 10px;
   text-decoration: none;
   color: var(--black-color);
-  transition: 0.3s;
+  transition-duration: 0.3s;
 }
 
 @media (max-width: 1199px) {

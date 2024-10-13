@@ -3,9 +3,9 @@
   display: inline-block;
   border: none;
   padding: 0;
-  padding-bottom: 3px;
   background-color: var(--background-color);
   cursor: pointer;
+  transition-duration: 0.3s;
 }
 
 .choose-tour__btn-label:hover {

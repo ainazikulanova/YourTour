@@ -6,7 +6,7 @@
   background-color: var(--primary-color);
   border-radius: 10px;
   cursor: pointer;
-  transition: 0.3s;
+  transition-duration: 0.3s;
 
   &:hover {
     background-color: #3b7e7b;

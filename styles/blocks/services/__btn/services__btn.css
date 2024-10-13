@@ -9,7 +9,7 @@
   bottom: 43px;
   border: none;
   background: transparent;
-  transition: 0.3s;
+  transition-duration: 0.3s;
   cursor: pointer;
 }
 

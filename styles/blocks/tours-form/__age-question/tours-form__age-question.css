@@ -2,12 +2,6 @@
   font-size: 20px;
 }
 
-/* @media (max-width: 1199px) {
-  .tours-form__age-question {
-    padding-bottom: 14px;
-  }
-} */
-
 @media (max-width: 930px) {
   .tours-form__age-question {
     font-size: 16px;
