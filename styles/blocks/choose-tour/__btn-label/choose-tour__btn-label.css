@@ -14,16 +14,9 @@
   transition: border-color 0.3s;
 }
 
-@media (max-width: 1199px) {
-  .choose-tour__btn-label {
-    letter-spacing: -0.018em;
-  }
-}
-
 @media (max-width: 930px) {
   .choose-tour__btn-label {
     font-size: 16px;
     line-height: 102%;
-    letter-spacing: 0.016em;
   }
 }

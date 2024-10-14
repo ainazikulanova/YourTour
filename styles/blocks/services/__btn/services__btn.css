@@ -24,7 +24,8 @@
 @media (max-width: 930px) {
   .services__btn {
     padding: 5px 15px;
-    left: 10px;
-    bottom: 23px;
+    left: 11px;
+    bottom: 21px;
+    gap: 19px;
   }
 }
