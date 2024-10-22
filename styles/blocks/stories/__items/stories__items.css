@@ -9,8 +9,7 @@
 @media (max-width: 930px) {
   .stories__items {
     width: 360px;
-    padding-bottom: 55px;
-    padding-top: 6px;
+    padding: 6px 0 55px;
     margin: auto;
   }
 }

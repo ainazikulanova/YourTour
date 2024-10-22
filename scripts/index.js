@@ -62,14 +62,14 @@ function changeColor() {
 }
 
 document.addEventListener("DOMContentLoaded", function () {
-  const detailsBtn = document.querySelectorAll(".choose-tour__btn-label");
+  const detailsBtn = document.querySelectorAll(".choose-tour__btn");
 
   detailsBtn.forEach((item) => {
     item.addEventListener("click", function () {
       detailsBtn.forEach((nav) =>
-        nav.classList.remove("choose-tour__btn-label_state-active")
+        nav.classList.remove("choose-tour__btn_state-active")
       );
-      this.classList.add("choose-tour__btn-label_state-active");
+      this.classList.add("choose-tour__btn_state-active");
     });
   });
 });

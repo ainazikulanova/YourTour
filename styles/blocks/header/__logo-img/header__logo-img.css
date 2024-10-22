@@ -1,6 +1,5 @@
 .header__logo-img {
-  padding-top: 28px;
-  padding-bottom: 30px;
+  padding: 28px 0 30px;
   cursor: pointer;
 }
 

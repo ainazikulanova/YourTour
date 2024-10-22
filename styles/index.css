@@ -26,8 +26,6 @@
 
 @import url(./blocks/choose-tour/__nav/choose-tour__nav.css);
 @import url(./blocks/choose-tour/__btn/choose-tour__btn.css);
-@import url(./blocks/choose-tour/__btn-label/choose-tour__btn-label.css);
-@import url(./blocks/choose-tour/__btn-label/_state-active/choose-tour__btn-label_state-active.css);
 @import url(./blocks/choose-tour/choose-tour.css);
 
 @import url(./blocks/icon-arrow/icon-arrow.css);

@@ -9,8 +9,7 @@
 .tours-form__checkbox-text .tours-form__input {
   width: 24px;
   height: 24px;
-  padding-left: 8px;
-  padding-top: 3px;
+  padding: 3px 0 0 8px;
   border: 2px solid var(--black-color);
   accent-color: var(--white-color);
 }

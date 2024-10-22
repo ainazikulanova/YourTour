@@ -2,20 +2,20 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0px 376px 0px 376px;
+  padding: 0 376px;
   flex-wrap: wrap;
 }
 
 @media (max-width: 1199px) {
   .footer__social-media {
-    padding: 0px 53px 0px 53px;
+    padding: 0 53px;
   }
 }
 
 @media (max-width: 930px) {
   .footer__social-media {
     margin: auto;
-    padding: 0px 21.5px 0px 21.5px;
+    padding: 0 21.5px;
     display: block;
     align-items: center;
   }
