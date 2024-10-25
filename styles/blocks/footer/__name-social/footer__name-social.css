@@ -7,18 +7,20 @@
   letter-spacing: 0;
 }
 
-.footer__name-social::after {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  border-bottom: 1px solid #00000000;
-  transition-duration: 0.3s;
-  content: "";
-}
+@media (hover: hover) {
+  .footer__name-social::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border-bottom: 1px solid #00000000;
+    transition-duration: 0.3s;
+    content: "";
+  }
 
-.footer__name-social:hover::after {
-  border-bottom-color: var(--black-color);
+  .footer__name-social:hover::after {
+    border-bottom-color: var(--black-color);
+  }
 }
 
 @media (max-width: 930px) {

@@ -1,0 +1,10 @@
+@media (hover: hover) {
+  .choose-tour__btn_state-active:hover {
+    box-shadow: 0 2px 0 var(--active-color);
+  }
+}
+
+.choose-tour__btn_state-active {
+  color: var(--active-color);
+  box-shadow: 0 2px 0 var(--active-color);
+}

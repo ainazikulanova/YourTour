@@ -50,12 +50,17 @@ document.getElementById("reset-button").addEventListener("click", function () {
   document.getElementById("check-yes").checked = false;
   document.getElementById("check-not").checked = false;
 
+  const checkLog = document.getElementById("check-log");
+  checkLog.checked = false;
+  checkboxStroke.classList.remove("tours-form__stroke");
+
   const selectElement = document.getElementById("my-select");
   selectElement.selectedIndex = 0;
-  selectElement.style.color = "gray";
+  selectElement.style.color = "#a6a6a6";
 
   selectElement.addEventListener("change", function () {
-    selectElement.style.color = selectElement.value === "" ? "gray" : "black";
+    selectElement.style.color =
+      selectElement.value === "" ? "#a6a6a6" : "black";
   });
 });
 
@@ -81,17 +86,6 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
-document.addEventListener("DOMContentLoaded", function () {
-  const detailsBtn = document.querySelectorAll(".story");
-
-  detailsBtn.forEach((item) => {
-    item.addEventListener("click", function () {
-      detailsBtn.forEach((nav) => nav.classList.remove("btn-styled"));
-      this.classList.add("btn-styled");
-    });
-  });
-});
-
 const phoneInput = document.getElementById("phone");
 const mask = new IMask(phoneInput, {
   mask: "+{7}(000)000-00-00",
@@ -106,14 +100,6 @@ const dateAfterInput = document.getElementById("date-after");
 const maskAfterDate = new IMask(dateAfterInput, {
   mask: "00.00.0000",
 });
-
-function setActive(button) {
-  const buttons = document.getElementsByClassName("main__link");
-  Array.from(buttons).forEach((btn) =>
-    btn.classList.remove("main__link_state_active")
-  );
-  button.classList.add("main__link_state_active");
-}
 
 const inputDate = document.getElementById("date-before");
 const inputDateAfter = document.getElementById("date-after");

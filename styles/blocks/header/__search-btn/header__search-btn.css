@@ -9,13 +9,15 @@
   border-radius: 10px;
   transition: color 0.3s;
   cursor: pointer;
+}
 
-  &:hover {
+@media (hover: hover) {
+  .header__search-btn:hover {
     background-color: var(--active-color);
     color: var(--white-color);
   }
 
-  &:active {
+  .header__search-btn:active {
     background-color: #f8e6be;
     color: var(--black-color);
   }

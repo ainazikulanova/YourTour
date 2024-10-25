@@ -14,19 +14,10 @@
   transition: box-shadow 0.3s ease;
 }
 
-.choose-tour__btn:hover {
-  box-shadow: 0 2px 0 var(--black-color);
-}
-
-.choose-tour__btn_state-active {
-  color: var(--active-color);
-  box-shadow: 0 2px 0 var(--active-color);
-  pointer-events: none;
-}
-
-.choose-tour__btn_state-active:hover {
-  box-shadow: 0 2px 0 var(--active-color);
-  cursor: default;
+@media (hover: hover) {
+  .choose-tour__btn:hover {
+    box-shadow: 0 2px 0 var(--black-color);
+  }
 }
 
 @media (max-width: 930px) {

@@ -11,12 +11,14 @@
   color: var(--primary-color);
   background-color: #e0f0e5;
   cursor: pointer;
+}
 
-  &:hover {
+@media (hover: hover) {
+  .tours-form__btn-reset:hover {
     background-color: #f1f3f2;
   }
 
-  &:active {
+  .tours-form__btn-reset:active {
     background-color: #d9dfdb;
   }
 }

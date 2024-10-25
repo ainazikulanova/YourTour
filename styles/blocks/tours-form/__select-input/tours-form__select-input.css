@@ -13,6 +13,7 @@
   font-size: 20px;
   cursor: pointer;
   color: var(--secondary-color);
+  outline: none;
 }
 
 .selected {
@@ -23,13 +24,15 @@
   color: var(--black-color);
 }
 
-.tours-form__select-input:hover {
-  background-color: var(--third-rate-color);
-  cursor: pointer;
-}
+@media (hover: hover) {
+  .tours-form__select-input:hover {
+    background-color: var(--third-rate-color);
+    cursor: pointer;
+  }
 
-.tours-form__select-input:focus {
-  outline: 1px solid var(--secondary-color);
+  .tours-form__select-input:focus {
+    outline: 1px solid var(--secondary-color);
+  }
 }
 
 @media (max-width: 930px) {

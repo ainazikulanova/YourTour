@@ -6,16 +6,18 @@
   color: var(--black-color);
 }
 
-.header__number_position_fixed::after {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  content: "";
-  border-bottom: 1px solid #00000000;
-  transition-duration: 0.3s;
-}
+@media (hover: hover) {
+  .header__number_position_fixed::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    content: "";
+    border-bottom: 1px solid #00000000;
+    transition-duration: 0.3s;
+  }
 
-.header__number_position_fixed:hover::after {
-  border-bottom-color: var(--black-color);
+  .header__number_position_fixed:hover::after {
+    border-bottom-color: var(--black-color);
+  }
 }

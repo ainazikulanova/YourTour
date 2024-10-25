@@ -12,12 +12,14 @@
   background-color: var(--primary-color);
   border: none;
   cursor: pointer;
+}
 
-  &:hover {
+@media (hover: hover) {
+  .tours-form__btn-submit:hover {
     background-color: #3b7e7b;
   }
 
-  &:active {
+  .tours-form__btn-submit:active {
     background-color: #627f7e;
   }
 }

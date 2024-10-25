@@ -4,11 +4,13 @@
   transition-duration: 0.3s;
 }
 
-.feedback__email:hover {
-  box-shadow: 0 1px 0 var(--black-color);
-  transition: box-shadow 0.3s ease;
-}
+@media (hover: hover) {
+  .feedback__email:hover {
+    box-shadow: 0 1px 0 var(--black-color);
+    transition: box-shadow 0.3s ease;
+  }
 
-.feedback__email:active {
-  color: var(--primary-color);
+  .feedback__email:active {
+    color: var(--primary-color);
+  }
 }

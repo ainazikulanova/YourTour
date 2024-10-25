@@ -10,18 +10,20 @@
   text-decoration: none;
 }
 
-.header__number::after {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  content: "";
-  transition-duration: 0.3s;
-  border-bottom: 1px solid #00000000;
-}
+@media (hover: hover) {
+  .header__number::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    content: "";
+    transition-duration: 0.3s;
+    border-bottom: 1px solid #00000000;
+  }
 
-.header__number:hover::after {
-  border-bottom-color: var(--white-color);
+  .header__number:hover::after {
+    border-bottom-color: var(--white-color);
+  }
 }
 
 @media (max-width: 930px) {

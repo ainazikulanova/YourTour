@@ -13,7 +13,6 @@
 @import url(./blocks/header/__nav/header__nav.css);
 @import url(./blocks/header/__number/header__number.css);
 @import url(./blocks/header/__search-btn/header__search-btn.css);
-@import url(./blocks/header/__search-btn-label/header__search-btn-label.css);
 @import url(./blocks/header/__subtitle/header__subtitle.css);
 @import url(./blocks/header/__title/header__title.css);
 @import url(./blocks/header/header.css);
@@ -26,6 +25,7 @@
 
 @import url(./blocks/choose-tour/__nav/choose-tour__nav.css);
 @import url(./blocks/choose-tour/__btn/choose-tour__btn.css);
+@import url(./blocks/choose-tour/__btn/_state-active/choose-tour__btn_state-active.css);
 @import url(./blocks/choose-tour/choose-tour.css);
 
 @import url(./blocks/icon-arrow/icon-arrow.css);
@@ -49,9 +49,7 @@
 @import url(./blocks/tours-form/__age-options/tours-form__age-options.css);
 @import url(./blocks/tours-form/__age-question/tours-form__age-question.css);
 @import url(./blocks/tours-form/__btn-reset/tours-form__btn-reset.css);
-@import url(./blocks/tours-form/__btn-reset-label/tours-form__btn-reset-label.css);
 @import url(./blocks/tours-form/__btn-submit/tours-form__btn-submit.css);
-@import url(./blocks/tours-form/__btn-submit-label/tours-form__btn-submit-label.css);
 @import url(./blocks/tours-form/__check-agreement/tours-form__check-agreement.css);
 @import url(./blocks/tours-form/__check/tours-form__check.css);
 @import url(./blocks/tours-form/__checkbox-text/tours-form__checkbox-text.css);

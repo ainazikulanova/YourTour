@@ -8,23 +8,25 @@
   object-fit: cover;
 }
 
-.services__item:hover .services__icon {
-  transform: none;
-}
+@media (hover: hover) {
+  .services__item:hover .services__icon {
+    transform: none;
+  }
 
-.services__item:hover .services__btn {
-  transform: scale(1);
-  border-radius: 50px;
-  background-color: var(--primary-color);
-}
+  .services__item:hover .services__btn {
+    transform: scale(1);
+    border-radius: 50px;
+    background-color: var(--primary-color);
+  }
 
-.services__item:hover img {
-  transform: scale(1.2);
-  object-fit: cover;
-}
+  .services__item:active .services__btn {
+    background-color: var(--active-color);
+  }
 
-.services__item:active .services__btn {
-  background-color: var(--active-color);
+  .services__item:hover img {
+    transform: scale(1.2);
+    object-fit: cover;
+  }
 }
 
 @media (max-width: 1199px) {
