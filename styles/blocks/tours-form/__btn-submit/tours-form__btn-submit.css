@@ -1,12 +1,17 @@
 .tours-form__btn-submit {
   width: 235px;
   height: 58px;
-  border: none;
   padding: 15px 30px;
-  background-color: var(--primary-color);
+  border: none;
   border-radius: 10px;
-  cursor: pointer;
   transition-duration: 0.3s;
+  color: var(--white-color);
+  font-size: 20px;
+  line-height: 29px;
+  text-align: center;
+  background-color: var(--primary-color);
+  border: none;
+  cursor: pointer;
 
   &:hover {
     background-color: #3b7e7b;
@@ -22,6 +27,8 @@
     width: 135px;
     height: 47px;
     padding: 12px 30px;
+    font-size: 16px;
+    line-height: 23px;
     align-items: center;
   }
 }
@@ -30,5 +37,6 @@
   .tours-form__btn-submit {
     width: 125px;
     height: 47px;
+    font-size: 13px;
   }
 }

@@ -1,10 +1,10 @@
-.tours-tours-form__label-age {
+.tours-form__label_type_age {
   font-size: 23px;
   cursor: pointer;
 }
 
 @media (max-width: 930px) {
-  .tours-tours-form__label-age {
+  .tours-form__label_type_age {
     font-size: 16px;
   }
 }

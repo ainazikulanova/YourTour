@@ -60,7 +60,7 @@
 @import url(./blocks/tours-form/__field/tours-form__field.css);
 @import url(./blocks/tours-form/__fieldset/tours-form__fieldset.css);
 @import url(./blocks/tours-form/__input/tours-form__input.css);
-@import url(./blocks/tours-form/__label-age/tours-form__label-age.css);
+@import url(./blocks/tours-form/__label/_type_age/tours-form__label_type_age.css);
 @import url(./blocks/tours-form/__label/tours-form__label.css);
 @import url(./blocks/tours-form/__pseudo-radio/tours-form__pseudo-radio.css);
 @import url(./blocks/tours-form/__radio/tours-form__radio.css);

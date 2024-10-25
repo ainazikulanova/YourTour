@@ -47,9 +47,16 @@ checkboxStroke.addEventListener("click", function () {
 });
 
 document.getElementById("reset-button").addEventListener("click", function () {
-  checkboxStroke.classList.remove("tours-form__stroke");
   document.getElementById("check-yes").checked = false;
   document.getElementById("check-not").checked = false;
+
+  const selectElement = document.getElementById("my-select");
+  selectElement.selectedIndex = 0;
+  selectElement.style.color = "gray";
+
+  selectElement.addEventListener("change", function () {
+    selectElement.style.color = selectElement.value === "" ? "gray" : "black";
+  });
 });
 
 function changeColor() {
