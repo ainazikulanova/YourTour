@@ -5,15 +5,14 @@
   object-fit: cover;
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 1025px) {
   .gallery__photo {
     width: 315px;
   }
 }
 
-@media (max-width: 930px) {
+@media (max-width: 800px) {
   .gallery__photo {
-    width: 154px;
     height: 110px;
     border-radius: 20px;
   }

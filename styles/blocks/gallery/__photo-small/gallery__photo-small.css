@@ -5,21 +5,20 @@
   object-fit: cover;
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 1025px) {
   .gallery__photo-small {
     width: 231px;
   }
 }
 
-@media (max-width: 930px) {
+@media (max-width: 800px) {
   .gallery__photo-small {
-    width: 112px;
     height: 110px;
     border-radius: 20px;
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 400px) {
   .gallery__photo-small {
     width: 99px;
   }

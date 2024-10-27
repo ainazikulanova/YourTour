@@ -9,14 +9,14 @@
   padding-bottom: 0;
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 1025px) {
   .gallery__photos {
     padding: 0 20px 27px;
     gap: 20px;
   }
 }
 
-@media (max-width: 930px) {
+@media (max-width: 600px) {
   .gallery__photos {
     padding: 0px 20px 14px;
     gap: 14px;

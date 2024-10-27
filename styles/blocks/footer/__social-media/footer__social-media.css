@@ -1,8 +1,9 @@
 .footer__social-media {
+  margin: 0 auto;
+  max-width: 1168px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 376px;
   flex-wrap: wrap;
 }
 

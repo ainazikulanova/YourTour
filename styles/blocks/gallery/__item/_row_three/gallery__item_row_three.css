@@ -1,10 +1,10 @@
-@media (max-width: 1199px) {
+@media (max-width: 1025px) {
   .gallery__item_row_three:nth-child(4) {
     display: none;
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 400px) {
   .gallery__item_row_three:nth-child(3) {
     display: none;
   }
