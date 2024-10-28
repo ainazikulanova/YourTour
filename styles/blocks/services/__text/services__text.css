@@ -6,3 +6,9 @@
   gap: 16px;
   background-color: transparent;
 }
+
+@media (max-width: 930px) {
+  .services__text {
+    padding: 30px;
+  }
+}

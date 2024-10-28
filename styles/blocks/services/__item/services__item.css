@@ -35,14 +35,13 @@
 @media (max-width: 1199px) {
   .services__item {
     width: 450px;
-    height: 531px;
   }
 }
 
 @media (max-width: 930px) {
   .services__item {
     width: 318px;
-    height: 318px;
+    min-height: 318px;
     border-radius: 20px;
     background-size: cover;
   }
@@ -51,7 +50,7 @@
 @media (max-width: 350px) {
   .services__item {
     width: 290px;
-    height: 290px;
+    min-height: 290px;
     justify-content: center;
   }
 }
