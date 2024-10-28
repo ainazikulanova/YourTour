@@ -1,4 +1,6 @@
 .services__more {
+  padding-left: 25px;
+  padding-bottom: 40px;
   display: flex;
   gap: 15px;
   background-color: transparent;

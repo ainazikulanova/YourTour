@@ -13,7 +13,7 @@
 
 @media (max-width: 800px) {
   .gallery__photo-small {
-    height: 110px;
+    max-height: 110px;
     border-radius: 20px;
   }
 }

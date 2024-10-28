@@ -31,6 +31,7 @@
 @import url(./blocks/icon-arrow/icon-arrow.css);
 
 @import url(./blocks/services/services.css);
+@import url(./blocks/services/__text/services__text.css);
 @import url(./blocks/services/__btn/services__btn.css);
 @import url(./blocks/services/__gradient/services__gradient.css);
 @import url(./blocks/services/__icon/services__icon.css);

@@ -1,5 +1,4 @@
 .services__btn {
-  position: absolute;
   z-index: 3;
   display: flex;
   align-items: center;
@@ -14,8 +13,6 @@
 }
 
 .services__btn::before {
-  position: absolute;
-  z-index: -1;
   padding: 7px 25px;
   background-color: #00000000;
   transition: background-color 0.2s ease;

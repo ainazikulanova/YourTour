@@ -1,8 +1,11 @@
 .services__item {
   z-index: 0;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   width: 370px;
-  height: 531px;
+  min-height: 531px;
   border-radius: 50px;
   overflow: hidden;
   object-fit: cover;

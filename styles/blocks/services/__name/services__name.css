@@ -1,9 +1,6 @@
 .services__name {
-  position: absolute;
   z-index: 2;
   width: 245px;
-  top: 50px;
-  left: 50px;
   font-weight: 500;
   font-size: 35px;
   color: var(--white-color);
