@@ -4,8 +4,6 @@
   align-items: center;
   padding: 7px 20px;
   gap: 16px;
-  left: 30px;
-  bottom: 43px;
   border: none;
   background: transparent;
   transition-duration: 0.3s;
@@ -13,16 +11,13 @@
 }
 
 .services__btn::before {
-  padding: 7px 25px;
+  padding: 7px 20px;
   background-color: #00000000;
   transition: background-color 0.2s ease;
 }
 
 @media (max-width: 930px) {
   .services__btn {
-    padding: 5px 15px;
-    left: 11px;
-    bottom: 21px;
     gap: 19px;
   }
 }

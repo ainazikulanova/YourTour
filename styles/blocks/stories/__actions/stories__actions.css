@@ -1,0 +1,13 @@
+.stories__actions {
+  z-index: 3;
+  padding: 52px 33px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 930px) {
+  .stories__actions {
+    padding: 30px;
+  }
+}

@@ -3,6 +3,7 @@
   font-size: 23px;
   line-height: 105%;
   color: var(--white-color);
+  letter-spacing: -0.03em;
 }
 
 @media (max-width: 930px) {

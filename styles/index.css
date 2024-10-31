@@ -87,6 +87,7 @@
 @import url(./blocks/gallery/__item/_row_second/gallery__item_row_second.css);
 @import url(./blocks/gallery/__item/_row_three/gallery__item_row_three.css);
 
+@import url(./blocks/stories/__actions/stories__actions.css);
 @import url(./blocks/histories/__subtitle/histories__subtitle.css);
 @import url(./blocks/stories/__btn/stories__btn.css);
 @import url(./blocks/stories/__btn-label/stories__btn-label.css);
@@ -102,6 +103,7 @@
 @import url(./blocks/stories/__photo/stories__photo.css);
 @import url(./blocks/stories/__subtitle/stories__subtitle.css);
 @import url(./blocks/stories/__title/stories__title.css);
+@import url(./blocks/stories/__text/stories__text.css);
 @import url(./blocks/stories/stories.css);
 
 @import url(./blocks/feedback/__email/feedback__email.css);

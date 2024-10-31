@@ -1,16 +1,3 @@
 .stories__benefit-item {
-  position: relative;
   padding-left: 15px;
-}
-
-.stories__benefit-item::before {
-  position: absolute;
-  left: 0;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 4px;
-  height: 4px;
-  content: "";
-  background-color: var(--white-color);
-  border-radius: 50%;
 }

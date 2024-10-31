@@ -1,6 +1,10 @@
 .stories__item {
+  z-index: 0;
   position: relative;
-  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-width: 1170px;
   height: 567px;
   margin-bottom: 50px;
   overflow: hidden;
@@ -30,14 +34,14 @@
 
 @media (max-width: 1199px) {
   .stories__item {
-    width: 918px;
+    min-width: 918px;
   }
 }
 
 @media (max-width: 930px) {
   .stories__item {
     margin-bottom: 20px;
-    width: 318px;
+    min-width: 318px;
     height: 455px;
     border-radius: 20px;
   }
@@ -45,7 +49,7 @@
 
 @media (max-width: 350px) {
   .stories__item {
-    width: 290px;
+    min-width: 290px;
     height: 430px;
   }
 }

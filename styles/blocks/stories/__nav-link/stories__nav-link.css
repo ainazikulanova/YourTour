@@ -1,5 +1,4 @@
 .stories__nav-link {
-  position: relative;
   display: inline-block;
   padding-bottom: 5px;
   color: var(--white-color);
@@ -14,9 +13,6 @@
   }
 
   .stories__nav-link::after {
-    position: absolute;
-    bottom: 0;
-    left: 0;
     width: 100%;
     border-bottom: 1px solid #00000000;
     transition-duration: 0.3s;

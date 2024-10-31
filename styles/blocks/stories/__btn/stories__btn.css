@@ -1,31 +1,23 @@
 .stories__btn {
-  position: absolute;
   z-index: 3;
   display: flex;
-  left: 40px;
-  bottom: 55px;
+  align-items: center;
+  padding: 7px 27px;
+  gap: 14px;
+  box-sizing: border-box;
   border: none;
-  padding: 7px 20px;
   background: transparent;
   transition-duration: 0.3s;
-  align-items: center;
-  gap: 17px;
   cursor: pointer;
-  letter-spacing: -0.04em;
 }
 
 .stories__btn::before {
-  position: absolute;
-  z-index: -1;
-  padding: 7px 25px;
   background-color: #00000000;
   transition: background-color 0.2s ease;
 }
 
 @media (max-width: 930px) {
   .stories__btn {
-    left: 15px;
-    bottom: 25px;
-    padding: 5px 15px;
+    gap: 19px;
   }
 }

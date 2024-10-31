@@ -1,8 +1,6 @@
 .stories__title {
-  position: absolute;
   z-index: 3;
-  top: 60px;
-  left: 60px;
+  padding-bottom: 37px;
   color: var(--white-color);
   font-weight: 500;
   font-size: 35px;
@@ -12,8 +10,6 @@
 
 @media (max-width: 930px) {
   .stories__title {
-    top: 30px;
-    left: 30px;
     width: 145px;
     font-size: 23px;
     line-height: 120%;

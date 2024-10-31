@@ -16,8 +16,6 @@
 
 @media (max-width: 930px) {
   .services__name {
-    top: 25px;
-    left: 25px;
     width: 270px;
     font-size: 23px;
     line-height: 120%;

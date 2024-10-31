@@ -1,11 +1,11 @@
 .services__item {
   z-index: 0;
   position: relative;
+  min-width: 370px;
+  height: 531px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 370px;
-  min-height: 531px;
   border-radius: 50px;
   overflow: hidden;
   object-fit: cover;
@@ -34,13 +34,13 @@
 
 @media (max-width: 1199px) {
   .services__item {
-    width: 450px;
+    min-width: 450px;
   }
 }
 
 @media (max-width: 930px) {
   .services__item {
-    width: 318px;
+    min-width: 318px;
     min-height: 318px;
     border-radius: 20px;
     background-size: cover;
@@ -49,7 +49,7 @@
 
 @media (max-width: 350px) {
   .services__item {
-    width: 290px;
+    min-width: 290px;
     min-height: 290px;
     justify-content: center;
   }

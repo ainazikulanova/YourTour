@@ -1,7 +1,5 @@
 .services__price {
   z-index: 2;
-  top: 152px;
-  left: 50px;
   width: 270px;
   font-size: 17px;
   line-height: 142%;
@@ -9,16 +7,8 @@
   cursor: pointer;
 }
 
-@media (max-width: 1199px) {
-  .services__price {
-    top: 109px;
-  }
-}
-
 @media (max-width: 930px) {
   .services__price {
-    top: 66px;
-    left: 25px;
     font-size: 16px;
     letter-spacing: -0.01em;
   }

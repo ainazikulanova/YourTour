@@ -1,9 +1,7 @@
 .stories__subtitle {
-  position: absolute;
   z-index: 3;
+  padding-bottom: 27px;
   width: 570px;
-  left: 60px;
-  top: 140px;
   color: var(--white-color);
   font-size: 20px;
   line-height: 142%;
@@ -12,8 +10,6 @@
 
 @media (max-width: 930px) {
   .stories__subtitle {
-    left: 30px;
-    top: 106px;
     width: 263px;
     font-size: 16px;
   }

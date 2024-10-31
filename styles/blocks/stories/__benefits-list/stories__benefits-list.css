@@ -1,8 +1,6 @@
 .stories__benefits-list {
-  position: absolute;
   z-index: 4;
-  left: 74px;
-  top: 280px;
+  padding-left: 14px;
   color: var(--white-color);
   font-size: 20px;
   line-height: 142%;
@@ -11,8 +9,6 @@
 
 @media (max-width: 930px) {
   .stories__benefits-list {
-    left: 40px;
-    top: 268px;
     font-size: 16px;
   }
 }
