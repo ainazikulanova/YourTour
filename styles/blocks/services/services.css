@@ -2,7 +2,7 @@
   display: grid;
   justify-content: center;
   min-width: 1170px;
-  padding-top: 100px;
+  padding-top: 102px;
   gap: 30px;
   margin: auto;
   grid-template-columns: repeat(3, 370px);
@@ -10,6 +10,7 @@
 
 @media (max-width: 1199px) {
   .services {
+    padding-top: 103px;
     min-width: 918px;
     gap: 18px;
     grid-template-columns: repeat(2, 450px);

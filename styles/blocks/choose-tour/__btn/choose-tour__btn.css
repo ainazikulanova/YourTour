@@ -1,13 +1,13 @@
 .choose-tour__btn {
   position: relative;
   display: inline-block;
-  padding-bottom: 3px;
+  padding: 0 0 3px 0;
   font-weight: 550;
   font-size: 23px;
   line-height: 28px;
   color: var(--black-color);
   background-color: var(--background-color);
-  letter-spacing: -0.03em;
+  letter-spacing: -0.04em;
   border: none;
   background: none;
   cursor: pointer;

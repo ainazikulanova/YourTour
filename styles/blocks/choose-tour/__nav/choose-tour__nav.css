@@ -1,15 +1,9 @@
 .choose-tour__nav {
-  padding-top: 7px;
+  padding-top: 6px;
   display: flex;
   justify-content: center;
-  gap: 30px;
+  gap: 32px;
   flex-wrap: wrap;
-}
-
-@media (max-width: 1199px) {
-  .choose-tour__nav {
-    gap: 30px;
-  }
 }
 
 @media (max-width: 930px) {

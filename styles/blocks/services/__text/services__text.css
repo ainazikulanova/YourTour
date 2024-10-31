@@ -3,12 +3,12 @@
   display: flex;
   padding: 50px;
   flex-direction: column;
-  gap: 16px;
+  gap: 14px;
   background-color: transparent;
 }
 
 @media (max-width: 930px) {
   .services__text {
-    padding: 30px;
+    padding: 25px;
   }
 }

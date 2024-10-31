@@ -1,7 +1,7 @@
 .services__item {
   z-index: 0;
   position: relative;
-  min-width: 370px;
+  width: 370px;
   height: 531px;
   display: flex;
   flex-direction: column;
@@ -34,14 +34,14 @@
 
 @media (max-width: 1199px) {
   .services__item {
-    min-width: 450px;
+    width: 450px;
   }
 }
 
 @media (max-width: 930px) {
   .services__item {
-    min-width: 318px;
-    min-height: 318px;
+    width: 318px;
+    height: 318px;
     border-radius: 20px;
     background-size: cover;
   }
@@ -49,8 +49,8 @@
 
 @media (max-width: 350px) {
   .services__item {
-    min-width: 290px;
-    min-height: 290px;
+    width: 290px;
+    height: 290px;
     justify-content: center;
   }
 }
