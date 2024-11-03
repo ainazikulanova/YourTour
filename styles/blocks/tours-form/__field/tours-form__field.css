@@ -1,7 +1,7 @@
 .tours-form__field {
   width: 500px;
   display: block;
-  margin-bottom: 7px;
+  margin-bottom: 6px;
   cursor: pointer;
 }
 
@@ -25,11 +25,8 @@
 
 @media (max-width: 1199px) {
   .tours-form__field {
+    margin-bottom: 4px;
     width: 389px;
-  }
-
-  .tours-form__field input {
-    margin-top: 8px;
   }
 }
 
@@ -47,7 +44,7 @@
   }
 
   .tours-form__field select {
-    margin-bottom: 8px;
+    margin-bottom: 11px;
   }
 }
 

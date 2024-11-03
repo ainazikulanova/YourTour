@@ -1,6 +1,12 @@
 .header__logo-img {
-  padding: 28px 0 30px;
+  padding: 32px 0 30px;
   cursor: pointer;
+}
+
+@media (max-width: 1199px) {
+  .header__logo-img {
+    padding: 29px 0 30px;
+  }
 }
 
 @media (max-width: 930px) {

@@ -7,7 +7,7 @@
   line-height: 28px;
   color: var(--black-color);
   background-color: var(--background-color);
-  letter-spacing: -0.04em;
+  letter-spacing: 0.006em;
   border: none;
   background: none;
   cursor: pointer;
