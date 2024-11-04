@@ -1,6 +1,8 @@
 .reviews__item {
-  position: relative;
-  padding: 40px 40px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 40px;
 
   background-color: #f4f0e9;
   list-style: none;

@@ -1,6 +1,4 @@
 .reviews__name {
-  position: absolute;
-  bottom: 71px;
   font-weight: 500;
   font-size: 35px;
   line-height: 122%;
@@ -8,7 +6,6 @@
 
 @media (max-width: 930px) {
   .reviews__name {
-    bottom: 52px;
     font-size: 23px;
     letter-spacing: 0.04em;
   }

@@ -70,6 +70,8 @@
 @import url(./blocks/tours-form/__stroke/tours-form__stroke.css);
 
 @import url(./blocks/reviews/reviews.css);
+@import url(./blocks/reviews/__author/reviews__author.css);
+@import url(./blocks/reviews/__profile/reviews__profile.css);
 @import url(./blocks/reviews/__item/_first/reviews__item_first.css);
 @import url(./blocks/reviews/__item/_second/reviews__item_second.css);
 @import url(./blocks/reviews/__item/reviews__item.css);

@@ -1,12 +1,12 @@
 .reviews__item_first {
   width: 490px;
-  height: 633px;
+  height: 593px;
 }
 
 @media (max-width: 1199px) {
   .reviews__item_first {
     width: 370px;
-    height: 801px;
+    height: 762px;
   }
 }
 

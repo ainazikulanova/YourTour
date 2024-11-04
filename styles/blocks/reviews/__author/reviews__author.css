@@ -1,0 +1,5 @@
+.reviews__author {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}

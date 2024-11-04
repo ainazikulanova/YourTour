@@ -6,7 +6,7 @@
 }
 
 .reviews__text:first-of-type {
-  margin-bottom: 28px;
+  padding-bottom: 28px;
 }
 
 @media (max-width: 930px) {
@@ -16,7 +16,7 @@
   }
 
   .reviews__text:first-of-type {
-    margin-bottom: 24px;
+    padding-bottom: 24px;
   }
 }
 

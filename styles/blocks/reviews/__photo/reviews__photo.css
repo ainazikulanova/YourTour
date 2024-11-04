@@ -1,15 +1,5 @@
 .reviews__photo {
-  position: absolute;
   width: 75px;
   height: 75px;
-  bottom: 40px;
-  right: 40px;
   border-radius: 100px;
-}
-
-@media (max-width: 930px) {
-  .reviews__photo {
-    bottom: 21px;
-    right: 18px;
-  }
 }
