@@ -10,5 +10,6 @@
 @media (max-width: 930px) {
   .services__text {
     padding: 25px;
+    gap: 14px;
   }
 }

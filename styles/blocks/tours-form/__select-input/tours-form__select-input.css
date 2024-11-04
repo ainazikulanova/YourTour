@@ -37,6 +37,7 @@
 
 @media (max-width: 930px) {
   .tours-form__select-input {
+    margin-top: 15px;
     width: 278px;
     height: 43px;
     padding-left: 10px;

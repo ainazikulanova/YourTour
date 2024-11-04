@@ -2,7 +2,7 @@
   z-index: 3;
   display: flex;
   align-items: center;
-  padding: 8px 27px;
+  padding: 11px 27px;
   gap: 14px;
   box-sizing: border-box;
   border: none;
@@ -18,6 +18,7 @@
 
 @media (max-width: 930px) {
   .stories__btn {
+    padding: 5px 27px;
     gap: 15px;
   }
 }

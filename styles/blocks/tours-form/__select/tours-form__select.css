@@ -20,7 +20,7 @@
 
 @media (max-width: 930px) {
   .tours-form__select::after {
-    margin-top: 25px;
+    margin-top: 29px;
     margin-left: -32px;
   }
 }

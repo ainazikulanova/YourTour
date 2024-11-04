@@ -32,6 +32,7 @@
 
 @media (max-width: 930px) {
   .tours-form__field {
+    margin-bottom: 4.5px;
     width: 278px;
     border-radius: 10px;
     font-size: 16px;
@@ -52,5 +53,9 @@
   .tours-form__field {
     width: 238px;
     font-size: 14px;
+  }
+
+  .tours-form__field input {
+    margin-top: 12px;
   }
 }
