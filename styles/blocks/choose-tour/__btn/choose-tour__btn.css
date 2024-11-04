@@ -2,8 +2,8 @@
   position: relative;
   display: inline-block;
   padding: 0 0 3px 0;
-  font-weight: 500;
-  font-size: 23px;
+  font-weight: 700;
+  font-size: 21px;
   line-height: 28px;
   color: var(--black-color);
   background-color: var(--background-color);
@@ -22,7 +22,8 @@
 
 @media (max-width: 930px) {
   .choose-tour__btn {
-    font-size: 16px;
+    font-weight: 600;
+    font-size: 15px;
     line-height: 102%;
   }
 }
