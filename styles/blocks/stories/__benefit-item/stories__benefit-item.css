@@ -1,5 +1,18 @@
 .stories__benefit-item {
   padding-left: 15px;
+  display: flex;
+  align-items: center;
+  color: var(--white-color);
+}
+
+.stories__benefit-item::before {
+  margin-right: 8px;
+  width: 4px;
+  height: 4px;
+  content: "";
+  display: inline-block;
+  background-color: var(--white-color);
+  border-radius: 50%;
 }
 
 @media (max-width: 930px) {
