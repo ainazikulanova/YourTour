@@ -1,10 +1,18 @@
+.gallery__item_row_second {
+  display: flex;
+}
+
 @media (max-width: 1025px) {
   .gallery__item_row_second:nth-child(3) {
     display: none;
   }
+
+  .gallery__item_row_second {
+    gap: 20px;
+  }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 360px) {
   .gallery__item_row_second:nth-child(2) {
     display: none;
   }

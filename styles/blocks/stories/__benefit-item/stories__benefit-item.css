@@ -6,7 +6,7 @@
 }
 
 .stories__benefit-item::before {
-  margin-right: 8px;
+  margin-right: 9px;
   width: 4px;
   height: 4px;
   content: "";

@@ -1,10 +1,18 @@
+.gallery__item_row_three {
+  display: flex;
+}
+
 @media (max-width: 1025px) {
   .gallery__item_row_three:nth-child(4) {
     display: none;
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 360px) {
+  .gallery__item_row_three {
+    width: 100%;
+  }
+
   .gallery__item_row_three:nth-child(3) {
     display: none;
   }

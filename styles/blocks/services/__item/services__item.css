@@ -9,6 +9,7 @@
   border-radius: 50px;
   overflow: hidden;
   object-fit: cover;
+  cursor: pointer;
 }
 
 @media (hover: hover) {
