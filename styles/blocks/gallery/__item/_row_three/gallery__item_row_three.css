@@ -2,17 +2,13 @@
   display: flex;
 }
 
-@media (max-width: 1025px) {
+@media (max-width: 1024px) {
   .gallery__item_row_three:nth-child(4) {
     display: none;
   }
 }
 
-@media (max-width: 360px) {
-  .gallery__item_row_three {
-    width: 100%;
-  }
-
+@media (max-width: 768px) {
   .gallery__item_row_three:nth-child(3) {
     display: none;
   }

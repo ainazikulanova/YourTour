@@ -84,6 +84,7 @@
 @import url(./blocks/gallery/__photo/gallery__photo.css);
 @import url(./blocks/gallery/__photo/gallery__photo.css);
 @import url(./blocks/gallery/__item/__gallery_item.css);
+@import url(./blocks/gallery/__item-small/gallery__item-small.css);
 @import url(./blocks/gallery/__photos/gallery__photos.css);
 @import url(./blocks/gallery/__photos-small/gallery__photos-small.css);
 @import url(./blocks/gallery/gallery.css);

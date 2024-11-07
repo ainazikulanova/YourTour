@@ -1,6 +1,4 @@
 .main {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  flex-wrap: wrap;
+  width: 100%;
+  box-sizing: border-box;
 }
