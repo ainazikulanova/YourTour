@@ -1,12 +1,12 @@
 .stories__item {
   z-index: 0;
   position: relative;
+  margin-bottom: 50px;
+  width: 1170px;
+  height: 567px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 1170px;
-  height: 567px;
-  margin-bottom: 50px;
   overflow: hidden;
   border-radius: 50px;
   cursor: pointer;

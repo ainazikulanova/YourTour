@@ -1,9 +1,9 @@
 .section-title {
-  width: 730px;
   margin: auto;
-  text-align: center;
   margin-bottom: 30px;
   padding-top: 135px;
+  width: 730px;
+  text-align: center;
   font-weight: 700;
   font-size: 59px;
   line-height: 74px;
@@ -19,9 +19,9 @@
 
 @media (max-width: 930px) {
   .section-title {
-    width: 318px;
     margin-bottom: 20px;
     padding-top: 75px;
+    width: 318px;
     font-size: 34px;
     line-height: 112%;
     letter-spacing: 0.02em;

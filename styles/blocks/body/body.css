@@ -7,9 +7,3 @@ body {
   background-color: var(--background-color);
   overflow-x: hidden;
 }
-
-@media (max-width: 930px) {
-  .header__number {
-    width: 360px;
-  }
-}

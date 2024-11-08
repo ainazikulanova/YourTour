@@ -8,8 +8,8 @@
 
 @media (max-width: 930px) {
   .feedback__subtitle {
-    width: 291px;
     margin: auto;
+    width: 291px;
     text-align: center;
     font-size: 16px;
   }

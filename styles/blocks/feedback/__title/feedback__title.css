@@ -1,6 +1,6 @@
 .feedback__title {
-  width: 371px;
   padding-bottom: 20px;
+  width: 371px;
   font-weight: 500;
   font-size: 35px;
   line-height: 122%;
@@ -9,8 +9,8 @@
 
 @media (max-width: 930px) {
   .feedback__title {
-    width: 291px;
     padding-bottom: 22px;
+    width: 291px;
     text-align: center;
     font-size: 23px;
     line-height: 120%;

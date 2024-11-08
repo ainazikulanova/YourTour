@@ -8,9 +8,9 @@
 
 @media (max-width: 930px) {
   .footer__title {
-    width: 98%;
     margin: auto;
     padding-top: 21px;
+    width: 98%;
     font-size: 16px;
     text-align: center;
   }

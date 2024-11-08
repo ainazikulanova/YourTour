@@ -1,16 +1,16 @@
 .feedback__img {
+  padding-left: 9px;
   width: 370px;
   height: 370px;
-  padding-left: 9px;
   border-radius: 50px;
   object-fit: cover;
 }
 
 @media (max-width: 930px) {
   .feedback__img {
+    padding-left: 0;
     width: 130px;
     height: 133px;
-    padding-left: 0;
     align-items: center;
     border-radius: 20px;
   }

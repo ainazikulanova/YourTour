@@ -8,8 +8,8 @@
 
 @media (max-width: 930px) {
   .feedback {
-    width: 360px;
     padding-bottom: 75px;
+    width: 360px;
     margin: auto;
   }
 }

@@ -1,6 +1,6 @@
 .tours-form__select::after {
-  position: absolute;
   z-index: 1;
+  position: absolute;
   width: 13px;
   height: 13px;
   margin-top: 37px;

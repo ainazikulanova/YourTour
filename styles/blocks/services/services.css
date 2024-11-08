@@ -1,10 +1,10 @@
 .services {
+  margin: auto;
+  padding-top: 103px;
   display: grid;
   justify-content: center;
   min-width: 1170px;
-  padding-top: 103px;
   gap: 30px;
-  margin: auto;
   grid-template-columns: repeat(3, 370px);
 }
 

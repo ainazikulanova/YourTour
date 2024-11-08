@@ -1,7 +1,7 @@
 .tours-form__btn-reset {
+  padding: 15px 30px;
   width: 235px;
   height: 58px;
-  padding: 15px 30px;
   border: none;
   text-align: center;
   font-size: 20px;
@@ -25,9 +25,9 @@
 
 @media (max-width: 930px) {
   .tours-form__btn-reset {
+    padding: 12px 30px;
     width: 135px;
     height: 47px;
-    padding: 12px 30px;
     font-size: 16px;
     line-height: 23px;
     align-items: center;

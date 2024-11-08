@@ -1,15 +1,15 @@
 .tours-form__checkbox-text {
-  display: flex;
   padding-bottom: 33px;
+  display: flex;
   align-items: center;
   gap: 20px;
   letter-spacing: 0.007em;
 }
 
 .tours-form__checkbox-text .tours-form__input {
+  padding: 3px 0 0 8px;
   width: 24px;
   height: 24px;
-  padding: 3px 0 0 8px;
   border: 2px solid var(--black-color);
   accent-color: var(--white-color);
 }

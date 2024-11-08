@@ -1,6 +1,6 @@
 .tours-form__age-option {
-  display: flex;
   padding-bottom: 34px;
+  display: flex;
   justify-content: flex-start;
   align-items: center;
   accent-color: var(--black-color);

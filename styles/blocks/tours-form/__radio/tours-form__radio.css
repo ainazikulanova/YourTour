@@ -5,18 +5,18 @@
 
 .tours-form__radio {
   appearance: none;
+  margin: 0;
   width: 1px;
   height: 1px;
-  margin: 0;
   border-radius: 50%;
   cursor: pointer;
 }
 
 @media (max-width: 930px) {
   .tours-form__radio:checked + .tours-form__pseudo-radio::before {
-    width: 12px;
-    height: 12px;
     margin-left: 3px;
     margin-top: 3px;
+    width: 12px;
+    height: 12px;
   }
 }

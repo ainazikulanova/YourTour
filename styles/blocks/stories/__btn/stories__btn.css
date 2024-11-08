@@ -1,8 +1,8 @@
 .stories__btn {
   z-index: 3;
+  padding: 11px 27px;
   display: flex;
   align-items: center;
-  padding: 11px 27px;
   gap: 14px;
   box-sizing: border-box;
   border: none;

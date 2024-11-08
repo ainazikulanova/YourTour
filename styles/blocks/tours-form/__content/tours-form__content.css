@@ -1,8 +1,8 @@
 .tours-form__content {
-  width: 1040px;
-  height: auto;
   margin: auto;
   padding: 69px 65px;
+  width: 1040px;
+  height: auto;
   display: block;
   background-color: var(--white-color);
   border-radius: 50px;
@@ -10,15 +10,15 @@
 
 @media (max-width: 1199px) {
   .tours-form__content {
-    width: 918px;
     padding: 60px 0px;
+    width: 918px;
   }
 }
 
 @media (max-width: 930px) {
   .tours-form__content {
-    width: 318px;
     padding: 24px 0px 40px;
+    width: 318px;
     border-radius: 30px;
   }
 }

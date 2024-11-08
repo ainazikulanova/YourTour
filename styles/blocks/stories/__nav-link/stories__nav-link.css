@@ -1,6 +1,6 @@
 .stories__nav-link {
-  display: inline-block;
   padding-bottom: 3px;
+  display: inline-block;
   color: var(--white-color);
   font-size: 20px;
   text-decoration: none;
