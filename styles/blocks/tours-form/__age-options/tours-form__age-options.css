@@ -2,14 +2,14 @@
   margin-top: 12px;
   display: flex;
   justify-content: flex-start;
-  gap: 33px;
+  gap: 30px;
   font-size: 20px;
   cursor: pointer;
 }
 
 @media (max-width: 930px) {
   .tours-form__age-options {
-    gap: 26px;
+    gap: 29px;
     font-size: 16px;
   }
 }

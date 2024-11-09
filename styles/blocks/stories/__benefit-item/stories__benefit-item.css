@@ -6,7 +6,7 @@
 }
 
 .stories__benefit-item::before {
-  margin-right: 9px;
+  margin-right: 13px;
   width: 4px;
   height: 4px;
   content: "";
@@ -18,5 +18,9 @@
 @media (max-width: 930px) {
   .stories__benefit-item {
     padding-left: 10px;
+  }
+
+  .stories__benefit-item::before {
+    margin-right: 10px;
   }
 }

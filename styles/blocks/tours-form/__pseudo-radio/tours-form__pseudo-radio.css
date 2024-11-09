@@ -24,6 +24,7 @@
 
 @media (max-width: 930px) {
   .tours-form__pseudo-radio {
+    margin-right: 7px;
     width: 18px;
     height: 18px;
   }

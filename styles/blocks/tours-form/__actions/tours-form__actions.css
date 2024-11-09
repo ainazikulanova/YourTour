@@ -1,12 +1,12 @@
 .tours-form__actions {
   display: flex;
-  gap: 28px;
+  gap: 29px;
 }
 
 @media (max-width: 930px) {
   .tours-form__actions {
     padding-bottom: 20px;
-    gap: 10px;
+    gap: 7px;
   }
 }
 

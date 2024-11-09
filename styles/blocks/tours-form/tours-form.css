@@ -8,6 +8,11 @@
   border-radius: 50px;
 }
 
+input::placeholder {
+  color: grey;
+  font-size: 20px;
+}
+
 @media (max-width: 1199px) {
   .tours-form {
     padding: 64px 60px 60px;

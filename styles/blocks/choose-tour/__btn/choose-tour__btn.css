@@ -7,7 +7,7 @@
   line-height: 28px;
   color: var(--black-color);
   background-color: var(--background-color);
-  letter-spacing: 0.006em;
+  letter-spacing: 0.009em;
   border: none;
   background: none;
   cursor: pointer;
@@ -22,8 +22,10 @@
 
 @media (max-width: 930px) {
   .choose-tour__btn {
+    padding: 0 0 2px 0;
     font-weight: 600;
     font-size: 15px;
     line-height: 102%;
+    letter-spacing: 0;
   }
 }
