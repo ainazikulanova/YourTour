@@ -11,6 +11,7 @@
 input::placeholder {
   color: grey;
   font-size: 20px;
+  letter-spacing: 0.001em;
 }
 
 @media (max-width: 1199px) {
@@ -25,5 +26,9 @@ input::placeholder {
     padding: 23px 20px 20px;
     width: 318px;
     border-radius: 30px;
+  }
+
+  input::placeholder {
+    font-size: 16px;
   }
 }
